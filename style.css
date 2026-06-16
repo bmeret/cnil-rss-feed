@@ -1,0 +1,28 @@
+rss, channel, item {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+channel {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+item {
+  background: #fff;
+  border-left: 4px solid #007bff;
+}
+
+title {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin: 5px 0;
+}
+
+link {
+  color: #007bff;
+  text-decoration: underline;
+}
