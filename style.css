@@ -41,6 +41,7 @@ channel > description {
   color: #666;
   margin-bottom: 30px;
   display: block;
+  flex-direction: column;
 }
 
 channel > link {
