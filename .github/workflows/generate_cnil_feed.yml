@@ -1,5 +1,8 @@
 name: Generate CNIL RSS Feed
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   schedule:
