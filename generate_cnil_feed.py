@@ -34,16 +34,16 @@ def parse_articles(soup, base_url):
             title = h.get_text(strip=True) if h else href
 
         # attempt to find a time element or textual date
-        time_el = node.select_one("time") or node.select_one(".date") or node.select_one(".posted")
+        time_el = node.select_one("time") or node.select_one("p.date") or node.select_one(".date") or node.select_one(".posted")
         dt_text = ""
         if time_el:
             if time_el.has_attr("datetime"):
-                dt_text = time_el["datetime"]
+                dt_text = time_el["datetime"].strip()
             else:
-                dt_text = time_el.get_text(strip=True)
+                dt_text = time_el.get_text(" ", strip=True)
 
         try:
-            dt = dateparser.parse(dt_text) if dt_text else datetime.now()
+            dt = dateparser.parse(dt_text, dayfirst=True, fuzzy=True) if dt_text else datetime.now()
         except Exception:
             dt = datetime.now()
 
@@ -60,6 +60,7 @@ def parse_articles(soup, base_url):
 
 def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualite", description="Flux RSS personnalisé des actualités CNIL"):
     out = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    out += '<?xml-stylesheet type="text/css" href="style.css"?>\n'
     out += "<rss version=\"2.0\">\n  <channel>\n"
     out += f"    <title>{saxutils.escape(title)}</title>\n"
     out += f"    <link>{saxutils.escape(link)}</link>\n"
