@@ -20,6 +20,8 @@ def parse_articles(soup, base_url):
             continue
         href = urljoin(base_url, a["href"])
         title = a.get_text(strip=True)
+        description_el = node.select_one(".description, .summary, .teaser, p")
+        description = description_el.get_text(strip=True) if description_el else title
         if not title:
             h = node.select_one("h1,h2,h3")
             title = h.get_text(strip=True) if h else href
@@ -39,7 +41,7 @@ def parse_articles(soup, base_url):
             dt = datetime.now()
 
         pubdate = email.utils.format_datetime(dt)
-        items.append({"title": title, "link": href, "pubDate": pubdate})
+        items.append({"title": title, "link": href, "pubDate": pubdate, "description": description})
     # As a fallback, collect top-level links from the page
     if not items:
         for a in soup.select("a[href]")[:30]:
