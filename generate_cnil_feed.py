@@ -20,7 +20,7 @@ def parse_articles(soup, base_url):
             continue
         href = urljoin(base_url, a["href"])
         title = a.get_text(strip=True)
-        description_el = node.select_one(".description, .summary, .teaser, p")
+        description_el = node.select_one(".introduction, .description, .summary, .teaser, p")
         description = description_el.get_text(strip=True) if description_el else title
         if not title:
             h = node.select_one("h1,h2,h3")
