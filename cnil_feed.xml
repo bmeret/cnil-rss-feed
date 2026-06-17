@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="style.css"?>
 <rss version="2.0">
   <channel>
     <title>CNIL Actualités</title>
@@ -8,45 +7,39 @@
     <language>fr-FR</language>
     <item>
       <title>Nomination de Jean-Michel FIETIER au poste de directeur administratif et financier de la CNIL</title>
-      <link>https://cnil.fr/fr/nomination-jean-michel-fietier</link>
-      <description>Nomination de Jean-Michel FIETIER au poste de directeur administratif et financier de la CNIL</description>
-      <pubDate>Tue, 16 Jun 2026 16:17:46 -0000</pubDate>
       <guid isPermaLink="true">https://cnil.fr/fr/nomination-jean-michel-fietier</guid>
+      <description>16 juin 2026</description>
+      <pubDate>Wed, 17 Jun 2026 12:53:46 -0000</pubDate>
     </item>
     <item>
       <title>Revoir le webinaire - Pixels de suivi dans les courriels : présentation des recommandations de la CNIL</title>
-      <link>https://cnil.fr/fr/webinaire-pixels-de-suivi-recommandations-cnil</link>
-      <description>Revoir le webinaire - Pixels de suivi dans les courriels : présentation des recommandations de la CNIL</description>
-      <pubDate>Tue, 16 Jun 2026 16:17:46 -0000</pubDate>
       <guid isPermaLink="true">https://cnil.fr/fr/webinaire-pixels-de-suivi-recommandations-cnil</guid>
+      <description>15 juin 2026</description>
+      <pubDate>Wed, 17 Jun 2026 12:53:46 -0000</pubDate>
     </item>
     <item>
       <title>Le CEPD rencontre le commissaire européen McGrath et adopte un modèle commun de notification des violations de données</title>
-      <link>https://cnil.fr/fr/le-cepd-rencontre-le-commissaire-europeen-mcgrath-et-adopte-un-modele-commun-de-notification-des</link>
-      <description>Le CEPD rencontre le commissaire européen McGrath et adopte un modèle commun de notification des violations de données</description>
-      <pubDate>Tue, 16 Jun 2026 16:17:46 -0000</pubDate>
       <guid isPermaLink="true">https://cnil.fr/fr/le-cepd-rencontre-le-commissaire-europeen-mcgrath-et-adopte-un-modele-commun-de-notification-des</guid>
+      <description>10 juin 2026</description>
+      <pubDate>Wed, 17 Jun 2026 12:53:46 -0000</pubDate>
     </item>
     <item>
       <title>Communications par voie électronique aux prospects et clients : quelles règles respecter ?</title>
-      <link>https://cnil.fr/fr/communication-electronique-quelles-regles</link>
-      <description>Communications par voie électronique aux prospects et clients : quelles règles respecter ?</description>
-      <pubDate>Tue, 16 Jun 2026 16:17:46 -0000</pubDate>
       <guid isPermaLink="true">https://cnil.fr/fr/communication-electronique-quelles-regles</guid>
+      <description>10 juin 2026</description>
+      <pubDate>Wed, 17 Jun 2026 12:53:46 -0000</pubDate>
+    </item>
+    <item>
+      <title>Quelles qualifications pour les acteurs de l’informatique en nuage (cloud) ?</title>
+      <guid isPermaLink="true">https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</guid>
+      <description>28 mai 2026</description>
+      <pubDate>Wed, 17 Jun 2026 12:53:46 -0000</pubDate>
     </item>
     <item>
       <title>Privacy Research Day : participez à la journée dédiée à la recherche sur la vie privée</title>
-      <link>https://cnil.fr/fr/privacy-research-day-2026</link>
-      <description>Privacy Research Day : participez à la journée dédiée à la recherche sur la vie privée</description>
-      <pubDate>Tue, 16 Jun 2026 16:17:46 -0000</pubDate>
       <guid isPermaLink="true">https://cnil.fr/fr/privacy-research-day-2026</guid>
-    </item>
-    <item>
-      <title>Données de santé : sanction de 5 millions d’euros à l’encontre de la société IQVIA</title>
-      <link>https://cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia</link>
-      <description>Données de santé : sanction de 5 millions d’euros à l’encontre de la société IQVIA</description>
-      <pubDate>Tue, 16 Jun 2026 16:17:46 -0000</pubDate>
-      <guid isPermaLink="true">https://cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia</guid>
+      <description>28 mai 2026</description>
+      <pubDate>Wed, 17 Jun 2026 12:53:46 -0000</pubDate>
     </item>
   </channel>
 </rss>
