@@ -3,11 +3,51 @@ import argparse
 from datetime import datetime
 from urllib.parse import urljoin
 import email.utils
+import re
 import xml.sax.saxutils as saxutils
 
 import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
+
+
+FRENCH_DATE_REGEX = re.compile(
+    r"\b(?P<day>\d{1,2})\s+(?P<month>janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+(?P<year>\d{4})\b",
+    re.IGNORECASE,
+)
+
+FRENCH_MONTHS = {
+    "janvier": 1,
+    "février": 2,
+    "fevrier": 2,
+    "mars": 3,
+    "avril": 4,
+    "mai": 5,
+    "juin": 6,
+    "juillet": 7,
+    "août": 8,
+    "aout": 8,
+    "septembre": 9,
+    "octobre": 10,
+    "novembre": 11,
+    "décembre": 12,
+    "decembre": 12,
+}
+
+
+def parse_french_date(text):
+    if not text:
+        return None
+    match = FRENCH_DATE_REGEX.search(text)
+    if not match:
+        return None
+    day = int(match.group("day"))
+    month = match.group("month").lower()
+    year = int(match.group("year"))
+    month_number = FRENCH_MONTHS.get(month)
+    if not month_number:
+        return None
+    return datetime(year, month_number, day)
 
 
 def parse_articles(soup, base_url):
@@ -42,9 +82,16 @@ def parse_articles(soup, base_url):
             else:
                 dt_text = time_el.get_text(" ", strip=True)
 
-        try:
-            dt = dateparser.parse(dt_text, dayfirst=True, fuzzy=True) if dt_text else datetime.now()
-        except Exception:
+        if dt_text:
+            dt = parse_french_date(dt_text)
+            if not dt:
+                try:
+                    dt = dateparser.parse(dt_text, dayfirst=True, fuzzy=True)
+                except Exception:
+                    dt = None
+        else:
+            dt = None
+        if not dt:
             dt = datetime.now()
 
         pubdate = email.utils.format_datetime(dt)
