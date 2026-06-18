@@ -16,6 +16,8 @@
           p.description { margin-top: 0; color: #555; }
           .item { background: #fff; border-left: 4px solid #003d7a; padding: 18px 20px; margin-bottom: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
           .item.hidden { display: none; }
+          .item-image { margin-bottom: 14px; }
+          .item-image img { width: 100%; max-height: 220px; object-fit: cover; border-radius: 6px; display: block; }
           .item h2 { font-size: 18px; margin: 0 0 10px; }
           .item a.title { color: #003d7a; text-decoration: none; }
           .item a.title:hover { text-decoration: underline; }
@@ -36,6 +38,11 @@
 
           <xsl:for-each select="channel/item">
             <div class="item" data-page="{category}">
+              <xsl:if test="image/url">
+                <div class="item-image">
+                  <img src="{image/url}" alt="Article image" loading="lazy" />
+                </div>
+              </xsl:if>
               <h2><a class="title" href="{link}" target="_blank"><xsl:value-of select="title"/></a></h2>
               <div class="meta">
                 <span><xsl:value-of select="pubDate"/></span>
