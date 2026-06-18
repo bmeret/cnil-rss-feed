@@ -88,68 +88,104 @@
             var container = document.querySelector('.container');
             if (!container) return;
             var pager = document.getElementById('pager');
+            var filterGroup = document.querySelector('.filter-group');
             var items = Array.prototype.slice.call(container.querySelectorAll('.item'));
             var categories = [];
+            var currentPage = 'Page 1';
+            var activeThemes = [];
+
             items.forEach(function(item) {
               var page = item.getAttribute('data-page') || 'Page 1';
               if (categories.indexOf(page) === -1) {
                 categories.push(page);
               }
             });
+
+            function updateVisibility() {
+              items.forEach(function(item) {
+                var pageMatch = item.getAttribute('data-page') === currentPage;
+                var themeAttr = item.getAttribute('data-themes') || '';
+                var themeMatch = activeThemes.length === 0 || activeThemes.some(function(theme) {
+                  return themeAttr.split('|').indexOf(theme) !== -1;
+                });
+                item.classList.toggle('hidden', !(pageMatch && themeMatch));
+              });
+            }
+
+            function updateThemeButtons() {
+              var buttons = filterGroup.querySelectorAll('button[data-theme]');
+              buttons.forEach(function(btn) {
+                var theme = btn.getAttribute('data-theme');
+                if (theme === 'all') {
+                  btn.classList.toggle('active', activeThemes.length === 0);
+                } else {
+                  btn.classList.toggle('active', activeThemes.indexOf(theme) !== -1);
+                }
+              });
+            }
+
             categories.forEach(function(page, index) {
               var button = document.createElement('button');
               button.textContent = page;
               button.setAttribute('data-page', page);
               button.addEventListener('click', function() {
-                items.forEach(function(item) {
-                  item.classList.toggle('hidden', item.getAttribute('data-page') !== page);
-                });
+                currentPage = page;
                 var buttons = pager.querySelectorAll('button');
                 buttons.forEach(function(btn) {
                   btn.classList.toggle('active', btn === button);
                 });
+                updateVisibility();
               });
               pager.appendChild(button);
-              if (index === 0) button.classList.add('active');
+              if (index === 0) {
+                button.classList.add('active');
+                currentPage = page;
+              }
             });
+
             if (categories.length > 0) {
-              items.forEach(function(item) {
-                item.classList.toggle('hidden', item.getAttribute('data-page') !== categories[0]);
-              });
+              updateVisibility();
             }
 
-            // Theme filter
-            var filterGroup = document.querySelector('.filter-group');
             var themes = [];
             items.forEach(function(item) {
               var themeAttr = item.getAttribute('data-themes');
               if (!themeAttr) return;
               themeAttr.split('|').forEach(function(theme) {
-                if (themes.indexOf(theme) === -1) {
+                if (theme && themes.indexOf(theme) === -1) {
                   themes.push(theme);
                 }
               });
             });
             themes.sort();
+
+            var allButton = filterGroup.querySelector('button[data-theme="all"]');
+            if (allButton) {
+              allButton.addEventListener('click', function() {
+                activeThemes = [];
+                updateThemeButtons();
+                updateVisibility();
+              });
+            }
+
             themes.forEach(function(theme) {
               var button = document.createElement('button');
               button.className = 'filter-button';
               button.textContent = theme;
               button.setAttribute('data-theme', theme);
               button.addEventListener('click', function() {
-                items.forEach(function(item) {
-                  var itemThemes = item.getAttribute('data-themes') || '';
-                  var visibleByTheme = theme === 'all' || itemThemes.split('|').indexOf(theme) !== -1;
-                  var visibleByPage = item.getAttribute('data-page') === categories[0];
-                  item.classList.toggle('hidden', !(visibleByTheme &amp;&amp; visibleByPage));
-                });
-                var buttons = filterGroup.querySelectorAll('button');
-                buttons.forEach(function(btn) {
-                  btn.classList.toggle('active', btn === button);
-                });
+                var index = activeThemes.indexOf(theme);
+                if (index === -1) {
+                  activeThemes.push(theme);
+                } else {
+                  activeThemes.splice(index, 1);
+                }
+                updateThemeButtons();
+                updateVisibility();
               });
               filterGroup.appendChild(button);
             });
+            updateThemeButtons();
           })();
         </script>
       </body>
