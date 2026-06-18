@@ -143,14 +143,14 @@ def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualit
     out += '<?xml-stylesheet type="text/css" href="style.css"?>\n'
     out += "<rss version=\"2.0\">\n  <channel>\n"
     out += f"    <title>{saxutils.escape(title)}</title>\n"
-    out += f"    <link>{saxutils.escape(link)}</link>\n"
+    out += f"    <p><link>{saxutils.escape(link)}</link></p>\n"
     out += f"    <description>{saxutils.escape(description)}</description>\n"
     out += f"    <language>fr-FR</language>\n"
     for it in items:
         out += "    <item>\n"
         out += f"      <title>{saxutils.escape(it['title'])}</title>\n"
-        out += f"      <link>{saxutils.escape(it['link'])}</link>\n"
-        out += f"      <guid isPermaLink=\"true\">{saxutils.escape(it['link'])}</guid>\n"
+        out += f"      <p><link>{saxutils.escape(it['link'])}</link></p>\n"
+        out += f"      <p><guid isPermaLink=\"true\">{saxutils.escape(it['link'])}</guid></p>\n"
         if it.get("page") is not None:
             out += f"      <category>Page {it['page']}</category>\n"
         out += f"      <description>{saxutils.escape(it['description'])}</description>\n"
