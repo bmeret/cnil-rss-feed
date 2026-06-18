@@ -116,6 +116,7 @@ def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualit
     for it in items:
         out += "    <item>\n"
         out += f"      <title>{saxutils.escape(it['title'])}</title>\n"
+        out += f"      <link>{saxutils.escape(it['link'])}</link>\n"
         out += f"      <guid isPermaLink=\"true\">{saxutils.escape(it['link'])}</guid>\n"
         out += f"      <description>{saxutils.escape(it['description'])}</description>\n"
         out += f"      <pubDate>{saxutils.escape(it['pubDate'])}</pubDate>\n"
