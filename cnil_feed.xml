@@ -16,7 +16,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/jmfietier.jpg?itok=K8HDaH-V</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/jmfietier.jpg?itok=K8HDaH-V" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />À compter du 15 juin 2026, Jean-Michel FIETIER est nommé directeur administratif et financier de la CNIL. Il succède à Jean-Marc SALMON, qui occupait ces fonctions depuis 2020.]]></description>
+      <description><![CDATA[À compter du 15 juin 2026, Jean-Michel FIETIER est nommé directeur administratif et financier de la CNIL. Il succède à Jean-Marc SALMON, qui occupait ces fonctions depuis 2020.]]></description>
       <page>Page 1</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -36,7 +36,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré aux pixels de suivi.]]></description>
+      <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré aux pixels de suivi.]]></description>
       <page>Page 1</page>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
@@ -45,26 +45,6 @@
       <category>Webinaire</category>
       <theme>Webinaire</theme>
       <pubDate>Mon, 15 Jun 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Communications par voie électronique aux prospects et clients : quelles règles respecter ?</title>
-      <link>https://cnil.fr/fr/communication-electronique-quelles-regles</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/communication-electronique-quelles-regles</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/communication_mail_courriel.png?itok=DBfuvnbx" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/communication_mail_courriel.png?itok=DBfuvnbx" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/communication_mail_courriel.png?itok=DBfuvnbx"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/communication_mail_courriel.png?itok=DBfuvnbx</url>
-      </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/communication_mail_courriel.png?itok=DBfuvnbx" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />Prospection commerciale, messages d’information… les entreprises échangent régulièrement avec leurs prospects et leurs clients. Selon les cas, les personnes doivent soit donner leur accord préalable,…]]></description>
-      <page>Page 1</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Prospection</category>
-      <theme>Prospection</theme>
-      <category>Commerce</category>
-      <theme>Commerce</theme>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>Le CEPD rencontre le commissaire européen McGrath et adopte un modèle commun de notification des violations de données</title>
@@ -76,7 +56,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />Lors de sa dernière session plénière, le CEPD a rencontré Michael McGrath, commissaire européen chargé de la démocratie, de la justice, de l'État de droit et de la protection des consommateurs. Par…]]></description>
+      <description><![CDATA[Lors de sa dernière session plénière, le CEPD a rencontré Michael McGrath, commissaire européen chargé de la démocratie, de la justice, de l'État de droit et de la protection des consommateurs. Par…]]></description>
       <page>Page 1</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -87,24 +67,24 @@
       <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Quelles qualifications pour les acteurs de l’informatique en nuage (cloud) ?</title>
-      <link>https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN"/>
+      <title>Communications par voie électronique aux prospects et clients : quelles règles respecter ?</title>
+      <link>https://cnil.fr/fr/communication-electronique-quelles-regles</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/communication-electronique-quelles-regles</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/communication_mail_courriel.png?itok=DBfuvnbx" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/communication_mail_courriel.png?itok=DBfuvnbx" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/communication_mail_courriel.png?itok=DBfuvnbx"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/communication_mail_courriel.png?itok=DBfuvnbx</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />Avant de traiter des données personnelles, il est essentiel que les acteurs identifient leurs rôles. La CNIL fournit des orientations pour aider ceux du secteur de l’informatique en nuage (cloud) à…]]></description>
+      <description><![CDATA[Prospection commerciale, messages d’information… les entreprises échangent régulièrement avec leurs prospects et leurs clients. Selon les cas, les personnes doivent soit donner leur accord préalable,…]]></description>
       <page>Page 1</page>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
-      <category>Cloud</category>
-      <theme>Cloud</theme>
-      <category>Sécurité</category>
-      <theme>Sécurité</theme>
-      <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
+      <category>Prospection</category>
+      <theme>Prospection</theme>
+      <category>Commerce</category>
+      <theme>Commerce</theme>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>Privacy Research Day : participez à la journée dédiée à la recherche sur la vie privée</title>
@@ -116,7 +96,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/prd_fr.jpg?itok=S6Ozp5ep</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/prd_fr.jpg?itok=S6Ozp5ep" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />La cinquième édition de la Journée de recherche sur la vie privée (Privacy Research Day) se tiendra le 24 juin 2026, dans le cadre du G7 des autorités de protection des données accueilli par la CNIL…]]></description>
+      <description><![CDATA[La cinquième édition de la Journée de recherche sur la vie privée (Privacy Research Day) se tiendra le 24 juin 2026, dans le cadre du G7 des autorités de protection des données accueilli par la CNIL…]]></description>
       <page>Page 1</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -136,14 +116,34 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />Le 26 mai 2026, la société IQVIA OPERATIONS FRANCE a été sanctionnée d’une amende de 5 millions d’euros, notamment pour non-respect des garanties visant à limiter les risques pour les personnes…]]></description>
-      <page>Page 2</page>
+      <description><![CDATA[Le 26 mai 2026, la société IQVIA OPERATIONS FRANCE a été sanctionnée d’une amende de 5 millions d’euros, notamment pour non-respect des garanties visant à limiter les risques pour les personnes…]]></description>
+      <page>Page 1</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
       <category>Sanction</category>
       <theme>Sanction</theme>
+      <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Quelles qualifications pour les acteurs de l’informatique en nuage (cloud) ?</title>
+      <link>https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN</url>
+      </image>
+      <description><![CDATA[Avant de traiter des données personnelles, il est essentiel que les acteurs identifient leurs rôles. La CNIL fournit des orientations pour aider ceux du secteur de l’informatique en nuage (cloud) à…]]></description>
+      <page>Page 2</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Cloud</category>
+      <theme>Cloud</theme>
+      <category>Sécurité</category>
+      <theme>Sécurité</theme>
       <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -156,7 +156,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ia_generative_et_vie_privee_affiche_pipc_cnil_visuel_fr_0.jpg?itok=2sEdP3C_</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ia_generative_et_vie_privee_affiche_pipc_cnil_visuel_fr_0.jpg?itok=2sEdP3C_" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />Dans le cadre de leur partenariat, la CNIL et la PIPC (autorité de protection des données de la Corée du Sud) ont produit une affiche pour expliquer comment protéger ses données personnelles lorsqu…]]></description>
+      <description><![CDATA[Dans le cadre de leur partenariat, la CNIL et la PIPC (autorité de protection des données de la Corée du Sud) ont produit une affiche pour expliquer comment protéger ses données personnelles lorsqu…]]></description>
       <page>Page 2</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -176,7 +176,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/sous-traitant-infog.png?itok=2YKLhVDd</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/sous-traitant-infog.png?itok=2YKLhVDd" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />Régulièrement, la CNIL communique sur des violations de données typiques inspirées d’incidents réels qui lui sont notifiés. Cette publication a pour objectif de permettre à tous les professionnels de…]]></description>
+      <description><![CDATA[Régulièrement, la CNIL communique sur des violations de données typiques inspirées d’incidents réels qui lui sont notifiés. Cette publication a pour objectif de permettre à tous les professionnels de…]]></description>
       <page>Page 2</page>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
@@ -196,7 +196,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/conformite-recherche-sante.png?itok=eX4FVwb_</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/conformite-recherche-sante.png?itok=eX4FVwb_" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />Les MR-001 et MR-003 évoluent : études à l’étranger, information dématérialisée, contrôle qualité à distance, accès aux données d’identification, etc. La CNIL accompagne les acteurs et simplifie…]]></description>
+      <description><![CDATA[Les MR-001 et MR-003 évoluent : études à l’étranger, information dématérialisée, contrôle qualité à distance, accès aux données d’identification, etc. La CNIL accompagne les acteurs et simplifie…]]></description>
       <page>Page 2</page>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
@@ -216,7 +216,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/visuel_rapport_annuel_2025.png?itok=Gap1hAPU</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/visuel_rapport_annuel_2025.png?itok=Gap1hAPU" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />Accompagnement des professionnels, contrôle de leurs pratiques, sensibilisation du public, mais aussi régulation de l’IA, cybersécurité et coopération européenne… la CNIL fait le bilan d’une année…]]></description>
+      <description><![CDATA[Accompagnement des professionnels, contrôle de leurs pratiques, sensibilisation du public, mais aussi régulation de l’IA, cybersécurité et coopération européenne… la CNIL fait le bilan d’une année…]]></description>
       <page>Page 2</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -236,7 +236,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/euro_numerique.png?itok=TifrABID</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/euro_numerique.png?itok=TifrABID" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />La proposition de règlement sur l’euro numérique est en cours de vote au Parlement européen et l'Eurosystème se prépare à son émission d'ici 2029. La CNIL et l’autorité fédérale allemande de…]]></description>
+      <description><![CDATA[La proposition de règlement sur l’euro numérique est en cours de vote au Parlement européen et l'Eurosystème se prépare à son émission d'ici 2029. La CNIL et l’autorité fédérale allemande de…]]></description>
       <page>Page 2</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -256,7 +256,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/lunettes_connectees.jpg?itok=u5QlpPM9</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/lunettes_connectees.jpg?itok=u5QlpPM9" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />L’essor des lunettes connectées constitue un nouveau défi pour la vie privée et soulève des enjeux éthiques et sociétaux forts. La CNIL alerte sur ces risques, qui nécessitent une vigilance…]]></description>
+      <description><![CDATA[L’essor des lunettes connectées constitue un nouveau défi pour la vie privée et soulève des enjeux éthiques et sociétaux forts. La CNIL alerte sur ces risques, qui nécessitent une vigilance…]]></description>
       <page>Page 3</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -276,7 +276,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-credit.png?itok=29kO2loN</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-credit.png?itok=29kO2loN" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />Acheter un logement, financer un achat… demander un crédit implique de partager de nombreuses données personnelles. Pour mieux vous protéger, la CNIL publie des recommandations pour les…]]></description>
+      <description><![CDATA[Acheter un logement, financer un achat… demander un crédit implique de partager de nombreuses données personnelles. Pour mieux vous protéger, la CNIL publie des recommandations pour les…]]></description>
       <page>Page 3</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -296,7 +296,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-dossiers.png?itok=YuX2TAr2</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-dossiers.png?itok=YuX2TAr2" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />À l’issue d’une consultation publique, la CNIL publie ses recommandations sur l’évaluation de la solvabilité dans le cadre de l’octroi de crédit. Elle renforce transparence et contrôle, notamment des…]]></description>
+      <description><![CDATA[À l’issue d’une consultation publique, la CNIL publie ses recommandations sur l’évaluation de la solvabilité dans le cadre de l’octroi de crédit. Elle renforce transparence et contrôle, notamment des…]]></description>
       <page>Page 3</page>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
@@ -316,7 +316,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/g7-web_fr.jpg?itok=l40dK6Xt</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/g7-web_fr.jpg?itok=l40dK6Xt" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />Du 23 au 26 juin 2026, les autorités de protection des données des pays du G7 se réuniront à Paris sous la présidence de la CNIL. Cette rencontre annuelle vise à renforcer la coopération…]]></description>
+      <description><![CDATA[Du 23 au 26 juin 2026, les autorités de protection des données des pays du G7 se réuniront à Paris sous la présidence de la CNIL. Cette rencontre annuelle vise à renforcer la coopération…]]></description>
       <page>Page 3</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -336,7 +336,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ai-me-visuel.png?itok=wr-2TGMN</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ai-me-visuel.png?itok=wr-2TGMN" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />Selon une enquête du Groupe VYV et de la CNIL menée dans quatre pays européens, près de 9 jeunes sur 10 utilisent une IA conversationnelle en France et près d’un sur deux y évoque des sujets…]]></description>
+      <description><![CDATA[Selon une enquête du Groupe VYV et de la CNIL menée dans quatre pays européens, près de 9 jeunes sur 10 utilisent une IA conversationnelle en France et près d’un sur deux y évoque des sujets…]]></description>
       <page>Page 3</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -356,7 +356,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh</url>
       </image>
-      <description><![CDATA[<img src="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh" alt="" style="max-width:100%;height:auto;display:block;margin-bottom:14px;" />La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré aux usages numériques des…]]></description>
+      <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré aux usages numériques des…]]></description>
       <page>Page 3</page>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
