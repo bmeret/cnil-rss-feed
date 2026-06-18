@@ -91,7 +91,7 @@
             var filterGroup = document.querySelector('.filter-group');
             var items = Array.prototype.slice.call(container.querySelectorAll('.item'));
             var categories = [];
-            var currentPage = 'Page 1';
+            var currentPage = null;
             var activeThemes = [];
 
             items.forEach(function(item) {
@@ -103,12 +103,12 @@
 
             function updateVisibility() {
               items.forEach(function(item) {
-                var pageMatch = item.getAttribute('data-page') === currentPage;
+                var pageMatch = currentPage === null || item.getAttribute('data-page') === currentPage;
                 var themeAttr = item.getAttribute('data-themes') || '';
                 var themeMatch = activeThemes.length === 0 || activeThemes.some(function(theme) {
                   return themeAttr.split('|').indexOf(theme) !== -1;
                 });
-                item.classList.toggle('hidden', !(pageMatch && themeMatch));
+                item.classList.toggle('hidden', !(pageMatch &amp;&amp; themeMatch));
               });
             }
 
@@ -124,26 +124,39 @@
               });
             }
 
-            categories.forEach(function(page, index) {
+            function updatePageButtons() {
+              var buttons = pager.querySelectorAll('button[data-page]');
+              buttons.forEach(function(btn) {
+                var page = btn.getAttribute('data-page');
+                btn.classList.toggle('active', currentPage === null ? page === 'all' : page === currentPage);
+              });
+            }
+
+            var allPagesButton = document.createElement('button');
+            allPagesButton.textContent = 'Toutes';
+            allPagesButton.setAttribute('data-page', 'all');
+            allPagesButton.addEventListener('click', function() {
+              currentPage = null;
+              updatePageButtons();
+              updateVisibility();
+            });
+            pager.appendChild(allPagesButton);
+
+            categories.forEach(function(page) {
               var button = document.createElement('button');
               button.textContent = page;
               button.setAttribute('data-page', page);
               button.addEventListener('click', function() {
                 currentPage = page;
-                var buttons = pager.querySelectorAll('button');
-                buttons.forEach(function(btn) {
-                  btn.classList.toggle('active', btn === button);
-                });
+                updatePageButtons();
                 updateVisibility();
               });
               pager.appendChild(button);
-              if (index === 0) {
-                button.classList.add('active');
-                currentPage = page;
-              }
             });
 
             if (categories.length > 0) {
+              currentPage = categories[0];
+              updatePageButtons();
               updateVisibility();
             }
 
@@ -152,7 +165,7 @@
               var themeAttr = item.getAttribute('data-themes');
               if (!themeAttr) return;
               themeAttr.split('|').forEach(function(theme) {
-                if (theme && themes.indexOf(theme) === -1) {
+                if (theme &amp;&amp; themes.indexOf(theme) === -1) {
                   themes.push(theme);
                 }
               });
