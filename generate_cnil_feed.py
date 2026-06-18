@@ -181,7 +181,7 @@ def guess_image_mime(url):
 def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualite", description="Flux RSS personnalisé des actualités CNIL"):
     out = '<?xml version="1.0" encoding="UTF-8"?>\n'
     out += '<?xml-stylesheet type="text/xsl" href="feed.xsl"?>\n'
-    out += "<rss version=\"2.0\">\n  <channel>\n"
+    out += "<rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\">\n  <channel>\n"
     out += f"    <title>{saxutils.escape(title)}</title>\n"
     out += f"    <link>{saxutils.escape(link)}</link>\n"
     out += f"    <description>{saxutils.escape(description)}</description>\n"
@@ -191,14 +191,21 @@ def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualit
         out += f"      <title>{saxutils.escape(it['title'])}</title>\n"
         out += f"      <link>{saxutils.escape(it['link'])}</link>\n"
         out += f"      <guid isPermaLink=\"true\">{saxutils.escape(it['link'])}</guid>\n"
+        description_text = saxutils.escape(it['description'])
         if it.get("image"):
-            out += f"      <enclosure url=\"{saxutils.escape(it['image'])}\" length=\"0\" type=\"{guess_image_mime(it['image'])}\"/>\n"
+            image_url = saxutils.escape(it['image'])
+            mime_type = guess_image_mime(it['image'])
+            out += f"      <enclosure url=\"{image_url}\" length=\"0\" type=\"{mime_type}\"/>\n"
+            out += f"      <media:content url=\"{image_url}\" medium=\"image\" type=\"{mime_type}\"/>\n"
+            out += f"      <media:thumbnail url=\"{image_url}\"/>\n"
             out += "      <image>\n"
-            out += f"        <url>{saxutils.escape(it['image'])}</url>\n"
+            out += f"        <url>{image_url}</url>\n"
             out += "      </image>\n"
+            out += f"      <description><![CDATA[<img src=\"{image_url}\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin-bottom:14px;\" />{description_text}]]></description>\n"
+        else:
+            out += f"      <description>{description_text}</description>\n"
         if it.get("page") is not None:
             out += f"      <category>Page {it['page']}</category>\n"
-        out += f"      <description>{saxutils.escape(it['description'])}</description>\n"
         out += f"      <pubDate>{saxutils.escape(it['pubDate'])}</pubDate>\n"
         out += "    </item>\n"
     out += "  </channel>\n</rss>\n"
