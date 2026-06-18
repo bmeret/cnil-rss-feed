@@ -50,6 +50,21 @@ def parse_french_date(text):
     return datetime(year, month_number, day)
 
 
+def extract_image_url(node, base_url):
+    img = node.select_one('img')
+    if not img:
+        return None
+    for attr in ("src", "data-src", "data-lazy-src", "data-original", "data-srcset"):
+        value = img.get(attr)
+        if not value:
+            continue
+        if attr == "data-srcset":
+            value = value.split(",")[0].strip().split(" ")[0]
+        if value:
+            return urljoin(base_url, value)
+    return None
+
+
 def find_next_page_url(soup, base_url):
     next_link = soup.select_one('a[rel="next"], .pager__item--next a, .pagination a[rel="next"]')
     if not next_link or not next_link.has_attr("href"):
@@ -127,8 +142,17 @@ def parse_articles(soup, base_url, page_number=None):
         if not dt:
             dt = datetime.now()
 
+        image_url = extract_image_url(node, base_url)
         pubdate = email.utils.format_datetime(dt)
-        items.append({"title": title, "link": href, "pubDate": pubdate, "description": description, "page": page_number, "date": dt})
+        items.append({
+            "title": title,
+            "link": href,
+            "pubDate": pubdate,
+            "description": description,
+            "page": page_number,
+            "date": dt,
+            "image": image_url,
+        })
     # As a fallback, collect top-level links from the page
     if not items:
         for a in soup.select("a[href]")[:30]:
@@ -137,6 +161,21 @@ def parse_articles(soup, base_url, page_number=None):
             now = datetime.now()
             items.append({"title": title, "link": href, "pubDate": email.utils.format_datetime(now), "description": title, "page": page_number, "date": now})
     return items
+
+
+def guess_image_mime(url):
+    if not url:
+        return "image/jpeg"
+    path = urlparse(url).path.lower()
+    if path.endswith(".png"):
+        return "image/png"
+    if path.endswith(".gif"):
+        return "image/gif"
+    if path.endswith(".webp"):
+        return "image/webp"
+    if path.endswith(".svg"):
+        return "image/svg+xml"
+    return "image/jpeg"
 
 
 def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualite", description="Flux RSS personnalisé des actualités CNIL"):
@@ -152,6 +191,11 @@ def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualit
         out += f"      <title>{saxutils.escape(it['title'])}</title>\n"
         out += f"      <link>{saxutils.escape(it['link'])}</link>\n"
         out += f"      <guid isPermaLink=\"true\">{saxutils.escape(it['link'])}</guid>\n"
+        if it.get("image"):
+            out += f"      <enclosure url=\"{saxutils.escape(it['image'])}\" length=\"0\" type=\"{guess_image_mime(it['image'])}\"/>\n"
+            out += "      <image>\n"
+            out += f"        <url>{saxutils.escape(it['image'])}</url>\n"
+            out += "      </image>\n"
         if it.get("page") is not None:
             out += f"      <category>Page {it['page']}</category>\n"
         out += f"      <description>{saxutils.escape(it['description'])}</description>\n"
