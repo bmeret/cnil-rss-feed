@@ -140,17 +140,17 @@ def parse_articles(soup, base_url, page_number=None):
 
 def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualite", description="Flux RSS personnalisé des actualités CNIL"):
     out = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    out += '<?xml-stylesheet type="text/css" href="style.css"?>\n'
+    out += '<?xml-stylesheet type="text/xsl" href="feed.xsl"?>\n'
     out += "<rss version=\"2.0\">\n  <channel>\n"
     out += f"    <title>{saxutils.escape(title)}</title>\n"
-    out += f"    <p><link>{saxutils.escape(link)}</link></p>\n"
+    out += f"    <link>{saxutils.escape(link)}</link>\n"
     out += f"    <description>{saxutils.escape(description)}</description>\n"
     out += f"    <language>fr-FR</language>\n"
     for it in items:
         out += "    <item>\n"
         out += f"      <title>{saxutils.escape(it['title'])}</title>\n"
-        out += f"      <p><link>{saxutils.escape(it['link'])}</link></p>\n"
-        out += f"      <p><guid isPermaLink=\"true\">{saxutils.escape(it['link'])}</guid></p>\n"
+        out += f"      <link>{saxutils.escape(it['link'])}</link>\n"
+        out += f"      <guid isPermaLink=\"true\">{saxutils.escape(it['link'])}</guid>\n"
         if it.get("page") is not None:
             out += f"      <category>Page {it['page']}</category>\n"
         out += f"      <description>{saxutils.escape(it['description'])}</description>\n"
