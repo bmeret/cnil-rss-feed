@@ -128,13 +128,14 @@ def parse_articles(soup, base_url, page_number=None):
             dt = datetime.now()
 
         pubdate = email.utils.format_datetime(dt)
-        items.append({"title": title, "link": href, "pubDate": pubdate, "description": description, "page": page_number})
+        items.append({"title": title, "link": href, "pubDate": pubdate, "description": description, "page": page_number, "date": dt})
     # As a fallback, collect top-level links from the page
     if not items:
         for a in soup.select("a[href]")[:30]:
             href = urljoin(base_url, a["href"])
             title = a.get_text(strip=True) or href
-            items.append({"title": title, "link": href, "pubDate": email.utils.format_datetime(datetime.now())})
+            now = datetime.now()
+            items.append({"title": title, "link": href, "pubDate": email.utils.format_datetime(now), "description": title, "page": page_number, "date": now})
     return items
 
 
@@ -164,8 +165,10 @@ def main():
     parser = argparse.ArgumentParser(description="Generate a simple RSS feed from https://cnil.fr/fr/actualite")
     parser.add_argument("--url", default="https://cnil.fr/fr/actualite")
     parser.add_argument("--output", default="cnil_feed.xml")
-    parser.add_argument("--limit", type=int, default=20)
+    parser.add_argument("--limit", type=int, default=20, help="Number of articles to include. Use 0 for no limit.")
     parser.add_argument("--pages", type=int, default=3, help="Number of paginated pages to fetch")
+    parser.add_argument("--items-per-page", type=int, default=6, help="Maximum number of articles per RSS page")
+    parser.add_argument("--year", type=int, default=None, help="Include only articles from this year")
     args = parser.parse_args()
 
     page_urls = collect_paginated_urls(args.url, max_pages=args.pages)
@@ -177,7 +180,12 @@ def main():
         page_number = page_number_from_url(page_url)
         all_items.extend(parse_articles(soup, page_url, page_number=page_number))
 
-    items = all_items[: args.limit]
+    if args.year is not None:
+        all_items = [item for item in all_items if item["date"].year == args.year]
+    all_items.sort(key=lambda item: item["date"], reverse=True)
+    items = all_items if args.limit <= 0 else all_items[: args.limit]
+    for index, item in enumerate(items):
+        item["page"] = (index // args.items_per_page) + 1
     rss = build_rss(items)
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(rss)
