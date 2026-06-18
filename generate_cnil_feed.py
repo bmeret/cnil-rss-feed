@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 from datetime import datetime
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse, parse_qs
 import email.utils
 import re
 import xml.sax.saxutils as saxutils
@@ -50,7 +50,40 @@ def parse_french_date(text):
     return datetime(year, month_number, day)
 
 
-def parse_articles(soup, base_url):
+def find_next_page_url(soup, base_url):
+    next_link = soup.select_one('a[rel="next"], .pager__item--next a, .pagination a[rel="next"]')
+    if not next_link or not next_link.has_attr("href"):
+        return None
+    return urljoin(base_url, next_link["href"])
+
+
+def page_number_from_url(url):
+    parsed = urlparse(url)
+    query = parse_qs(parsed.query)
+    page_values = query.get("page")
+    if not page_values:
+        return 1
+    try:
+        page_index = int(page_values[0])
+    except ValueError:
+        return 1
+    return page_index + 1
+
+
+def collect_paginated_urls(start_url, max_pages=3):
+    urls = [start_url]
+    while len(urls) < max_pages:
+        resp = requests.get(urls[-1], headers={"User-Agent": "cnil-rss-generator/1.0"})
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        next_url = find_next_page_url(soup, urls[-1])
+        if not next_url or next_url in urls:
+            break
+        urls.append(next_url)
+    return urls
+
+
+def parse_articles(soup, base_url, page_number=None):
     items = []
     # Try common article selectors used by many CMSs; fallback to 'a' links
     candidates = soup.select("article") or soup.select(".node") or soup.select(".views-row") or soup.select(".teaser") or soup.select(".item")
@@ -95,7 +128,7 @@ def parse_articles(soup, base_url):
             dt = datetime.now()
 
         pubdate = email.utils.format_datetime(dt)
-        items.append({"title": title, "link": href, "pubDate": pubdate, "description": description})
+        items.append({"title": title, "link": href, "pubDate": pubdate, "description": description, "page": page_number})
     # As a fallback, collect top-level links from the page
     if not items:
         for a in soup.select("a[href]")[:30]:
@@ -118,6 +151,8 @@ def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualit
         out += f"      <title>{saxutils.escape(it['title'])}</title>\n"
         out += f"      <link>{saxutils.escape(it['link'])}</link>\n"
         out += f"      <guid isPermaLink=\"true\">{saxutils.escape(it['link'])}</guid>\n"
+        if it.get("page") is not None:
+            out += f"      <category>Page {it['page']}</category>\n"
         out += f"      <description>{saxutils.escape(it['description'])}</description>\n"
         out += f"      <pubDate>{saxutils.escape(it['pubDate'])}</pubDate>\n"
         out += "    </item>\n"
@@ -130,13 +165,19 @@ def main():
     parser.add_argument("--url", default="https://cnil.fr/fr/actualite")
     parser.add_argument("--output", default="cnil_feed.xml")
     parser.add_argument("--limit", type=int, default=20)
+    parser.add_argument("--pages", type=int, default=3, help="Number of paginated pages to fetch")
     args = parser.parse_args()
 
-    resp = requests.get(args.url, headers={"User-Agent": "cnil-rss-generator/1.0"})
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
+    page_urls = collect_paginated_urls(args.url, max_pages=args.pages)
+    all_items = []
+    for page_url in page_urls:
+        resp = requests.get(page_url, headers={"User-Agent": "cnil-rss-generator/1.0"})
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        page_number = page_number_from_url(page_url)
+        all_items.extend(parse_articles(soup, page_url, page_number=page_number))
 
-    items = parse_articles(soup, args.url)[: args.limit]
+    items = all_items[: args.limit]
     rss = build_rss(items)
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(rss)
