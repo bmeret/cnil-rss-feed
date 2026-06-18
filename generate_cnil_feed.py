@@ -121,6 +121,12 @@ def parse_articles(soup, base_url, page_number=None):
             h = node.select_one("h1,h2,h3")
             title = h.get_text(strip=True) if h else href
 
+        # attempt to extract themes from CNIL tag blocks
+        themes = [tag.get_text(" ", strip=True) for tag in node.select(".tags-list__item .tag-item")]
+        if not themes:
+            themes = [tag.get_text(" ", strip=True) for tag in node.select(".tag-item")]
+        themes = [theme for theme in themes if theme]
+
         # attempt to find a time element or textual date
         time_el = node.select_one("time") or node.select_one("p.date") or node.select_one(".date") or node.select_one(".posted")
         dt_text = ""
@@ -152,6 +158,7 @@ def parse_articles(soup, base_url, page_number=None):
             "page": page_number,
             "date": dt,
             "image": image_url,
+            "themes": themes,
         })
     # As a fallback, collect top-level links from the page
     if not items:
@@ -206,6 +213,9 @@ def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualit
             out += f"      <description>{description_text}</description>\n"
         if it.get("page") is not None:
             out += f"      <category>Page {it['page']}</category>\n"
+        if it.get("themes"):
+            for theme in it["themes"]:
+                out += f"      <theme>{saxutils.escape(theme)}</theme>\n"
         out += f"      <pubDate>{saxutils.escape(it['pubDate'])}</pubDate>\n"
         out += "    </item>\n"
     out += "  </channel>\n</rss>\n"
