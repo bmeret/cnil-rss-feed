@@ -23,6 +23,12 @@
           .item a.title:hover { text-decoration: underline; }
           .meta { font-size: 13px; color: #666; margin-bottom: 10px; }
           .meta span { margin-right: 14px; }
+          .theme-list { margin-bottom: 12px; }
+          .theme-tag { display: inline-block; background: #e1f0ff; color: #003d7a; border-radius: 12px; padding: 3px 10px; font-size: 12px; margin-right: 6px; margin-bottom: 6px; }
+          .filter-bar { margin-bottom: 20px; }
+          .filter-group { display: flex; flex-wrap: wrap; gap: 10px; }
+          .filter-button { padding: 8px 14px; background: #ccc; color: #222; border: none; border-radius: 4px; cursor: pointer; }
+          .filter-button.active { background: #003d7a; color: #fff; }
           .pager { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 28px; }
           .pager button { padding: 8px 14px; background: #003d7a; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
           .pager button.active { background: #0058b0; }
@@ -35,9 +41,20 @@
             <h1><xsl:value-of select="channel/title"/></h1>
             <p class="description"><xsl:value-of select="channel/description"/></p>
           </header>
+          <div class="filter-bar">
+            <div class="filter-group">
+              <button class="filter-button active" data-theme="all">Tous</button>
+            </div>
+          </div>
 
           <xsl:for-each select="channel/item">
             <div class="item" data-page="{category}">
+              <xsl:attribute name="data-themes">
+                <xsl:for-each select="theme">
+                  <xsl:value-of select="."/>
+                  <xsl:if test="position() != last()">|</xsl:if>
+                </xsl:for-each>
+              </xsl:attribute>
               <xsl:choose>
                 <xsl:when test="image/url">
                   <div class="item-image">
@@ -54,6 +71,11 @@
               <div class="meta">
                 <span><xsl:value-of select="pubDate"/></span>
                 <span><xsl:value-of select="category"/></span>
+              </div>
+                  <div class="theme-list">
+                <xsl:for-each select="theme">
+                  <span class="theme-tag"><xsl:value-of select="."/></span>
+                </xsl:for-each>
               </div>
               <div class="description"><xsl:value-of select="description" disable-output-escaping="yes"/></div>
             </div>
@@ -95,6 +117,39 @@
                 item.classList.toggle('hidden', item.getAttribute('data-page') !== categories[0]);
               });
             }
+
+            // Theme filter
+            var filterGroup = document.querySelector('.filter-group');
+            var themes = [];
+            items.forEach(function(item) {
+              var themeAttr = item.getAttribute('data-themes');
+              if (!themeAttr) return;
+              themeAttr.split('|').forEach(function(theme) {
+                if (themes.indexOf(theme) === -1) {
+                  themes.push(theme);
+                }
+              });
+            });
+            themes.sort();
+            themes.forEach(function(theme) {
+              var button = document.createElement('button');
+              button.className = 'filter-button';
+              button.textContent = theme;
+              button.setAttribute('data-theme', theme);
+              button.addEventListener('click', function() {
+                items.forEach(function(item) {
+                  var itemThemes = item.getAttribute('data-themes') || '';
+                  var visibleByTheme = theme === 'all' || itemThemes.split('|').indexOf(theme) !== -1;
+                  var visibleByPage = item.getAttribute('data-page') === categories[0];
+                  item.classList.toggle('hidden', !(visibleByTheme && visibleByPage));
+                });
+                var buttons = filterGroup.querySelectorAll('button');
+                buttons.forEach(function(btn) {
+                  btn.classList.toggle('active', btn === button);
+                });
+              });
+              filterGroup.appendChild(button);
+            });
           })();
         </script>
       </body>
