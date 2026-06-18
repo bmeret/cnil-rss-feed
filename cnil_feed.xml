@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
 <rss version="2.0">
   <channel>
     <title>CNIL Actualités</title>
@@ -39,19 +39,19 @@
       <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
+      <title>Données de santé : sanction de 5 millions d’euros à l’encontre de la société IQVIA</title>
+      <link>https://cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia</guid>
+      <category>Page 1</category>
+      <description>Le 26 mai 2026, la société IQVIA OPERATIONS FRANCE a été sanctionnée d’une amende de 5 millions d’euros, notamment pour non-respect des garanties visant à limiter les risques pour les personnes…</description>
+      <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Quelles qualifications pour les acteurs de l’informatique en nuage (cloud) ?</title>
       <link>https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</link>
       <guid isPermaLink="true">https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</guid>
       <category>Page 1</category>
       <description>Avant de traiter des données personnelles, il est essentiel que les acteurs identifient leurs rôles. La CNIL fournit des orientations pour aider ceux du secteur de l’informatique en nuage (cloud) à…</description>
-      <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Privacy Research Day : participez à la journée dédiée à la recherche sur la vie privée</title>
-      <link>https://cnil.fr/fr/privacy-research-day-2026</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/privacy-research-day-2026</guid>
-      <category>Page 1</category>
-      <description>La cinquième édition de la Journée de recherche sur la vie privée (Privacy Research Day) se tiendra le 24 juin 2026, dans le cadre du G7 des autorités de protection des données accueilli par la CNIL…</description>
       <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
