@@ -141,7 +141,7 @@
                   var itemThemes = item.getAttribute('data-themes') || '';
                   var visibleByTheme = theme === 'all' || itemThemes.split('|').indexOf(theme) !== -1;
                   var visibleByPage = item.getAttribute('data-page') === categories[0];
-                  item.classList.toggle('hidden', !(visibleByTheme && visibleByPage));
+                  item.classList.toggle('hidden', !(visibleByTheme &amp;&amp; visibleByPage));
                 });
                 var buttons = filterGroup.querySelectorAll('button');
                 buttons.forEach(function(btn) {
