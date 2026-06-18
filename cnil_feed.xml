@@ -127,44 +127,24 @@
       <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Quelles qualifications pour les acteurs de l’informatique en nuage (cloud) ?</title>
-      <link>https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN"/>
+      <title>Données de santé : sanction de 5 millions d’euros à l’encontre de la société IQVIA</title>
+      <link>https://cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
       </image>
-      <description><![CDATA[Avant de traiter des données personnelles, il est essentiel que les acteurs identifient leurs rôles. La CNIL fournit des orientations pour aider ceux du secteur de l’informatique en nuage (cloud) à…]]></description>
-      <page>Page 2</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Cloud</category>
-      <theme>Cloud</theme>
-      <category>Sécurité</category>
-      <theme>Sécurité</theme>
-      <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>« IA générative et vie privée » : une affiche coproduite par la PIPC et la CNIL pour sensibiliser les utilisateurs d’IA à la protection de leurs données</title>
-      <link>https://cnil.fr/fr/ia-generative-et-vie-privee-affiche-coproduite-pipc-cnil</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/ia-generative-et-vie-privee-affiche-coproduite-pipc-cnil</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ia_generative_et_vie_privee_affiche_pipc_cnil_visuel_fr_0.jpg?itok=2sEdP3C_" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ia_generative_et_vie_privee_affiche_pipc_cnil_visuel_fr_0.jpg?itok=2sEdP3C_" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ia_generative_et_vie_privee_affiche_pipc_cnil_visuel_fr_0.jpg?itok=2sEdP3C_"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ia_generative_et_vie_privee_affiche_pipc_cnil_visuel_fr_0.jpg?itok=2sEdP3C_</url>
-      </image>
-      <description><![CDATA[Dans le cadre de leur partenariat, la CNIL et la PIPC (autorité de protection des données de la Corée du Sud) ont produit une affiche pour expliquer comment protéger ses données personnelles lorsqu…]]></description>
+      <description><![CDATA[Le 26 mai 2026, la société IQVIA OPERATIONS FRANCE a été sanctionnée d’une amende de 5 millions d’euros, notamment pour non-respect des garanties visant à limiter les risques pour les personnes…]]></description>
       <page>Page 2</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
-      <category>Données personnelles</category>
-      <theme>Données personnelles</theme>
-      <pubDate>Wed, 27 May 2026 00:00:00 -0000</pubDate>
+      <category>Sanction</category>
+      <theme>Sanction</theme>
+      <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>Cyberattaque : le sous-traitant au centre de la crise</title>
@@ -184,6 +164,26 @@
       <theme>Violation de données</theme>
       <category>Scénario de violation</category>
       <theme>Scénario de violation</theme>
+      <pubDate>Wed, 27 May 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>« IA générative et vie privée » : une affiche coproduite par la PIPC et la CNIL pour sensibiliser les utilisateurs d’IA à la protection de leurs données</title>
+      <link>https://cnil.fr/fr/ia-generative-et-vie-privee-affiche-coproduite-pipc-cnil</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/ia-generative-et-vie-privee-affiche-coproduite-pipc-cnil</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ia_generative_et_vie_privee_affiche_pipc_cnil_visuel_fr_0.jpg?itok=2sEdP3C_" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ia_generative_et_vie_privee_affiche_pipc_cnil_visuel_fr_0.jpg?itok=2sEdP3C_" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ia_generative_et_vie_privee_affiche_pipc_cnil_visuel_fr_0.jpg?itok=2sEdP3C_"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/ia_generative_et_vie_privee_affiche_pipc_cnil_visuel_fr_0.jpg?itok=2sEdP3C_</url>
+      </image>
+      <description><![CDATA[Dans le cadre de leur partenariat, la CNIL et la PIPC (autorité de protection des données de la Corée du Sud) ont produit une affiche pour expliquer comment protéger ses données personnelles lorsqu…]]></description>
+      <page>Page 2</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Données personnelles</category>
+      <theme>Données personnelles</theme>
       <pubDate>Wed, 27 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
