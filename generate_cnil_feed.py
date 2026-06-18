@@ -212,9 +212,11 @@ def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualit
             out += "      <image>\n"
             out += f"        <url>{image_url}</url>\n"
             out += "      </image>\n"
-            out += f"      <description><![CDATA[<img src=\"{image_url}\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin-bottom:14px;\" />{description_text}]]></description>\n"
+            safe_description = it['description'].replace(']]>', ']]]]><![CDATA[>')
+            out += f"      <description><![CDATA[{safe_description}]]></description>\n"
         else:
-            out += f"      <description>{description_text}</description>\n"
+            safe_description = it['description'].replace(']]>', ']]]]><![CDATA[>')
+            out += f"      <description><![CDATA[{safe_description}]]></description>\n"
         if it.get("page") is not None:
             out += f"      <page>Page {it['page']}</page>\n"
         if it.get("themes"):
@@ -250,8 +252,6 @@ def main():
         all_items = [item for item in all_items if item["date"].year == args.year]
     all_items.sort(key=lambda item: item["date"], reverse=True)
     items = all_items if args.limit <= 0 else all_items[: args.limit]
-    for index, item in enumerate(items):
-        item["page"] = (index // args.items_per_page) + 1
     rss = build_rss(items)
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(rss)
