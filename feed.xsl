@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:media="http://search.yahoo.com/mrss/">
   <xsl:output method="html" encoding="UTF-8" indent="yes"/>
   <xsl:key name="item-by-category" match="channel/item" use="category"/>
 
@@ -38,17 +38,24 @@
 
           <xsl:for-each select="channel/item">
             <div class="item" data-page="{category}">
-              <xsl:if test="image/url">
-                <div class="item-image">
-                  <img src="{image/url}" alt="Article image" loading="lazy" />
-                </div>
-              </xsl:if>
+              <xsl:choose>
+                <xsl:when test="image/url">
+                  <div class="item-image">
+                    <img src="{image/url}" alt="Article image" loading="lazy" />
+                  </div>
+                </xsl:when>
+                <xsl:when test="media:content/@url">
+                  <div class="item-image">
+                    <img src="{media:content/@url}" alt="Article image" loading="lazy" />
+                  </div>
+                </xsl:when>
+              </xsl:choose>
               <h2><a class="title" href="{link}" target="_blank"><xsl:value-of select="title"/></a></h2>
               <div class="meta">
                 <span><xsl:value-of select="pubDate"/></span>
                 <span><xsl:value-of select="category"/></span>
               </div>
-              <p><xsl:value-of select="description"/></p>
+              <div class="description"><xsl:value-of select="description" disable-output-escaping="yes"/></div>
             </div>
           </xsl:for-each>
 
