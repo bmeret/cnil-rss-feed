@@ -48,7 +48,7 @@
           </div>
 
           <xsl:for-each select="channel/item">
-            <div class="item" data-page="{category}">
+            <div class="item" data-page="{page}">
               <xsl:attribute name="data-themes">
                 <xsl:for-each select="theme">
                   <xsl:value-of select="."/>
@@ -70,7 +70,7 @@
               <h2><a class="title" href="{link}" target="_blank"><xsl:value-of select="title"/></a></h2>
               <div class="meta">
                 <span><xsl:value-of select="pubDate"/></span>
-                <span><xsl:value-of select="category"/></span>
+                <span><xsl:value-of select="page"/></span>
               </div>
                   <div class="theme-list">
                 <xsl:for-each select="theme">
