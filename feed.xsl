@@ -70,7 +70,7 @@
               <h2><a class="title" href="{link}" target="_blank"><xsl:value-of select="title"/></a></h2>
               <div class="meta">
                 <span><xsl:value-of select="pubDate"/></span>
-                <span><xsl:value-of select="page"/></span>
+                <span>Page <xsl:value-of select="page"/></span>
               </div>
                   <div class="theme-list">
                 <xsl:for-each select="theme">
@@ -95,10 +95,13 @@
             var activeThemes = [];
 
             items.forEach(function(item) {
-              var page = item.getAttribute('data-page') || 'Page 1';
+              var page = item.getAttribute('data-page') || '1';
               if (categories.indexOf(page) === -1) {
                 categories.push(page);
               }
+            });
+            categories.sort(function(a, b) {
+              return parseInt(a, 10) - parseInt(b, 10);
             });
 
             function updateVisibility() {
@@ -132,27 +135,53 @@
               });
             }
 
+            function goToPage(page) {
+              currentPage = page;
+              updatePageButtons();
+              updateVisibility();
+            }
+
             var allPagesButton = document.createElement('button');
+            allPagesButton.className = 'filter-button';
             allPagesButton.textContent = 'Toutes';
             allPagesButton.setAttribute('data-page', 'all');
             allPagesButton.addEventListener('click', function() {
-              currentPage = null;
-              updatePageButtons();
-              updateVisibility();
+              goToPage(null);
             });
             pager.appendChild(allPagesButton);
 
+            if (categories.length > 0) {
+              var firstPageButton = document.createElement('button');
+              firstPageButton.className = 'filter-button';
+              firstPageButton.textContent = 'Première';
+              firstPageButton.setAttribute('data-page', categories[0]);
+              firstPageButton.addEventListener('click', function() {
+                goToPage(categories[0]);
+              });
+              pager.appendChild(firstPageButton);
+            }
+
             categories.forEach(function(page) {
               var button = document.createElement('button');
+              button.className = 'filter-button';
               button.textContent = page;
               button.setAttribute('data-page', page);
               button.addEventListener('click', function() {
-                currentPage = page;
-                updatePageButtons();
-                updateVisibility();
+                goToPage(page);
               });
               pager.appendChild(button);
             });
+
+            if (categories.length > 0) {
+              var lastPageButton = document.createElement('button');
+              lastPageButton.className = 'filter-button';
+              lastPageButton.textContent = 'Dernière';
+              lastPageButton.setAttribute('data-page', categories[categories.length - 1]);
+              lastPageButton.addEventListener('click', function() {
+                goToPage(categories[categories.length - 1]);
+              });
+              pager.appendChild(lastPageButton);
+            }
 
             if (categories.length > 0) {
               currentPage = categories[0];
