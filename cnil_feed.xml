@@ -127,44 +127,24 @@
       <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Données de santé : sanction de 5 millions d’euros à l’encontre de la société IQVIA</title>
-      <link>https://cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9"/>
+      <title>Quelles qualifications pour les acteurs de l’informatique en nuage (cloud) ?</title>
+      <link>https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN</url>
       </image>
-      <description><![CDATA[Le 26 mai 2026, la société IQVIA OPERATIONS FRANCE a été sanctionnée d’une amende de 5 millions d’euros, notamment pour non-respect des garanties visant à limiter les risques pour les personnes…]]></description>
+      <description><![CDATA[Avant de traiter des données personnelles, il est essentiel que les acteurs identifient leurs rôles. La CNIL fournit des orientations pour aider ceux du secteur de l’informatique en nuage (cloud) à…]]></description>
       <page>Page 2</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
-      <category>Sanction</category>
-      <theme>Sanction</theme>
+      <category>Cloud</category>
+      <theme>Cloud</theme>
+      <category>Sécurité</category>
+      <theme>Sécurité</theme>
       <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Cyberattaque : le sous-traitant au centre de la crise</title>
-      <link>https://cnil.fr/fr/cyberattaque-le-sous-traitant-au-centre-de-la-crise</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/cyberattaque-le-sous-traitant-au-centre-de-la-crise</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/sous-traitant-infog.png?itok=2YKLhVDd" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/sous-traitant-infog.png?itok=2YKLhVDd" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/sous-traitant-infog.png?itok=2YKLhVDd"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/sous-traitant-infog.png?itok=2YKLhVDd</url>
-      </image>
-      <description><![CDATA[Régulièrement, la CNIL communique sur des violations de données typiques inspirées d’incidents réels qui lui sont notifiés. Cette publication a pour objectif de permettre à tous les professionnels de…]]></description>
-      <page>Page 2</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Violation de données</category>
-      <theme>Violation de données</theme>
-      <category>Scénario de violation</category>
-      <theme>Scénario de violation</theme>
-      <pubDate>Wed, 27 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>« IA générative et vie privée » : une affiche coproduite par la PIPC et la CNIL pour sensibiliser les utilisateurs d’IA à la protection de leurs données</title>
@@ -184,6 +164,26 @@
       <theme>Professionnel</theme>
       <category>Données personnelles</category>
       <theme>Données personnelles</theme>
+      <pubDate>Wed, 27 May 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Cyberattaque : le sous-traitant au centre de la crise</title>
+      <link>https://cnil.fr/fr/cyberattaque-le-sous-traitant-au-centre-de-la-crise</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/cyberattaque-le-sous-traitant-au-centre-de-la-crise</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/sous-traitant-infog.png?itok=2YKLhVDd" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/sous-traitant-infog.png?itok=2YKLhVDd" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/sous-traitant-infog.png?itok=2YKLhVDd"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/sous-traitant-infog.png?itok=2YKLhVDd</url>
+      </image>
+      <description><![CDATA[Régulièrement, la CNIL communique sur des violations de données typiques inspirées d’incidents réels qui lui sont notifiés. Cette publication a pour objectif de permettre à tous les professionnels de…]]></description>
+      <page>Page 2</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Violation de données</category>
+      <theme>Violation de données</theme>
+      <category>Scénario de violation</category>
+      <theme>Scénario de violation</theme>
       <pubDate>Wed, 27 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -267,26 +267,6 @@
       <pubDate>Mon, 11 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Octroi de crédit : la CNIL publie sa recommandation sur l’utilisation de données personnelles pour l’évaluation de la solvabilité</title>
-      <link>https://cnil.fr/fr/recommandation-octroi-de-credit</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/recommandation-octroi-de-credit</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-dossiers.png?itok=YuX2TAr2" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-dossiers.png?itok=YuX2TAr2" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-dossiers.png?itok=YuX2TAr2"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-dossiers.png?itok=YuX2TAr2</url>
-      </image>
-      <description><![CDATA[À l’issue d’une consultation publique, la CNIL publie ses recommandations sur l’évaluation de la solvabilité dans le cadre de l’octroi de crédit. Elle renforce transparence et contrôle, notamment des…]]></description>
-      <page>Page 3</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Crédit</category>
-      <theme>Crédit</theme>
-      <category>Banques</category>
-      <theme>Banques</theme>
-      <pubDate>Thu, 07 May 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Demandes de crédit : comprendre l’utilisation de vos données et vos droits</title>
       <link>https://cnil.fr/fr/demandes-de-credit-comprendre-lutilisation-de-vos-donnees-et-vos-droits</link>
       <guid isPermaLink="true">https://cnil.fr/fr/demandes-de-credit-comprendre-lutilisation-de-vos-donnees-et-vos-droits</guid>
@@ -304,6 +284,26 @@
       <theme>Banques</theme>
       <category>Crédit</category>
       <theme>Crédit</theme>
+      <pubDate>Thu, 07 May 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Octroi de crédit : la CNIL publie sa recommandation sur l’utilisation de données personnelles pour l’évaluation de la solvabilité</title>
+      <link>https://cnil.fr/fr/recommandation-octroi-de-credit</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/recommandation-octroi-de-credit</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-dossiers.png?itok=YuX2TAr2" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-dossiers.png?itok=YuX2TAr2" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-dossiers.png?itok=YuX2TAr2"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/banque-dossiers.png?itok=YuX2TAr2</url>
+      </image>
+      <description><![CDATA[À l’issue d’une consultation publique, la CNIL publie ses recommandations sur l’évaluation de la solvabilité dans le cadre de l’octroi de crédit. Elle renforce transparence et contrôle, notamment des…]]></description>
+      <page>Page 3</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Crédit</category>
+      <theme>Crédit</theme>
+      <category>Banques</category>
+      <theme>Banques</theme>
       <pubDate>Thu, 07 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
