@@ -25,7 +25,7 @@
           .meta span { margin-right: 14px; }
           .theme-list { margin-bottom: 12px; }
           .theme-tag { display: inline-block; background: #e1f0ff; color: #003d7a; border-radius: 12px; padding: 3px 10px; font-size: 12px; margin-right: 6px; margin-bottom: 6px; }
-          .filter-bar { margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+          .filter-bar { margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
           .filter-group { display: flex; flex-wrap: wrap; gap: 10px; }
           .filter-button { padding: 8px 14px; background: #ccc; color: #222; border: none; border-radius: 4px; cursor: pointer; }
           .filter-button.active { background: #003d7a; color: #fff; }
@@ -33,11 +33,11 @@
           .tag-panel.expanded { max-height: 480px; }
           .tag-panel .filter-group { padding: 12px 0 0; }
           .pager-controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 24px; }
-          .slider-panel { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; width: 100%; }
+          .slider-panel { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; width: 100%; background: #fff; padding: 12px; border-radius: 10px; border: 1px solid #d9d9d9; box-shadow: 0 1px 8px rgba(0,0,0,0.05); }
           .slider-panel button { padding: 8px 14px; background: #003d7a; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
           .slider-panel button:hover { opacity: 0.92; }
-          .page-info { font-size: 14px; color: #333; margin-left: 8px; }
-          .page-slider { width: 180px; max-width: 100%; }
+          .page-info { font-size: 14px; color: #333; margin-left: 0; min-width: 145px; }
+          .page-slider { width: 220px; max-width: 100%; }
           .pager { display: none; }
           .pager button:hover { opacity: 0.9; }
         </style>
