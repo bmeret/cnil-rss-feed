@@ -127,6 +127,26 @@
       <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
+      <title>Privacy Research Day : participez à la journée dédiée à la recherche sur la vie privée</title>
+      <link>https://cnil.fr/fr/privacy-research-day-2026</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/privacy-research-day-2026</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/prd_fr.jpg?itok=S6Ozp5ep" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/prd_fr.jpg?itok=S6Ozp5ep" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/prd_fr.jpg?itok=S6Ozp5ep"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/prd_fr.jpg?itok=S6Ozp5ep</url>
+      </image>
+      <description><![CDATA[La cinquième édition de la Journée de recherche sur la vie privée (Privacy Research Day) se tiendra le 24 juin 2026, dans le cadre du G7 des autorités de protection des données accueilli par la CNIL…]]></description>
+      <page>2</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Journée de recherche sur la vie privée - Privacy Research Day</category>
+      <theme>Journée de recherche sur la vie privée - Privacy Research Day</theme>
+      <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Données de santé : sanction de 5 millions d’euros à l’encontre de la société IQVIA</title>
       <link>https://cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia</link>
       <guid isPermaLink="true">https://cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia</guid>
@@ -144,26 +164,6 @@
       <theme>Professionnel</theme>
       <category>Sanction</category>
       <theme>Sanction</theme>
-      <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Quelles qualifications pour les acteurs de l’informatique en nuage (cloud) ?</title>
-      <link>https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN</url>
-      </image>
-      <description><![CDATA[Avant de traiter des données personnelles, il est essentiel que les acteurs identifient leurs rôles. La CNIL fournit des orientations pour aider ceux du secteur de l’informatique en nuage (cloud) à…]]></description>
-      <page>2</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Cloud</category>
-      <theme>Cloud</theme>
-      <category>Sécurité</category>
-      <theme>Sécurité</theme>
       <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -507,26 +507,6 @@
       <pubDate>Thu, 16 Apr 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Pixels de suivi dans les courriers électroniques : la CNIL publie ses recommandations pour mieux protéger la vie privée</title>
-      <link>https://cnil.fr/fr/recommandation-pixel-suivi-courriels</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/recommandation-pixel-suivi-courriels</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/pixel_suivi.png?itok=4iH8QWjO" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/pixel_suivi.png?itok=4iH8QWjO" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/pixel_suivi.png?itok=4iH8QWjO"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/pixel_suivi.png?itok=4iH8QWjO</url>
-      </image>
-      <description><![CDATA[À l’issue d’une consultation publique, la CNIL publie la version finale de ses recommandations sur les pixels de suivi dans les courriels. Elle précise le cadre applicable afin d’aider les acteurs à…]]></description>
-      <page>5</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Pixel de suivi</category>
-      <theme>Pixel de suivi</theme>
-      <category>Cookies et traceurs</category>
-      <theme>Cookies et traceurs</theme>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Pixels de suivi dans les courriers électroniques : vous devez être mieux informés</title>
       <link>https://cnil.fr/fr/pixels-de-suivi-dans-les-courriers-electroniques-vous-devez-etre-mieux-informes</link>
       <guid isPermaLink="true">https://cnil.fr/fr/pixels-de-suivi-dans-les-courriers-electroniques-vous-devez-etre-mieux-informes</guid>
@@ -540,6 +520,26 @@
       <page>5</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
+      <category>Pixel de suivi</category>
+      <theme>Pixel de suivi</theme>
+      <category>Cookies et traceurs</category>
+      <theme>Cookies et traceurs</theme>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Pixels de suivi dans les courriers électroniques : la CNIL publie ses recommandations pour mieux protéger la vie privée</title>
+      <link>https://cnil.fr/fr/recommandation-pixel-suivi-courriels</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/recommandation-pixel-suivi-courriels</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/pixel_suivi.png?itok=4iH8QWjO" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/pixel_suivi.png?itok=4iH8QWjO" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/pixel_suivi.png?itok=4iH8QWjO"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/pixel_suivi.png?itok=4iH8QWjO</url>
+      </image>
+      <description><![CDATA[À l’issue d’une consultation publique, la CNIL publie la version finale de ses recommandations sur les pixels de suivi dans les courriels. Elle précise le cadre applicable afin d’aider les acteurs à…]]></description>
+      <page>5</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
       <category>Pixel de suivi</category>
       <theme>Pixel de suivi</theme>
       <category>Cookies et traceurs</category>
@@ -607,26 +607,6 @@
       <pubDate>Fri, 03 Apr 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Gestion des ressources humaines : la CNIL publie un référentiel de durées de conservation</title>
-      <link>https://cnil.fr/fr/referentiel-durees-conservation-donnees-rh</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/referentiel-durees-conservation-donnees-rh</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/rh-donnees.png?itok=411rl0w8" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/rh-donnees.png?itok=411rl0w8" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/rh-donnees.png?itok=411rl0w8"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/rh-donnees.png?itok=411rl0w8</url>
-      </image>
-      <description><![CDATA[La CNIL publie un référentiel pour aider les responsables de traitement à identifier les durées de conservation pour leurs activités de gestion du personnel.]]></description>
-      <page>6</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Durée de conservation</category>
-      <theme>Durée de conservation</theme>
-      <category>Référentiel</category>
-      <theme>Référentiel</theme>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Revoir le webinaire - Développement d’un système IA, webscraping : comment mobiliser la base légale de l’intérêt légitime ?</title>
       <link>https://cnil.fr/fr/revoir-le-webinaire-developpement-ia-webscraping-base-legale-interet-legitime</link>
       <guid isPermaLink="true">https://cnil.fr/fr/revoir-le-webinaire-developpement-ia-webscraping-base-legale-interet-legitime</guid>
@@ -644,6 +624,26 @@
       <theme>Intelligence artificielle (IA)</theme>
       <category>Développement des systèmes d’IA</category>
       <theme>Développement des systèmes d’IA</theme>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Gestion des ressources humaines : la CNIL publie un référentiel de durées de conservation</title>
+      <link>https://cnil.fr/fr/referentiel-durees-conservation-donnees-rh</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/referentiel-durees-conservation-donnees-rh</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/rh-donnees.png?itok=411rl0w8" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/rh-donnees.png?itok=411rl0w8" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/rh-donnees.png?itok=411rl0w8"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-04/rh-donnees.png?itok=411rl0w8</url>
+      </image>
+      <description><![CDATA[La CNIL publie un référentiel pour aider les responsables de traitement à identifier les durées de conservation pour leurs activités de gestion du personnel.]]></description>
+      <page>6</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Durée de conservation</category>
+      <theme>Durée de conservation</theme>
+      <category>Référentiel</category>
+      <theme>Référentiel</theme>
       <pubDate>Thu, 02 Apr 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -787,26 +787,6 @@
       <pubDate>Fri, 13 Mar 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Réglementation européenne sur les biotechnologies : le CEPD et le Contrôleur européen de la protection des données publient un avis</title>
-      <link>https://cnil.fr/fr/reglementation-europeenne-sur-les-biotechnologies-le-cepd-et-le-controleur-europeen-de-la-protection</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/reglementation-europeenne-sur-les-biotechnologies-le-cepd-et-le-controleur-europeen-de-la-protection</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/europe.jpg?itok=vn6zLHQH" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/europe.jpg?itok=vn6zLHQH" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/europe.jpg?itok=vn6zLHQH"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/europe.jpg?itok=vn6zLHQH</url>
-      </image>
-      <description><![CDATA[Le CEPD et l'EDPS soutiennent l'harmonisation des essais cliniques dans le cadre de la réglementation européenne sur les biotechnologies, mais demandent des garanties spécifiques pour les données…]]></description>
-      <page>7</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>CEPD</category>
-      <theme>CEPD</theme>
-      <category>Contrôleur européen à la protection des données</category>
-      <theme>Contrôleur européen à la protection des données</theme>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>La CNIL sera présente au Forum InCyber (FIC) du 31 mars au 2 avril 2026</title>
       <link>https://cnil.fr/fr/forum-incyber-2026</link>
       <guid isPermaLink="true">https://cnil.fr/fr/forum-incyber-2026</guid>
@@ -824,6 +804,26 @@
       <theme>FIC</theme>
       <category>Cybersécurité</category>
       <theme>Cybersécurité</theme>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Réglementation européenne sur les biotechnologies : le CEPD et le Contrôleur européen de la protection des données publient un avis</title>
+      <link>https://cnil.fr/fr/reglementation-europeenne-sur-les-biotechnologies-le-cepd-et-le-controleur-europeen-de-la-protection</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/reglementation-europeenne-sur-les-biotechnologies-le-cepd-et-le-controleur-europeen-de-la-protection</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/europe.jpg?itok=vn6zLHQH" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/europe.jpg?itok=vn6zLHQH" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/europe.jpg?itok=vn6zLHQH"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/europe.jpg?itok=vn6zLHQH</url>
+      </image>
+      <description><![CDATA[Le CEPD et l'EDPS soutiennent l'harmonisation des essais cliniques dans le cadre de la réglementation européenne sur les biotechnologies, mais demandent des garanties spécifiques pour les données…]]></description>
+      <page>7</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>CEPD</category>
+      <theme>CEPD</theme>
+      <category>Contrôleur européen à la protection des données</category>
+      <theme>Contrôleur européen à la protection des données</theme>
       <pubDate>Thu, 12 Mar 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -1207,26 +1207,6 @@
       <pubDate>Mon, 02 Feb 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Le Commissaire à la protection de la vie privée du Canada et la CNIL ont signé une déclaration de coopération</title>
-      <link>https://cnil.fr/fr/cooperation-commissaire-la-protection-de-la-vie-privee-du-canada-et-la-cnil</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/cooperation-commissaire-la-protection-de-la-vie-privee-du-canada-et-la-cnil</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/photo_signature_canada.png?itok=REGM7HOf" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/photo_signature_canada.png?itok=REGM7HOf" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/photo_signature_canada.png?itok=REGM7HOf"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/photo_signature_canada.png?itok=REGM7HOf</url>
-      </image>
-      <description><![CDATA[Cette déclaration permettra de renforcer la compréhension commune, par les deux autorités, des nouvelles technologies et de relever ensemble les défis posés par la protection des données personnelles…]]></description>
-      <page>11</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Partenariat</category>
-      <theme>Partenariat</theme>
-      <pubDate>Fri, 30 Jan 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Élections municipales 2026 : le plan d’action de la CNIL pour protéger les données des électeurs</title>
       <link>https://cnil.fr/fr/elections-municipales-2026-le-plan-daction-de-la-cnil</link>
       <guid isPermaLink="true">https://cnil.fr/fr/elections-municipales-2026-le-plan-daction-de-la-cnil</guid>
@@ -1244,6 +1224,26 @@
       <theme>Professionnel</theme>
       <category>Communication politique</category>
       <theme>Communication politique</theme>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Le Commissaire à la protection de la vie privée du Canada et la CNIL ont signé une déclaration de coopération</title>
+      <link>https://cnil.fr/fr/cooperation-commissaire-la-protection-de-la-vie-privee-du-canada-et-la-cnil</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/cooperation-commissaire-la-protection-de-la-vie-privee-du-canada-et-la-cnil</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/photo_signature_canada.png?itok=REGM7HOf" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/photo_signature_canada.png?itok=REGM7HOf" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/photo_signature_canada.png?itok=REGM7HOf"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/photo_signature_canada.png?itok=REGM7HOf</url>
+      </image>
+      <description><![CDATA[Cette déclaration permettra de renforcer la compréhension commune, par les deux autorités, des nouvelles technologies et de relever ensemble les défis posés par la protection des données personnelles…]]></description>
+      <page>11</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Partenariat</category>
+      <theme>Partenariat</theme>
       <pubDate>Fri, 30 Jan 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -1447,6 +1447,20 @@
       <pubDate>Fri, 16 Jan 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
+      <title>Certifications et codes de conduite : la CNIL cartographie le déploiement des outils RGPD en Europe</title>
+      <link>https://cnil.fr/fr/la-cnil-cartographie-le-deploiement-des-outils-rgpd-en-europe</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-cartographie-le-deploiement-des-outils-rgpd-en-europe</guid>
+      <description><![CDATA[Pour faciliter l’identification des outils de conformité disponibles, la CNIL met en ligne deux cartes qui recensent les certifications et les codes de conduite approuvés par les autorités nationales…]]></description>
+      <page>13</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Conformité</category>
+      <theme>Conformité</theme>
+      <category>Outils de la conformité</category>
+      <theme>Outils de la conformité</theme>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Violation de données : sanction de 42 millions d’euros à l’encontre des sociétés FREE MOBILE et FREE</title>
       <link>https://cnil.fr/fr/sanction-free-2026</link>
       <guid isPermaLink="true">https://cnil.fr/fr/sanction-free-2026</guid>
@@ -1464,20 +1478,6 @@
       <theme>Professionnel</theme>
       <category>Sanction</category>
       <theme>Sanction</theme>
-      <pubDate>Wed, 14 Jan 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Certifications et codes de conduite : la CNIL cartographie le déploiement des outils RGPD en Europe</title>
-      <link>https://cnil.fr/fr/la-cnil-cartographie-le-deploiement-des-outils-rgpd-en-europe</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-cartographie-le-deploiement-des-outils-rgpd-en-europe</guid>
-      <description><![CDATA[Pour faciliter l’identification des outils de conformité disponibles, la CNIL met en ligne deux cartes qui recensent les certifications et les codes de conduite approuvés par les autorités nationales…]]></description>
-      <page>13</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Conformité</category>
-      <theme>Conformité</theme>
-      <category>Outils de la conformité</category>
-      <theme>Outils de la conformité</theme>
       <pubDate>Wed, 14 Jan 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -1581,6 +1581,20 @@
       <pubDate>Tue, 23 Dec 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
+      <title>La CNIL à Nantes pour sensibiliser à la protection des données personnelles</title>
+      <link>https://cnil.fr/fr/la-cnil-nantes-pour-sensibiliser-la-protection-des-donnees-personnelles</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-nantes-pour-sensibiliser-la-protection-des-donnees-personnelles</guid>
+      <description><![CDATA[Les 9, 10 et 12 décembre, dans le cadre de la journée RGPD à Nantes, la CNIL a rencontré des élèves, médiateurs numériques et agents de la métropole. Au programme : des temps d’échange et de…]]></description>
+      <page>14</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>La CNIL en France</category>
+      <theme>La CNIL en France</theme>
+      <category>Éducation numérique</category>
+      <theme>Éducation numérique</theme>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Le règlement sur les données (Data Act) : un nouveau cadre européen pour le partage et l’utilisation des données</title>
       <link>https://cnil.fr/fr/reglement-donnees-data-act-nouveau-cadre-europeen-pour-partage-utilisation-donnees</link>
       <guid isPermaLink="true">https://cnil.fr/fr/reglement-donnees-data-act-nouveau-cadre-europeen-pour-partage-utilisation-donnees</guid>
@@ -1598,20 +1612,6 @@
       <theme>Professionnel</theme>
       <category>Data Act</category>
       <theme>Data Act</theme>
-      <pubDate>Mon, 22 Dec 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>La CNIL à Nantes pour sensibiliser à la protection des données personnelles</title>
-      <link>https://cnil.fr/fr/la-cnil-nantes-pour-sensibiliser-la-protection-des-donnees-personnelles</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-nantes-pour-sensibiliser-la-protection-des-donnees-personnelles</guid>
-      <description><![CDATA[Les 9, 10 et 12 décembre, dans le cadre de la journée RGPD à Nantes, la CNIL a rencontré des élèves, médiateurs numériques et agents de la métropole. Au programme : des temps d’échange et de…]]></description>
-      <page>14</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>La CNIL en France</category>
-      <theme>La CNIL en France</theme>
-      <category>Éducation numérique</category>
-      <theme>Éducation numérique</theme>
       <pubDate>Mon, 22 Dec 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -2111,26 +2111,6 @@
       <pubDate>Tue, 21 Oct 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Journée RGPD le mardi 9 décembre 2025 à Nantes</title>
-      <link>https://cnil.fr/fr/journee-rgpd-le-mardi-9-decembre-2025-nantes</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/journee-rgpd-le-mardi-9-decembre-2025-nantes</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-12/visuel_jrgpd_nantes.jpg?itok=QQEI40TK" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-12/visuel_jrgpd_nantes.jpg?itok=QQEI40TK" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-12/visuel_jrgpd_nantes.jpg?itok=QQEI40TK"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-12/visuel_jrgpd_nantes.jpg?itok=QQEI40TK</url>
-      </image>
-      <description><![CDATA[Dans la continuité des précédentes éditions, la CNIL organise à Nantes une nouvelle Journée RGPD. Ce temps d’échange permettra de débattre des actualités et des enjeux liés à la protection des…]]></description>
-      <page>18</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Journées RGPD</category>
-      <theme>Journées RGPD</theme>
-      <category>La CNIL en France</category>
-      <theme>La CNIL en France</theme>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Adéquations du Royaume-Uni : le CEPD adopte deux avis</title>
       <link>https://cnil.fr/fr/adequations-du-royaume-uni-le-cepd-adopte-deux-avis</link>
       <guid isPermaLink="true">https://cnil.fr/fr/adequations-du-royaume-uni-le-cepd-adopte-deux-avis</guid>
@@ -2148,6 +2128,26 @@
       <theme>Professionnel</theme>
       <category>CEPD</category>
       <theme>CEPD</theme>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Journée RGPD le mardi 9 décembre 2025 à Nantes</title>
+      <link>https://cnil.fr/fr/journee-rgpd-le-mardi-9-decembre-2025-nantes</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/journee-rgpd-le-mardi-9-decembre-2025-nantes</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-12/visuel_jrgpd_nantes.jpg?itok=QQEI40TK" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-12/visuel_jrgpd_nantes.jpg?itok=QQEI40TK" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-12/visuel_jrgpd_nantes.jpg?itok=QQEI40TK"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-12/visuel_jrgpd_nantes.jpg?itok=QQEI40TK</url>
+      </image>
+      <description><![CDATA[Dans la continuité des précédentes éditions, la CNIL organise à Nantes une nouvelle Journée RGPD. Ce temps d’échange permettra de débattre des actualités et des enjeux liés à la protection des…]]></description>
+      <page>18</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Journées RGPD</category>
+      <theme>Journées RGPD</theme>
+      <category>La CNIL en France</category>
+      <theme>La CNIL en France</theme>
       <pubDate>Mon, 20 Oct 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -2389,26 +2389,6 @@
       <pubDate>Mon, 22 Sep 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Clôture de l’injonction prononcée à l’encontre de la société ORANGE</title>
-      <link>https://cnil.fr/fr/cloture-de-linjonction-prononcee-lencontre-de-la-societe-orange</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/cloture-de-linjonction-prononcee-lencontre-de-la-societe-orange</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG</url>
-      </image>
-      <description><![CDATA[Par délibération du 11 septembre 2025, la CNIL a clôturé l’injonction prononcée le 14 novembre 2024 à l’encontre de la société ORANGE.]]></description>
-      <page>21</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Sanction</category>
-      <theme>Sanction</theme>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Achat de contenus numériques : quelle durée de conservation des comptes inactifs ?</title>
       <link>https://cnil.fr/fr/achat-de-contenus-numeriques-quelle-duree-de-conservation-des-comptes-inactifs</link>
       <guid isPermaLink="true">https://cnil.fr/fr/achat-de-contenus-numeriques-quelle-duree-de-conservation-des-comptes-inactifs</guid>
@@ -2426,6 +2406,26 @@
       <theme>Durée de conservation</theme>
       <category>Jeux Video</category>
       <theme>Jeux Video</theme>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Clôture de l’injonction prononcée à l’encontre de la société ORANGE</title>
+      <link>https://cnil.fr/fr/cloture-de-linjonction-prononcee-lencontre-de-la-societe-orange</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/cloture-de-linjonction-prononcee-lencontre-de-la-societe-orange</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG</url>
+      </image>
+      <description><![CDATA[Par délibération du 11 septembre 2025, la CNIL a clôturé l’injonction prononcée le 14 novembre 2024 à l’encontre de la société ORANGE.]]></description>
+      <page>21</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Sanction</category>
+      <theme>Sanction</theme>
       <pubDate>Thu, 18 Sep 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -2489,37 +2489,17 @@
       <pubDate>Tue, 09 Sep 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Publicités insérées entre les courriels et cookies : la CNIL sanctionne GOOGLE d’une amende de 325 millions d’euros</title>
-      <link>https://cnil.fr/fr/publicites-inserees-entre-les-courriels-et-cookies-la-cnil-sanctionne-google-dune-amende-de-325</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/publicites-inserees-entre-les-courriels-et-cookies-la-cnil-sanctionne-google-dune-amende-de-325</guid>
+      <title>Cookies déposés sans consentement : la CNIL sanctionne SHEIN d’une amende de 150 millions d’euros</title>
+      <link>https://cnil.fr/fr/cookies-deposes-sans-consentement-la-cnil-sanctionne-shein-dune-amende-de-150-millions-deuros</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/cookies-deposes-sans-consentement-la-cnil-sanctionne-shein-dune-amende-de-150-millions-deuros</guid>
       <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" length="0" type="image/png"/>
       <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" medium="image" type="image/png"/>
       <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9"/>
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
       </image>
-      <description><![CDATA[Le 1er septembre 2025, la CNIL a sanctionné Google d’une amende de 325 millions d’euros pour avoir affiché des publicités entre les courriels des utilisateurs de Gmail sans leur accord, et pour avoir…]]></description>
+      <description><![CDATA[Le 1er septembre 2025, la CNIL a sanctionné la société INFINITE STYLES SERVICES CO. LIMITED, filiale irlandaise du groupe SHEIN, d’une amende de 150 millions d’euros pour le non-respect des règles…]]></description>
       <page>21</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Sanction</category>
-      <theme>Sanction</theme>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Publicités insérées entre les courriels et cookies : la CNIL sanctionne GOOGLE d’une amende de 325 millions d’euros</title>
-      <link>https://cnil.fr/fr/publicites-inserees-entre-les-courriels-et-cookies-la-cnil-sanctionne-google-dune-amende-de-325</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/publicites-inserees-entre-les-courriels-et-cookies-la-cnil-sanctionne-google-dune-amende-de-325</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
-      </image>
-      <description><![CDATA[Le 1er septembre 2025, la CNIL a sanctionné Google d’une amende de 325 millions d’euros pour avoir affiché des publicités entre les courriels des utilisateurs de Gmail sans leur accord, et pour avoir…]]></description>
-      <page>22</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
       <category>Professionnel</category>
@@ -2539,6 +2519,26 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
       </image>
       <description><![CDATA[Le 1er septembre 2025, la CNIL a sanctionné la société INFINITE STYLES SERVICES CO. LIMITED, filiale irlandaise du groupe SHEIN, d’une amende de 150 millions d’euros pour le non-respect des règles…]]></description>
+      <page>22</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Sanction</category>
+      <theme>Sanction</theme>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Régulation des cookies : la CNIL poursuit le plan d’action initié en 2019 et prononce deux amendes à l’encontre de GOOGLE et SHEIN</title>
+      <link>https://cnil.fr/fr/regulation-des-cookies-la-cnil-poursuit-le-plan-daction-initie-en-2019-et-prononce-deux-amendes</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/regulation-des-cookies-la-cnil-poursuit-le-plan-daction-initie-en-2019-et-prononce-deux-amendes</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-09/sanctions.png?itok=xHFNhWjq" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-09/sanctions.png?itok=xHFNhWjq" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-09/sanctions.png?itok=xHFNhWjq"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-09/sanctions.png?itok=xHFNhWjq</url>
+      </image>
+      <description><![CDATA[La CNIL sanctionne GOOGLE d’une amende de 325 millions d’euros et SHEIN de 150 millions d’euros, notamment pour le non-respect des règles sur les traceurs (cookies). Ces amendes s’inscrivent dans la…]]></description>
       <page>22</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -2747,26 +2747,6 @@
       <pubDate>Fri, 11 Jul 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Le comité de la prospective, partiellement renouvelé, devient le Conseil scientifique et de la prospective de la CNIL</title>
-      <link>https://cnil.fr/fr/le-comite-de-la-prospective-devient-le-conseil-scientifique-et-de-la-prospective</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/le-comite-de-la-prospective-devient-le-conseil-scientifique-et-de-la-prospective</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/comite.png?itok=Hv2HiAaX" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/comite.png?itok=Hv2HiAaX" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/comite.png?itok=Hv2HiAaX"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/comite.png?itok=Hv2HiAaX</url>
-      </image>
-      <description><![CDATA[À l’occasion du renouvellement d’une partie de ses membres, et afin de mieux refléter ses activités, le comité de la prospective change de nom, pour devenir le conseil scientifique et de la…]]></description>
-      <page>24</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Innovation et prospective</category>
-      <theme>Innovation et prospective</theme>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Revoir le webinaire :  Référentiels santé - présentation du programme de travail</title>
       <link>https://cnil.fr/fr/revoir-le-webinaire-referentiels-sante-programme-de-travail</link>
       <guid isPermaLink="true">https://cnil.fr/fr/revoir-le-webinaire-referentiels-sante-programme-de-travail</guid>
@@ -2787,24 +2767,24 @@
       <pubDate>Thu, 10 Jul 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>[Rediffusion] Evènement « RGPD : quel impact économique ? »</title>
-      <link>https://cnil.fr/fr/participez-levenement-rgpd-quel-impact-economique-le-20-mai-2025</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/participez-levenement-rgpd-quel-impact-economique-le-20-mai-2025</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/visuel-impact-economique.png?itok=JgdRDrNs" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/visuel-impact-economique.png?itok=JgdRDrNs" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/visuel-impact-economique.png?itok=JgdRDrNs"/>
+      <title>Le comité de la prospective, partiellement renouvelé, devient le Conseil scientifique et de la prospective de la CNIL</title>
+      <link>https://cnil.fr/fr/le-comite-de-la-prospective-devient-le-conseil-scientifique-et-de-la-prospective</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/le-comite-de-la-prospective-devient-le-conseil-scientifique-et-de-la-prospective</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/comite.png?itok=Hv2HiAaX" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/comite.png?itok=Hv2HiAaX" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/comite.png?itok=Hv2HiAaX"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/visuel-impact-economique.png?itok=JgdRDrNs</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/comite.png?itok=Hv2HiAaX</url>
       </image>
-      <description><![CDATA[Plus de 5 ans après l’entrée en vigueur du RGPD, la CNIL et la Direction générale du Trésor organisent le 20 mai 2025 un événement académique pour évaluer son impact économique. Cette rencontre…]]></description>
+      <description><![CDATA[À l’occasion du renouvellement d’une partie de ses membres, et afin de mieux refléter ses activités, le comité de la prospective change de nom, pour devenir le conseil scientifique et de la…]]></description>
       <page>24</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
-      <category>Economie</category>
-      <theme>Economie</theme>
-      <pubDate>Wed, 09 Jul 2025 00:00:00 -0000</pubDate>
+      <category>Innovation et prospective</category>
+      <theme>Innovation et prospective</theme>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>Remise du prix « Protection de la vie privée » 2025 par la CNIL et l’Inria</title>
@@ -2827,16 +2807,24 @@
       <pubDate>Wed, 09 Jul 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>La CNIL rend hommage à Chawki Gaddès, ancien président de l’Association francophone des autorités de protection des données personnelles</title>
-      <link>https://cnil.fr/fr/hommage-chawki-gaddes</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/hommage-chawki-gaddes</guid>
-      <description><![CDATA[Chawki Gaddès, ancien président de l’Instance nationale de protection des données personnelle (INPDP) tunisienne et de l’Association francophone des autorités de protection des données personnelles …]]></description>
+      <title>[Rediffusion] Evènement « RGPD : quel impact économique ? »</title>
+      <link>https://cnil.fr/fr/participez-levenement-rgpd-quel-impact-economique-le-20-mai-2025</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/participez-levenement-rgpd-quel-impact-economique-le-20-mai-2025</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/visuel-impact-economique.png?itok=JgdRDrNs" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/visuel-impact-economique.png?itok=JgdRDrNs" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/visuel-impact-economique.png?itok=JgdRDrNs"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/visuel-impact-economique.png?itok=JgdRDrNs</url>
+      </image>
+      <description><![CDATA[Plus de 5 ans après l’entrée en vigueur du RGPD, la CNIL et la Direction générale du Trésor organisent le 20 mai 2025 un événement académique pour évaluer son impact économique. Cette rencontre…]]></description>
       <page>24</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 -0000</pubDate>
+      <category>Economie</category>
+      <theme>Economie</theme>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>Déclaration du CEPD à Helsinki : pour une approche de l’innovation et de la compétitivité fondée sur les droits fondamentaux</title>
@@ -2859,6 +2847,18 @@
       <pubDate>Tue, 08 Jul 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
+      <title>La CNIL rend hommage à Chawki Gaddès, ancien président de l’Association francophone des autorités de protection des données personnelles</title>
+      <link>https://cnil.fr/fr/hommage-chawki-gaddes</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/hommage-chawki-gaddes</guid>
+      <description><![CDATA[Chawki Gaddès, ancien président de l’Instance nationale de protection des données personnelle (INPDP) tunisienne et de l’Association francophone des autorités de protection des données personnelles …]]></description>
+      <page>24</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Parentalité numérique : la CNIL et l’AFCDP outillent les DPO pour sensibiliser les parents salariés</title>
       <link>https://cnil.fr/fr/parentalite-numerique-la-cnil-et-lafcdp</link>
       <guid isPermaLink="true">https://cnil.fr/fr/parentalite-numerique-la-cnil-et-lafcdp</guid>
@@ -2877,6 +2877,24 @@
       <category>Parentalité</category>
       <theme>Parentalité</theme>
       <pubDate>Mon, 07 Jul 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Cookies : solutions pour les outils de mesure d'audience</title>
+      <link>https://cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/cookies-traceurs.png?itok=-TAVCF9U" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/cookies-traceurs.png?itok=-TAVCF9U" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/cookies-traceurs.png?itok=-TAVCF9U"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/cookies-traceurs.png?itok=-TAVCF9U</url>
+      </image>
+      <description><![CDATA[La gestion d’un site web ou d’une application mobile requiert généralement l’utilisation de statistiques de fréquentation ou de performance, souvent indispensables à la fourniture du service. Les…]]></description>
+      <page>25</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Cookies et traceurs</category>
+      <theme>Cookies et traceurs</theme>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>Laurène Assailly reçoit le premier prix CNIL/EHESS pour sa recherche sur la régulation des données de santé</title>
@@ -2919,22 +2937,24 @@
       <pubDate>Fri, 04 Jul 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Cookies : solutions pour les outils de mesure d'audience</title>
-      <link>https://cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/cookies-traceurs.png?itok=-TAVCF9U" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/cookies-traceurs.png?itok=-TAVCF9U" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/cookies-traceurs.png?itok=-TAVCF9U"/>
+      <title>Innovation responsable et protection des mineurs : deux priorités pour les autorités de protection des données du G7</title>
+      <link>https://cnil.fr/fr/autorites-protection-donnees-g7-priorites-innovation-mineurs</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/autorites-protection-donnees-g7-priorites-innovation-mineurs</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/g7-privacy.png?itok=51Kw5_8b" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/g7-privacy.png?itok=51Kw5_8b" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/g7-privacy.png?itok=51Kw5_8b"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/cookies-traceurs.png?itok=-TAVCF9U</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/g7-privacy.png?itok=51Kw5_8b</url>
       </image>
-      <description><![CDATA[La gestion d’un site web ou d’une application mobile requiert généralement l’utilisation de statistiques de fréquentation ou de performance, souvent indispensables à la fourniture du service. Les…]]></description>
+      <description><![CDATA[Les autorités de protection des données des pays du G7 se sont réunies à Ottawa du 17 au 20 juin 2025 sous la présidence du Commissariat à la protection de la vie privée du Canada. Elles ont adopté…]]></description>
       <page>25</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
-      <category>Cookies et traceurs</category>
-      <theme>Cookies et traceurs</theme>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 -0000</pubDate>
+      <category>G7</category>
+      <theme>G7</theme>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>Encadrement de la publicité politique ciblée : la CNIL met à jour sa doctrine</title>
@@ -2957,24 +2977,22 @@
       <pubDate>Thu, 03 Jul 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Innovation responsable et protection des mineurs : deux priorités pour les autorités de protection des données du G7</title>
-      <link>https://cnil.fr/fr/autorites-protection-donnees-g7-priorites-innovation-mineurs</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/autorites-protection-donnees-g7-priorites-innovation-mineurs</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/g7-privacy.png?itok=51Kw5_8b" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/g7-privacy.png?itok=51Kw5_8b" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/g7-privacy.png?itok=51Kw5_8b"/>
+      <title>Echanges entre la CNIL et des représentants du Commissariat aux droits de l’Homme du parlement ukrainien</title>
+      <link>https://cnil.fr/fr/echanges-entre-la-cnil-et-des-representants-du-commissariat-aux-droits-de-lhomme-du-parlement</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/echanges-entre-la-cnil-et-des-representants-du-commissariat-aux-droits-de-lhomme-du-parlement</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/delegation-ukraine-cnil.png?itok=bKlM1Dzz" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/delegation-ukraine-cnil.png?itok=bKlM1Dzz" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/delegation-ukraine-cnil.png?itok=bKlM1Dzz"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-07/g7-privacy.png?itok=51Kw5_8b</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/delegation-ukraine-cnil.png?itok=bKlM1Dzz</url>
       </image>
-      <description><![CDATA[Les autorités de protection des données des pays du G7 se sont réunies à Ottawa du 17 au 20 juin 2025 sous la présidence du Commissariat à la protection de la vie privée du Canada. Elles ont adopté…]]></description>
-      <page>25</page>
+      <description><![CDATA[Dans le cadre du programme européen d’assistance technique et d’échange d’informations (TAIEX) de la Commission européenne, la CNIL a accueilli plusieurs représentants du Commissariat aux droits de l…]]></description>
+      <page>26</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>G7</category>
-      <theme>G7</theme>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 -0000</pubDate>
+      <category>Europe</category>
+      <theme>Europe</theme>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>PANAME :  un partenariat pour l’audit de la confidentialité des modèles d’IA</title>
@@ -2994,24 +3012,6 @@
       <theme>Professionnel</theme>
       <category>Intelligence artificielle (IA)</category>
       <theme>Intelligence artificielle (IA)</theme>
-      <pubDate>Thu, 26 Jun 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Echanges entre la CNIL et des représentants du Commissariat aux droits de l’Homme du parlement ukrainien</title>
-      <link>https://cnil.fr/fr/echanges-entre-la-cnil-et-des-representants-du-commissariat-aux-droits-de-lhomme-du-parlement</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/echanges-entre-la-cnil-et-des-representants-du-commissariat-aux-droits-de-lhomme-du-parlement</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/delegation-ukraine-cnil.png?itok=bKlM1Dzz" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/delegation-ukraine-cnil.png?itok=bKlM1Dzz" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/delegation-ukraine-cnil.png?itok=bKlM1Dzz"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/delegation-ukraine-cnil.png?itok=bKlM1Dzz</url>
-      </image>
-      <description><![CDATA[Dans le cadre du programme européen d’assistance technique et d’échange d’informations (TAIEX) de la Commission européenne, la CNIL a accueilli plusieurs représentants du Commissariat aux droits de l…]]></description>
-      <page>26</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Europe</category>
-      <theme>Europe</theme>
       <pubDate>Thu, 26 Jun 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -3095,26 +3095,6 @@
       <pubDate>Wed, 18 Jun 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Cadre de prescription compassionnelle : la procédure à suivre pour les traitements concernés</title>
-      <link>https://cnil.fr/fr/cadre-prescription-compassionnelle</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/cadre-prescription-compassionnelle</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/medicament.png?itok=aSZUZMwV" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/medicament.png?itok=aSZUZMwV" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/medicament.png?itok=aSZUZMwV"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/medicament.png?itok=aSZUZMwV</url>
-      </image>
-      <description><![CDATA[Les traitements issus des cadres de prescription compassionnelle, avec suivi des patients, doivent faire l’objet d’une formalité préalable auprès de la CNIL. Cette fiche apporte des clarifications…]]></description>
-      <page>27</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Santé</category>
-      <theme>Santé</theme>
-      <category>Médicaments</category>
-      <theme>Médicaments</theme>
-      <pubDate>Mon, 16 Jun 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Découvrez les lauréats 2025 du concours Trophées des classes « Ensemble, tous protégés sur Internet ! »</title>
       <link>https://cnil.fr/fr/laureats-trophee-des-classes-2025</link>
       <guid isPermaLink="true">https://cnil.fr/fr/laureats-trophee-des-classes-2025</guid>
@@ -3132,6 +3112,26 @@
       <theme>Trophées des classes</theme>
       <category>Cyber harcèlement</category>
       <theme>Cyber harcèlement</theme>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Cadre de prescription compassionnelle : la procédure à suivre pour les traitements concernés</title>
+      <link>https://cnil.fr/fr/cadre-prescription-compassionnelle</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/cadre-prescription-compassionnelle</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/medicament.png?itok=aSZUZMwV" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/medicament.png?itok=aSZUZMwV" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/medicament.png?itok=aSZUZMwV"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-06/medicament.png?itok=aSZUZMwV</url>
+      </image>
+      <description><![CDATA[Les traitements issus des cadres de prescription compassionnelle, avec suivi des patients, doivent faire l’objet d’une formalité préalable auprès de la CNIL. Cette fiche apporte des clarifications…]]></description>
+      <page>27</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Santé</category>
+      <theme>Santé</theme>
+      <category>Médicaments</category>
+      <theme>Médicaments</theme>
       <pubDate>Mon, 16 Jun 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -3255,26 +3255,6 @@
       <pubDate>Mon, 02 Jun 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Courtiers en données : sanction de 80 000 euros à l’encontre de la société CALOGA</title>
-      <link>https://cnil.fr/fr/sanction-de-80-000-euros-societe-caloga</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/sanction-de-80-000-euros-societe-caloga</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
-      </image>
-      <description><![CDATA[Le 15 mai 2025, la CNIL a sanctionné la société CALOGA d’une amende de 80 000 euros pour avoir démarché des prospects sans leur consentement et transmis leurs données à des partenaires sans base…]]></description>
-      <page>28</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Sanction</category>
-      <theme>Sanction</theme>
-      <pubDate>Tue, 27 May 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>IA : Meta entraînera ses systèmes d’IA avec les données des utilisateurs européens dès fin mai 2025</title>
       <link>https://cnil.fr/fr/meta-entrainement-ia-donnees-utilisateurs</link>
       <guid isPermaLink="true">https://cnil.fr/fr/meta-entrainement-ia-donnees-utilisateurs</guid>
@@ -3292,6 +3272,26 @@
       <theme>Professionnel</theme>
       <category>Meta</category>
       <theme>Meta</theme>
+      <pubDate>Tue, 27 May 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Courtiers en données : sanction de 80 000 euros à l’encontre de la société CALOGA</title>
+      <link>https://cnil.fr/fr/sanction-de-80-000-euros-societe-caloga</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/sanction-de-80-000-euros-societe-caloga</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
+      </image>
+      <description><![CDATA[Le 15 mai 2025, la CNIL a sanctionné la société CALOGA d’une amende de 80 000 euros pour avoir démarché des prospects sans leur consentement et transmis leurs données à des partenaires sans base…]]></description>
+      <page>28</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Sanction</category>
+      <theme>Sanction</theme>
       <pubDate>Tue, 27 May 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -3755,26 +3755,6 @@
       <pubDate>Wed, 02 Apr 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Comment faire la une des journaux grâce au RGPD et une violation de données ?</title>
-      <link>https://cnil.fr/fr/comment-faire-la-une-des-journaux-grace-au-rgpd-et-une-violation-de-donnees</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/comment-faire-la-une-des-journaux-grace-au-rgpd-et-une-violation-de-donnees</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-04/une-journaux-visuel.png?itok=aqOVxYLp" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-04/une-journaux-visuel.png?itok=aqOVxYLp" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-04/une-journaux-visuel.png?itok=aqOVxYLp"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-04/une-journaux-visuel.png?itok=aqOVxYLp</url>
-      </image>
-      <description><![CDATA[Régulièrement, la CNIL communique sur des violations de données inspirées d’incidents réels qui lui sont notifiés. Dans cette publication, elle revient sur les pratiques à adopter pour provoquer à…]]></description>
-      <page>32</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Violation de données</category>
-      <theme>Violation de données</theme>
-      <category>Scénario de violation</category>
-      <theme>Scénario de violation</theme>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Authentification multifacteur : les recommandations de la CNIL pour mieux protéger les données</title>
       <link>https://cnil.fr/fr/recommandation-mfa</link>
       <guid isPermaLink="true">https://cnil.fr/fr/recommandation-mfa</guid>
@@ -3792,6 +3772,26 @@
       <theme>Conformité</theme>
       <category>Sécurité informatique</category>
       <theme>Sécurité informatique</theme>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Comment faire la une des journaux grâce au RGPD et une violation de données ?</title>
+      <link>https://cnil.fr/fr/comment-faire-la-une-des-journaux-grace-au-rgpd-et-une-violation-de-donnees</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/comment-faire-la-une-des-journaux-grace-au-rgpd-et-une-violation-de-donnees</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-04/une-journaux-visuel.png?itok=aqOVxYLp" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-04/une-journaux-visuel.png?itok=aqOVxYLp" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-04/une-journaux-visuel.png?itok=aqOVxYLp"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-04/une-journaux-visuel.png?itok=aqOVxYLp</url>
+      </image>
+      <description><![CDATA[Régulièrement, la CNIL communique sur des violations de données inspirées d’incidents réels qui lui sont notifiés. Dans cette publication, elle revient sur les pratiques à adopter pour provoquer à…]]></description>
+      <page>32</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Violation de données</category>
+      <theme>Violation de données</theme>
+      <category>Scénario de violation</category>
+      <theme>Scénario de violation</theme>
       <pubDate>Tue, 01 Apr 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -3935,26 +3935,6 @@
       <pubDate>Tue, 25 Mar 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Revoir le webinaire : Comment déployer un système d’IA générative, les premières préconisations de la CNIL</title>
-      <link>https://cnil.fr/fr/revoir-le-webinaire-comment-deployer-un-systeme-dia-generative-les-premieres-preconisations</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/revoir-le-webinaire-comment-deployer-un-systeme-dia-generative-les-premieres-preconisations</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh</url>
-      </image>
-      <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré à l'intelligence…]]></description>
-      <page>34</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Webinaire</category>
-      <theme>Webinaire</theme>
-      <category>Intelligence artificielle (IA)</category>
-      <theme>Intelligence artificielle (IA)</theme>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Les contrôles de la CNIL en 2025 : applications mobiles, administration pénitentiaire, cybersécurité des collectivités</title>
       <link>https://cnil.fr/fr/les-controles-de-la-cnil-en-2025</link>
       <guid isPermaLink="true">https://cnil.fr/fr/les-controles-de-la-cnil-en-2025</guid>
@@ -3975,24 +3955,24 @@
       <pubDate>Fri, 21 Mar 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>IA, concurrence et données personnelles : poursuite des travaux entre la CNIL et l’Autorité de la concurrence</title>
-      <link>https://cnil.fr/fr/ia-concurrence-et-donnees-personnelles-poursuite-des-travaux-entre-la-cnil-et-adlc</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/ia-concurrence-et-donnees-personnelles-poursuite-des-travaux-entre-la-cnil-et-adlc</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/logo-adlc.png?itok=WJ6N0Rlr" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/logo-adlc.png?itok=WJ6N0Rlr" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/logo-adlc.png?itok=WJ6N0Rlr"/>
+      <title>Revoir le webinaire : Comment déployer un système d’IA générative, les premières préconisations de la CNIL</title>
+      <link>https://cnil.fr/fr/revoir-le-webinaire-comment-deployer-un-systeme-dia-generative-les-premieres-preconisations</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/revoir-le-webinaire-comment-deployer-un-systeme-dia-generative-les-premieres-preconisations</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/logo-adlc.png?itok=WJ6N0Rlr</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh</url>
       </image>
-      <description><![CDATA[Le 5 mars 2025, la CNIL et l’Autorité de la concurrence (Adlc) ont échangé sur les liens entre protection des données et concurrence dans le développement de l’IA. Cet échange s’inscrit dans le cadre…]]></description>
+      <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré à l'intelligence…]]></description>
       <page>34</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
+      <category>Webinaire</category>
+      <theme>Webinaire</theme>
       <category>Intelligence artificielle (IA)</category>
       <theme>Intelligence artificielle (IA)</theme>
-      <pubDate>Thu, 20 Mar 2025 00:00:00 -0000</pubDate>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>[Clôturée] Conformité et sécurité des dossiers médicaux : la CNIL lance une consultation publique sur un projet de recommandation</title>
@@ -4012,6 +3992,26 @@
       <theme>Professionnel</theme>
       <category>Dossier patient</category>
       <theme>Dossier patient</theme>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>IA, concurrence et données personnelles : poursuite des travaux entre la CNIL et l’Autorité de la concurrence</title>
+      <link>https://cnil.fr/fr/ia-concurrence-et-donnees-personnelles-poursuite-des-travaux-entre-la-cnil-et-adlc</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/ia-concurrence-et-donnees-personnelles-poursuite-des-travaux-entre-la-cnil-et-adlc</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/logo-adlc.png?itok=WJ6N0Rlr" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/logo-adlc.png?itok=WJ6N0Rlr" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/logo-adlc.png?itok=WJ6N0Rlr"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/logo-adlc.png?itok=WJ6N0Rlr</url>
+      </image>
+      <description><![CDATA[Le 5 mars 2025, la CNIL et l’Autorité de la concurrence (Adlc) ont échangé sur les liens entre protection des données et concurrence dans le développement de l’IA. Cet échange s’inscrit dans le cadre…]]></description>
+      <page>34</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Intelligence artificielle (IA)</category>
+      <theme>Intelligence artificielle (IA)</theme>
       <pubDate>Thu, 20 Mar 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -4175,23 +4175,23 @@
       <pubDate>Thu, 20 Feb 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Accompagnement numérique : la CNIL et France services aident les usagers à protéger leurs données personnelles</title>
-      <link>https://cnil.fr/fr/accompagnement-numerique-la-cnil-et-france-services</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/accompagnement-numerique-la-cnil-et-france-services</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/accompagnement_france_service_visuel.jpg?itok=uB-l27f8" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/accompagnement_france_service_visuel.jpg?itok=uB-l27f8" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/accompagnement_france_service_visuel.jpg?itok=uB-l27f8"/>
+      <title>Coordination sur l’IA et protection des mineurs : retour sur la dernière plénière du CEPD</title>
+      <link>https://cnil.fr/fr/coordination-sur-lia-et-protection-des-mineurs-retour-sur-la-derniere-pleniere-du-cepd</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/coordination-sur-lia-et-protection-des-mineurs-retour-sur-la-derniere-pleniere-du-cepd</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/accompagnement_france_service_visuel.jpg?itok=uB-l27f8</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-</url>
       </image>
-      <description><![CDATA[France services, les services publics de proximité, et la CNIL sensibilisent et conseillent les usagers sur les bons gestes cyber et la protection de leurs données personnelles.]]></description>
+      <description><![CDATA[En février, la CNIL et ses homologues membres du Comité européen de la protection des données (CEPD) ont échangé sur leur gestion commune de sujets sensibles et urgents, tels que l’application du…]]></description>
       <page>36</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
-      <category>La CNIL en France</category>
-      <theme>La CNIL en France</theme>
+      <category>CEPD</category>
+      <theme>CEPD</theme>
       <pubDate>Thu, 20 Feb 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -4255,26 +4255,6 @@
       <pubDate>Thu, 13 Feb 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>QWANT : la CNIL estime que le moteur de recherche traite des données personnelles et lui adresse un rappel à ses obligations légales</title>
-      <link>https://cnil.fr/fr/qwant-cnil-traitement-des-donnees-personnelles-rappel-obligations-legales</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/qwant-cnil-traitement-des-donnees-personnelles-rappel-obligations-legales</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/visuel_rappel_obligations_legales.png?itok=U0mhzaJQ" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/visuel_rappel_obligations_legales.png?itok=U0mhzaJQ" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/visuel_rappel_obligations_legales.png?itok=U0mhzaJQ"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/visuel_rappel_obligations_legales.png?itok=U0mhzaJQ</url>
-      </image>
-      <description><![CDATA[La CNIL avait, dès 2019, qualifié les données traitées par QWANT de données à caractère personnel et non de données anonymes. Du fait de cette requalification, la société QWANT a publié, en 2020, une…]]></description>
-      <page>36</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Pseudonymisation</category>
-      <theme>Pseudonymisation</theme>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Gouvernance des données et IA : cinq autorités de protection des données s’engagent pour une IA innovante et protectrice de la vie privée</title>
       <link>https://cnil.fr/fr/gouvernance-des-donnees-et-ia-cinq-autorites-de-protection-des-donnees-sengagent</link>
       <guid isPermaLink="true">https://cnil.fr/fr/gouvernance-des-donnees-et-ia-cinq-autorites-de-protection-des-donnees-sengagent</guid>
@@ -4292,6 +4272,26 @@
       <theme>Professionnel</theme>
       <category>Intelligence artificielle (IA)</category>
       <theme>Intelligence artificielle (IA)</theme>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>QWANT : la CNIL estime que le moteur de recherche traite des données personnelles et lui adresse un rappel à ses obligations légales</title>
+      <link>https://cnil.fr/fr/qwant-cnil-traitement-des-donnees-personnelles-rappel-obligations-legales</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/qwant-cnil-traitement-des-donnees-personnelles-rappel-obligations-legales</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/visuel_rappel_obligations_legales.png?itok=U0mhzaJQ" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/visuel_rappel_obligations_legales.png?itok=U0mhzaJQ" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/visuel_rappel_obligations_legales.png?itok=U0mhzaJQ"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/visuel_rappel_obligations_legales.png?itok=U0mhzaJQ</url>
+      </image>
+      <description><![CDATA[La CNIL avait, dès 2019, qualifié les données traitées par QWANT de données à caractère personnel et non de données anonymes. Du fait de cette requalification, la société QWANT a publié, en 2020, une…]]></description>
+      <page>36</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Pseudonymisation</category>
+      <theme>Pseudonymisation</theme>
       <pubDate>Tue, 11 Feb 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -4355,26 +4355,6 @@
       <pubDate>Thu, 06 Feb 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Sanctions et mesures correctrices : bilan 2024 de l’action de la CNIL</title>
-      <link>https://cnil.fr/fr/sanctions-et-mesures-correctrices-bilan-2024-de-laction-de-la-cnil</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/sanctions-et-mesures-correctrices-bilan-2024-de-laction-de-la-cnil</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/sanctions_et_mesures_correctrices_2024.png?itok=wXi6eq5t" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/sanctions_et_mesures_correctrices_2024.png?itok=wXi6eq5t" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/sanctions_et_mesures_correctrices_2024.png?itok=wXi6eq5t"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/sanctions_et_mesures_correctrices_2024.png?itok=wXi6eq5t</url>
-      </image>
-      <description><![CDATA[L’année 2024 est marquée par une forte augmentation de l’ensemble des mesures correctrices prononcées par la CNIL : le nombre de sanctions a doublé et les mises en demeure et rappels aux…]]></description>
-      <page>37</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Sanction</category>
-      <theme>Sanction</theme>
-      <pubDate>Wed, 05 Feb 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>La CNIL sera présente à l’Université AFCDP des DPO les 6 et 7 février 2025</title>
       <link>https://cnil.fr/fr/la-cnil-sera-presente-luniversite-afcdp-des-dpo-les-6-et-7-fevrier-2025</link>
       <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-sera-presente-luniversite-afcdp-des-dpo-les-6-et-7-fevrier-2025</guid>
@@ -4392,6 +4372,26 @@
       <theme>Évènement</theme>
       <category>AFCDP</category>
       <theme>AFCDP</theme>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Sanctions et mesures correctrices : bilan 2024 de l’action de la CNIL</title>
+      <link>https://cnil.fr/fr/sanctions-et-mesures-correctrices-bilan-2024-de-laction-de-la-cnil</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/sanctions-et-mesures-correctrices-bilan-2024-de-laction-de-la-cnil</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/sanctions_et_mesures_correctrices_2024.png?itok=wXi6eq5t" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/sanctions_et_mesures_correctrices_2024.png?itok=wXi6eq5t" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/sanctions_et_mesures_correctrices_2024.png?itok=wXi6eq5t"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-02/sanctions_et_mesures_correctrices_2024.png?itok=wXi6eq5t</url>
+      </image>
+      <description><![CDATA[L’année 2024 est marquée par une forte augmentation de l’ensemble des mesures correctrices prononcées par la CNIL : le nombre de sanctions a doublé et les mises en demeure et rappels aux…]]></description>
+      <page>37</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Sanction</category>
+      <theme>Sanction</theme>
       <pubDate>Wed, 05 Feb 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -4515,43 +4515,23 @@
       <pubDate>Tue, 21 Jan 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Le CEPD adopte des lignes directrices sur la pseudonymisation et souhaite renforcer la coopération avec les autorités de la concurrence</title>
-      <link>https://cnil.fr/fr/le-cepd-adopte-des-lignes-directrices-sur-la-pseudonymisation-et-souhaite-renforcer-la-cooperation</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/le-cepd-adopte-des-lignes-directrices-sur-la-pseudonymisation-et-souhaite-renforcer-la-cooperation</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-"/>
+      <title>Droit d’accès : bilan des contrôles de la CNIL dans le cadre d’une action coordonnée européenne</title>
+      <link>https://cnil.fr/fr/droit-dacces-bilan-des-controles-de-la-cnil-dans-le-cadre-dune-action-coordonnee-europeenne</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/droit-dacces-bilan-des-controles-de-la-cnil-dans-le-cadre-dune-action-coordonnee-europeenne</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-07/droit_acces.png?itok=X9WMDEaE" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-07/droit_acces.png?itok=X9WMDEaE" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-07/droit_acces.png?itok=X9WMDEaE"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-07/droit_acces.png?itok=X9WMDEaE</url>
       </image>
-      <description><![CDATA[Le 17 janvier 2025, le Comité européen de la protection des données (CEPD) a adopté des lignes directrices sur le recours au pseudonyme et fait des propositions pour renforcer la coopération avec les…]]></description>
+      <description><![CDATA[À l’occasion d’une action coordonnée au niveau européen, la CNIL a mené en 2024 une série de contrôles d’organismes publics et privés pour vérifier la prise en compte du droit d’accès. Elle a pris…]]></description>
       <page>38</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
-      <category>CEPD</category>
-      <theme>CEPD</theme>
-      <pubDate>Mon, 20 Jan 2025 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Le CEPD adopte des lignes directrices sur la pseudonymisation et souhaite renforcer la coopération avec les autorités de la concurrence</title>
-      <link>https://cnil.fr/fr/le-cepd-adopte-des-lignes-directrices-sur-la-pseudonymisation-et-souhaite-renforcer-la-cooperation</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/le-cepd-adopte-des-lignes-directrices-sur-la-pseudonymisation-et-souhaite-renforcer-la-cooperation</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-</url>
-      </image>
-      <description><![CDATA[Le 17 janvier 2025, le Comité européen de la protection des données (CEPD) a adopté des lignes directrices sur le recours au pseudonyme et fait des propositions pour renforcer la coopération avec les…]]></description>
-      <page>39</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>CEPD</category>
-      <theme>CEPD</theme>
+      <category>Contrôles</category>
+      <theme>Contrôles</theme>
       <pubDate>Mon, 20 Jan 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -4575,24 +4555,24 @@
       <pubDate>Mon, 20 Jan 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Lancement de la 9e édition du Prix CNIL-Inria de la protection de la vie privée</title>
-      <link>https://cnil.fr/fr/lancement-de-la-9e-edition-du-prix-cnil-inria-de-la-protection-de-la-vie-privee</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/lancement-de-la-9e-edition-du-prix-cnil-inria-de-la-protection-de-la-vie-privee</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-01/prix-cnil-inria.png?itok=y-cmt2oF" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-01/prix-cnil-inria.png?itok=y-cmt2oF" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-01/prix-cnil-inria.png?itok=y-cmt2oF"/>
+      <title>Droit d’accès : bilan des contrôles de la CNIL dans le cadre d’une action coordonnée européenne</title>
+      <link>https://cnil.fr/fr/droit-dacces-bilan-des-controles-de-la-cnil-dans-le-cadre-dune-action-coordonnee-europeenne</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/droit-dacces-bilan-des-controles-de-la-cnil-dans-le-cadre-dune-action-coordonnee-europeenne</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-07/droit_acces.png?itok=X9WMDEaE" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-07/droit_acces.png?itok=X9WMDEaE" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-07/droit_acces.png?itok=X9WMDEaE"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-01/prix-cnil-inria.png?itok=y-cmt2oF</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-07/droit_acces.png?itok=X9WMDEaE</url>
       </image>
-      <description><![CDATA[La neuvième édition du Prix CNIL-Inria de la vie privée débute le 16 janvier 2025. Elle récompensera un article scientifique sur la vie privée et la protection des données personnelles publié entre…]]></description>
+      <description><![CDATA[À l’occasion d’une action coordonnée au niveau européen, la CNIL a mené en 2024 une série de contrôles d’organismes publics et privés pour vérifier la prise en compte du droit d’accès. Elle a pris…]]></description>
       <page>39</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
       <category>Professionnel</category>
       <theme>Professionnel</theme>
-      <category>Prix CNIL-Inria</category>
-      <theme>Prix CNIL-Inria</theme>
-      <pubDate>Thu, 16 Jan 2025 00:00:00 -0000</pubDate>
+      <category>Contrôles</category>
+      <theme>Contrôles</theme>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>IA, mineurs, cybersécurité, quotidien numérique : la CNIL publie son plan stratégique 2025-2028</title>
@@ -4612,6 +4592,26 @@
       <theme>Professionnel</theme>
       <category>Stratégie</category>
       <theme>Stratégie</theme>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Lancement de la 9e édition du Prix CNIL-Inria de la protection de la vie privée</title>
+      <link>https://cnil.fr/fr/lancement-de-la-9e-edition-du-prix-cnil-inria-de-la-protection-de-la-vie-privee</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/lancement-de-la-9e-edition-du-prix-cnil-inria-de-la-protection-de-la-vie-privee</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-01/prix-cnil-inria.png?itok=y-cmt2oF" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-01/prix-cnil-inria.png?itok=y-cmt2oF" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-01/prix-cnil-inria.png?itok=y-cmt2oF"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-01/prix-cnil-inria.png?itok=y-cmt2oF</url>
+      </image>
+      <description><![CDATA[La neuvième édition du Prix CNIL-Inria de la vie privée débute le 16 janvier 2025. Elle récompensera un article scientifique sur la vie privée et la protection des données personnelles publié entre…]]></description>
+      <page>39</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Prix CNIL-Inria</category>
+      <theme>Prix CNIL-Inria</theme>
       <pubDate>Thu, 16 Jan 2025 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -4715,26 +4715,6 @@
       <pubDate>Fri, 20 Dec 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Modèles d’IA et RGPD : le CEPD publie son avis pour une IA responsable</title>
-      <link>https://cnil.fr/fr/modeles-dia-et-rgpd-le-cepd-publie-son-avis-pour-une-ia-responsable</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/modeles-dia-et-rgpd-le-cepd-publie-son-avis-pour-une-ia-responsable</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-</url>
-      </image>
-      <description><![CDATA[Le Comité européen de la protection des données (CEPD), qui réunit les CNIL européennes, a adopté un avis sur le traitement de données personnelles pour le développement et le déploiement de modèles…]]></description>
-      <page>40</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Intelligence artificielle (IA)</category>
-      <theme>Intelligence artificielle (IA)</theme>
-      <category>CEPD</category>
-      <theme>CEPD</theme>
-      <pubDate>Thu, 19 Dec 2024 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Conclusions de la mission Lasserre sur la protection des données et la concurrence : pour approfondir le dialogue</title>
       <link>https://cnil.fr/fr/conclusions-mission-lasserre-sur-la-protection-des-donnees-et-la-concurrence</link>
       <guid isPermaLink="true">https://cnil.fr/fr/conclusions-mission-lasserre-sur-la-protection-des-donnees-et-la-concurrence</guid>
@@ -4766,6 +4746,26 @@
       <theme>Professionnel</theme>
       <category>Sanction</category>
       <theme>Sanction</theme>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Modèles d’IA et RGPD : le CEPD publie son avis pour une IA responsable</title>
+      <link>https://cnil.fr/fr/modeles-dia-et-rgpd-le-cepd-publie-son-avis-pour-une-ia-responsable</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/modeles-dia-et-rgpd-le-cepd-publie-son-avis-pour-une-ia-responsable</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-</url>
+      </image>
+      <description><![CDATA[Le Comité européen de la protection des données (CEPD), qui réunit les CNIL européennes, a adopté un avis sur le traitement de données personnelles pour le développement et le déploiement de modèles…]]></description>
+      <page>40</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Intelligence artificielle (IA)</category>
+      <theme>Intelligence artificielle (IA)</theme>
+      <category>CEPD</category>
+      <theme>CEPD</theme>
       <pubDate>Thu, 19 Dec 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -5001,26 +5001,6 @@
       <pubDate>Tue, 19 Nov 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Protection des consommateurs et des données personnelles : la CNIL et la DGCCRF renforcent leur coopération</title>
-      <link>https://cnil.fr/fr/protection-des-consommateurs-et-des-donnees-personnelles-la-cnil-et-la-dgccrf-cooperation</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/protection-des-consommateurs-et-des-donnees-personnelles-la-cnil-et-la-dgccrf-cooperation</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-11/signature-dgccrf.png?itok=RYG0Jy55" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-11/signature-dgccrf.png?itok=RYG0Jy55" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-11/signature-dgccrf.png?itok=RYG0Jy55"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-11/signature-dgccrf.png?itok=RYG0Jy55</url>
-      </image>
-      <description><![CDATA[Le 18 novembre 2024, la DGCCRF et la CNIL ont signé un nouveau protocole de coopération mettant ainsi à jour la convention initiale de 2011. Les deux autorités renforcent leur collaboration et…]]></description>
-      <page>43</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Partenariat</category>
-      <theme>Partenariat</theme>
-      <pubDate>Mon, 18 Nov 2024 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Le CEPD adopte des lignes directrices pour clarifier la notion de « traçage » de la directive ePrivacy</title>
       <link>https://cnil.fr/fr/le-cepd-adopte-des-lignes-directrices-pour-clarifier-la-notion-de-tracage-de-la-directive-eprivacy</link>
       <guid isPermaLink="true">https://cnil.fr/fr/le-cepd-adopte-des-lignes-directrices-pour-clarifier-la-notion-de-tracage-de-la-directive-eprivacy</guid>
@@ -5038,6 +5018,26 @@
       <theme>Professionnel</theme>
       <category>CEPD</category>
       <theme>CEPD</theme>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Protection des consommateurs et des données personnelles : la CNIL et la DGCCRF renforcent leur coopération</title>
+      <link>https://cnil.fr/fr/protection-des-consommateurs-et-des-donnees-personnelles-la-cnil-et-la-dgccrf-cooperation</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/protection-des-consommateurs-et-des-donnees-personnelles-la-cnil-et-la-dgccrf-cooperation</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-11/signature-dgccrf.png?itok=RYG0Jy55" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-11/signature-dgccrf.png?itok=RYG0Jy55" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-11/signature-dgccrf.png?itok=RYG0Jy55"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-11/signature-dgccrf.png?itok=RYG0Jy55</url>
+      </image>
+      <description><![CDATA[Le 18 novembre 2024, la DGCCRF et la CNIL ont signé un nouveau protocole de coopération mettant ainsi à jour la convention initiale de 2011. Les deux autorités renforcent leur collaboration et…]]></description>
+      <page>43</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Partenariat</category>
+      <theme>Partenariat</theme>
       <pubDate>Mon, 18 Nov 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -5081,26 +5081,6 @@
       <pubDate>Fri, 15 Nov 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Silver économie (économie des seniors) : le plan d’action de la CNIL</title>
-      <link>https://cnil.fr/fr/silver-economie-economie-des-seniors-le-plan-daction-de-la-cnil</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/silver-economie-economie-des-seniors-le-plan-daction-de-la-cnil</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection-sociale_senior.jpg?itok=h_f5lyVM" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection-sociale_senior.jpg?itok=h_f5lyVM" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection-sociale_senior.jpg?itok=h_f5lyVM"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection-sociale_senior.jpg?itok=h_f5lyVM</url>
-      </image>
-      <description><![CDATA[Le développement de la silver économie répond à la transition démographique vécue par de nombreux pays occidentaux. La nature des données traitées et le ciblage en fonction de l’âge soulève d…]]></description>
-      <page>43</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Innovation</category>
-      <theme>Innovation</theme>
-      <pubDate>Wed, 13 Nov 2024 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Journée RGPD le mercredi 4 décembre 2024 à Montpellier</title>
       <link>https://cnil.fr/fr/journee-rgpd-le-mercredi-4-decembre-2024-montpellier</link>
       <guid isPermaLink="true">https://cnil.fr/fr/journee-rgpd-le-mercredi-4-decembre-2024-montpellier</guid>
@@ -5118,6 +5098,26 @@
       <theme>Journées RGPD</theme>
       <category>Évènement</category>
       <theme>Évènement</theme>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Silver économie (économie des seniors) : le plan d’action de la CNIL</title>
+      <link>https://cnil.fr/fr/silver-economie-economie-des-seniors-le-plan-daction-de-la-cnil</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/silver-economie-economie-des-seniors-le-plan-daction-de-la-cnil</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection-sociale_senior.jpg?itok=h_f5lyVM" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection-sociale_senior.jpg?itok=h_f5lyVM" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection-sociale_senior.jpg?itok=h_f5lyVM"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection-sociale_senior.jpg?itok=h_f5lyVM</url>
+      </image>
+      <description><![CDATA[Le développement de la silver économie répond à la transition démographique vécue par de nombreux pays occidentaux. La nature des données traitées et le ciblage en fonction de l’âge soulève d…]]></description>
+      <page>43</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Innovation</category>
+      <theme>Innovation</theme>
       <pubDate>Wed, 13 Nov 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -5181,26 +5181,6 @@
       <pubDate>Thu, 24 Oct 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Les autorités de protection des données du G7 affirment leur rôle dans la gouvernance de l’IA</title>
-      <link>https://cnil.fr/fr/les-autorites-de-protection-des-donnees-du-g7-affirment-leur-role-gouvernance-de-l-ia</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/les-autorites-de-protection-des-donnees-du-g7-affirment-leur-role-gouvernance-de-l-ia</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-10/g7apd.jpg?itok=ekF00U7M" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-10/g7apd.jpg?itok=ekF00U7M" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-10/g7apd.jpg?itok=ekF00U7M"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-10/g7apd.jpg?itok=ekF00U7M</url>
-      </image>
-      <description><![CDATA[Sous la présidence de l’autorité italienne, les autorités de protection des données du G7 se sont réunies du 7 au 11 octobre 2024 à Rome. À cette occasion, elles ont notamment adopté une position…]]></description>
-      <page>44</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Coopération internationale</category>
-      <theme>Coopération internationale</theme>
-      <category>G7</category>
-      <theme>G7</theme>
-      <pubDate>Fri, 18 Oct 2024 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Responsable de traitement et sous-traitants, intérêt légitime, règlement procédural : les derniers documents adoptés par le Comité européen de la protection des données</title>
       <link>https://cnil.fr/fr/responsable-de-traitement-sous-traitant-interet-legitime-reglement-procedural-les-derniers-documents-adoptes-cepd</link>
       <guid isPermaLink="true">https://cnil.fr/fr/responsable-de-traitement-sous-traitant-interet-legitime-reglement-procedural-les-derniers-documents-adoptes-cepd</guid>
@@ -5218,6 +5198,26 @@
       <theme>Professionnel</theme>
       <category>CEPD</category>
       <theme>CEPD</theme>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Les autorités de protection des données du G7 affirment leur rôle dans la gouvernance de l’IA</title>
+      <link>https://cnil.fr/fr/les-autorites-de-protection-des-donnees-du-g7-affirment-leur-role-gouvernance-de-l-ia</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/les-autorites-de-protection-des-donnees-du-g7-affirment-leur-role-gouvernance-de-l-ia</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-10/g7apd.jpg?itok=ekF00U7M" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-10/g7apd.jpg?itok=ekF00U7M" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-10/g7apd.jpg?itok=ekF00U7M"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-10/g7apd.jpg?itok=ekF00U7M</url>
+      </image>
+      <description><![CDATA[Sous la présidence de l’autorité italienne, les autorités de protection des données du G7 se sont réunies du 7 au 11 octobre 2024 à Rome. À cette occasion, elles ont notamment adopté une position…]]></description>
+      <page>44</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Coopération internationale</category>
+      <theme>Coopération internationale</theme>
+      <category>G7</category>
+      <theme>G7</theme>
       <pubDate>Fri, 18 Oct 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -6095,6 +6095,26 @@
       <pubDate>Fri, 31 May 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
+      <title>La loi visant à sécuriser et réguler l’espace numérique (SREN) renforce la protection des internautes en confiant de nouvelles missions à la CNIL</title>
+      <link>https://cnil.fr/fr/sren-loi-securiser-reguler-lespace-numerique-nouvelles-missions-cnil</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/sren-loi-securiser-reguler-lespace-numerique-nouvelles-missions-cnil</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-05/donnees.jpeg?itok=5MHP2mhS" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-05/donnees.jpeg?itok=5MHP2mhS" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-05/donnees.jpeg?itok=5MHP2mhS"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-05/donnees.jpeg?itok=5MHP2mhS</url>
+      </image>
+      <description><![CDATA[La régulation du numérique est complétée, par la loi SREN, d’un certain nombre de dispositions issues de règlements européens. Ces dispositions sont destinées à renforcer la protection des…]]></description>
+      <page>52</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Interrégulation</category>
+      <theme>Interrégulation</theme>
+      <pubDate>Fri, 24 May 2024 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Actualité du CEPD : avis sur l’utilisation de la reconnaissance faciale par les aéroports et les compagnies aériennes</title>
       <link>https://cnil.fr/fr/actualite-du-cepd-avis-sur-lutilisation-de-la-reconnaissance-faciale-par-les-aeroports-et-les</link>
       <guid isPermaLink="true">https://cnil.fr/fr/actualite-du-cepd-avis-sur-lutilisation-de-la-reconnaissance-faciale-par-les-aeroports-et-les</guid>
@@ -6132,26 +6152,6 @@
       <theme>Données personnelles</theme>
       <category>Webinaire</category>
       <theme>Webinaire</theme>
-      <pubDate>Fri, 24 May 2024 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>La loi visant à sécuriser et réguler l’espace numérique (SREN) renforce la protection des internautes en confiant de nouvelles missions à la CNIL</title>
-      <link>https://cnil.fr/fr/sren-loi-securiser-reguler-lespace-numerique-nouvelles-missions-cnil</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/sren-loi-securiser-reguler-lespace-numerique-nouvelles-missions-cnil</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-05/donnees.jpeg?itok=5MHP2mhS" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-05/donnees.jpeg?itok=5MHP2mhS" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-05/donnees.jpeg?itok=5MHP2mhS"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-05/donnees.jpeg?itok=5MHP2mhS</url>
-      </image>
-      <description><![CDATA[La régulation du numérique est complétée, par la loi SREN, d’un certain nombre de dispositions issues de règlements européens. Ces dispositions sont destinées à renforcer la protection des…]]></description>
-      <page>52</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Interrégulation</category>
-      <theme>Interrégulation</theme>
       <pubDate>Fri, 24 May 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -6697,20 +6697,6 @@
       <pubDate>Thu, 14 Mar 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>France Travail : la CNIL enquête sur la fuite de données et donne des conseils pour se protéger</title>
-      <link>https://cnil.fr/fr/france-travail-la-cnil-enquete-sur-la-fuite-de-donnees-et-donne-des-conseils-pour-se-proteger</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/france-travail-la-cnil-enquete-sur-la-fuite-de-donnees-et-donne-des-conseils-pour-se-proteger</guid>
-      <description><![CDATA[France Travail a été victime d’une cyberattaque ayant conduit à une fuite de données susceptible de toucher 43 millions de personnes. La CNIL accompagne l’organisme afin d’assurer la bonne…]]></description>
-      <page>57</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Violation de données</category>
-      <theme>Violation de données</theme>
-      <pubDate>Wed, 13 Mar 2024 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Affaires publiques et lobbying : les professionnels du secteur publient un guide RGPD en concertation avec la CNIL</title>
       <link>https://cnil.fr/fr/affaires-publiques-et-lobbying-les-professionnels-du-secteur-publient-un-guide-rgpd-en-concertation</link>
       <guid isPermaLink="true">https://cnil.fr/fr/affaires-publiques-et-lobbying-les-professionnels-du-secteur-publient-un-guide-rgpd-en-concertation</guid>
@@ -6728,6 +6714,20 @@
       <theme>Professionnel</theme>
       <category>Lobbying</category>
       <theme>Lobbying</theme>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>France Travail : la CNIL enquête sur la fuite de données et donne des conseils pour se protéger</title>
+      <link>https://cnil.fr/fr/france-travail-la-cnil-enquete-sur-la-fuite-de-donnees-et-donne-des-conseils-pour-se-proteger</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/france-travail-la-cnil-enquete-sur-la-fuite-de-donnees-et-donne-des-conseils-pour-se-proteger</guid>
+      <description><![CDATA[France Travail a été victime d’une cyberattaque ayant conduit à une fuite de données susceptible de toucher 43 millions de personnes. La CNIL accompagne l’organisme afin d’assurer la bonne…]]></description>
+      <page>57</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Violation de données</category>
+      <theme>Violation de données</theme>
       <pubDate>Wed, 13 Mar 2024 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -8363,6 +8363,26 @@
       <pubDate>Tue, 25 Apr 2023 00:00:00 -0000</pubDate>
     </item>
     <item>
+      <title>Cahier air2022 : Élaborer l’éthique du numérique éducatif</title>
+      <link>https://cnil.fr/fr/cahier-air2022-elaborer-lethique-du-numerique-educatif</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/cahier-air2022-elaborer-lethique-du-numerique-educatif</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/air_2022.jpg?itok=K15RFvKT" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/air_2022.jpg?itok=K15RFvKT" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/air_2022.jpg?itok=K15RFvKT"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/air_2022.jpg?itok=K15RFvKT</url>
+      </image>
+      <description><![CDATA[Dans le cadre de sa mission éthique, la CNIL publie son cahier air 2022 afin de partager et de poursuivre les réflexions menées à l’occasion de l’évènement organisé fin 2022 sur les Edtech et les…]]></description>
+      <page>72</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>air2022</category>
+      <theme>air2022</theme>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Droit d’accès, guichet unique, violation de données : le CEPD publie de nouvelles lignes directrices</title>
       <link>https://cnil.fr/fr/droit-dacces-guichet-unique-violation-de-donnees-le-cepd-publie-de-nouvelles-lignes-directrices</link>
       <guid isPermaLink="true">https://cnil.fr/fr/droit-dacces-guichet-unique-violation-de-donnees-le-cepd-publie-de-nouvelles-lignes-directrices</guid>
@@ -8400,26 +8420,6 @@
       <theme>Professionnel</theme>
       <category>CEPD</category>
       <theme>CEPD</theme>
-      <pubDate>Mon, 24 Apr 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Cahier air2022 : Élaborer l’éthique du numérique éducatif</title>
-      <link>https://cnil.fr/fr/cahier-air2022-elaborer-lethique-du-numerique-educatif</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/cahier-air2022-elaborer-lethique-du-numerique-educatif</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/air_2022.jpg?itok=K15RFvKT" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/air_2022.jpg?itok=K15RFvKT" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/air_2022.jpg?itok=K15RFvKT"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/air_2022.jpg?itok=K15RFvKT</url>
-      </image>
-      <description><![CDATA[Dans le cadre de sa mission éthique, la CNIL publie son cahier air 2022 afin de partager et de poursuivre les réflexions menées à l’occasion de l’évènement organisé fin 2022 sur les Edtech et les…]]></description>
-      <page>72</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>air2022</category>
-      <theme>air2022</theme>
       <pubDate>Mon, 24 Apr 2023 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -8603,54 +8603,6 @@
       <pubDate>Wed, 22 Mar 2023 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>La fin de l’impression systématique des tickets de caisse : quels sont mes droits ?</title>
-      <link>https://cnil.fr/fr/la-fin-de-limpression-systematique-des-tickets-de-caisse-quels-sont-mes-droits</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-fin-de-limpression-systematique-des-tickets-de-caisse-quels-sont-mes-droits</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/VISUEL_SITE_PARTICULIER.png?itok=KsejDmat" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/VISUEL_SITE_PARTICULIER.png?itok=KsejDmat" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/VISUEL_SITE_PARTICULIER.png?itok=KsejDmat"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/VISUEL_SITE_PARTICULIER.png?itok=KsejDmat</url>
-      </image>
-      <description><![CDATA[À partir du 1er août 2023, l’impression systématique des tickets de caisse sera interdite. Vous pourrez demander à recevoir un ticket, ou non, ou encore le recevoir sous forme dématérialisée si le…]]></description>
-      <page>74</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Commerce</category>
-      <theme>Commerce</theme>
-      <category>Prospection</category>
-      <theme>Prospection</theme>
-      <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>La CNIL lance un « club conformité » dédié aux acteurs du véhicule connecté et de la mobilité</title>
-      <link>https://cnil.fr/fr/la-cnil-lance-un-club-conformite-dedie-aux-acteurs-du-vehicule-connecte-et-de-la-mobilite</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-lance-un-club-conformite-dedie-aux-acteurs-du-vehicule-connecte-et-de-la-mobilite</guid>
-      <description><![CDATA[Dans le cadre de sa démarche d’accompagnement sectoriel, la CNIL crée un « club conformité » dédié aux acteurs du véhicule connecté et de la mobilité. Cet espace de dialogue privilégié doit…]]></description>
-      <page>74</page>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Club conformité</category>
-      <theme>Club conformité</theme>
-      <category>Véhicule connecté</category>
-      <theme>Véhicule connecté</theme>
-      <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Thématiques prioritaires de contrôle 2023 : caméras « augmentées », applications mobiles, fichiers bancaires et dossiers patients</title>
-      <link>https://cnil.fr/fr/thematiques-prioritaires-de-controle-2023-cameras-augmentees-applications-mobiles-fichiers-bancaires</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/thematiques-prioritaires-de-controle-2023-cameras-augmentees-applications-mobiles-fichiers-bancaires</guid>
-      <description><![CDATA[La CNIL effectue des contrôles sur la base de plaintes reçues, de l’actualité, mais également de thématiques prioritaires annuelles. En 2023, elle se concentrera sur l’utilisation de caméras « …]]></description>
-      <page>74</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Contrôles</category>
-      <theme>Contrôles</theme>
-      <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Revoir le webinaire : techniques d'IA protectrices de la vie privée, tour d'horizon et perspectives</title>
       <link>https://cnil.fr/fr/revoir-le-webinaire-techniques-dia-protectrices-de-la-vie-privee-tour-dhorizon-et-perspectives</link>
       <guid isPermaLink="true">https://cnil.fr/fr/revoir-le-webinaire-techniques-dia-protectrices-de-la-vie-privee-tour-dhorizon-et-perspectives</guid>
@@ -8688,6 +8640,66 @@
       <theme>Santé</theme>
       <category>Recherche</category>
       <theme>Recherche</theme>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Fin de l’impression systématique du ticket de caisse : quelles solutions sont possibles et quelles sont les règles ?</title>
+      <link>https://cnil.fr/fr/fin-de-limpression-systematique-du-ticket-de-caisse-quelles-solutions-sont-possibles-et-quelles-sont</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/fin-de-limpression-systematique-du-ticket-de-caisse-quelles-solutions-sont-possibles-et-quelles-sont</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/VISUEL_SITE_PROFESSIONNEL.png?itok=l8NA49ZI" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/VISUEL_SITE_PROFESSIONNEL.png?itok=l8NA49ZI" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/VISUEL_SITE_PROFESSIONNEL.png?itok=l8NA49ZI"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/VISUEL_SITE_PROFESSIONNEL.png?itok=l8NA49ZI</url>
+      </image>
+      <description><![CDATA[À partir du 1er août 2023, l’impression systématique des tickets de caisse sera interdite. Le consommateur pourra toutefois en demander un s’il le souhaite. Il est également possible, à titre…]]></description>
+      <page>74</page>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Commerce</category>
+      <theme>Commerce</theme>
+      <category>Prospection</category>
+      <theme>Prospection</theme>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Transfert de données vers les États-Unis : le CEPD rend son avis sur le projet de décision d’adéquation de la Commission européenne</title>
+      <link>https://cnil.fr/fr/transfert-de-donnees-vers-les-etats-unis-le-cepd-rend-son-avis-sur-le-projet-de-decision-dadequation</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/transfert-de-donnees-vers-les-etats-unis-le-cepd-rend-son-avis-sur-le-projet-de-decision-dadequation</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-</url>
+      </image>
+      <description><![CDATA[Le 28 février, le Comité européen à la protection des données (CEPD) a rendu son avis sur le projet de décision d’adéquation de la Commission européenne. Il relève les améliorations apportées par le…]]></description>
+      <page>74</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Transferts de données hors UE</category>
+      <theme>Transferts de données hors UE</theme>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>8 femmes qui ont marqué l’histoire du numérique</title>
+      <link>https://cnil.fr/fr/8-femmes-qui-ont-marque-lhistoire-du-numerique</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/8-femmes-qui-ont-marque-lhistoire-du-numerique</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/SITE.png?itok=jpeRnpms" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/SITE.png?itok=jpeRnpms" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/SITE.png?itok=jpeRnpms"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/SITE.png?itok=jpeRnpms</url>
+      </image>
+      <description><![CDATA[Souvent mésestimées ou oubliées, les femmes sont confrontées aux stéréotypes de genre pour s’imposer dans l’informatique et l’innovation. À l’occasion de la Journée internationale des droits des…]]></description>
+      <page>74</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Droits des femmes</category>
+      <theme>Droits des femmes</theme>
       <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -9267,26 +9279,6 @@
       <pubDate>Wed, 21 Sep 2022 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>G7 des autorités de protection des données : enceinte de la promotion de la vie privée à l’international</title>
-      <link>https://cnil.fr/fr/g7-des-autorites-de-protection-des-donnees-enceinte-de-la-promotion-de-la-vie-privee-linternational</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/g7-des-autorites-de-protection-des-donnees-enceinte-de-la-promotion-de-la-vie-privee-linternational</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m</url>
-      </image>
-      <description><![CDATA[Les autorités de protection des données des pays du G7 se sont réunies des 6 au 8 septembre 2022 à Bonn, sous la présidence du Commissaire fédéral pour la protection des données et la liberté d…]]></description>
-      <page>80</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>G7</category>
-      <theme>G7</theme>
-      <pubDate>Mon, 19 Sep 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>[Clôturée] API : la CNIL soumet à consultation publique un projet de recommandation technique</title>
       <link>https://cnil.fr/fr/cloturee-api-la-cnil-soumet-consultation-publique-un-projet-de-recommandation-technique</link>
       <guid isPermaLink="true">https://cnil.fr/fr/cloturee-api-la-cnil-soumet-consultation-publique-un-projet-de-recommandation-technique</guid>
@@ -9304,6 +9296,26 @@
       <theme>Professionnel</theme>
       <category>Consultation</category>
       <theme>Consultation</theme>
+      <pubDate>Mon, 19 Sep 2022 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>G7 des autorités de protection des données : enceinte de la promotion de la vie privée à l’international</title>
+      <link>https://cnil.fr/fr/g7-des-autorites-de-protection-des-donnees-enceinte-de-la-promotion-de-la-vie-privee-linternational</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/g7-des-autorites-de-protection-des-donnees-enceinte-de-la-promotion-de-la-vie-privee-linternational</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m</url>
+      </image>
+      <description><![CDATA[Les autorités de protection des données des pays du G7 se sont réunies des 6 au 8 septembre 2022 à Bonn, sous la présidence du Commissaire fédéral pour la protection des données et la liberté d…]]></description>
+      <page>80</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>G7</category>
+      <theme>G7</theme>
       <pubDate>Mon, 19 Sep 2022 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -9821,26 +9833,6 @@
       <pubDate>Thu, 18 Nov 2021 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>La CNIL publie un nouveau guide pour accompagner les associations</title>
-      <link>https://cnil.fr/fr/thematiques/la-cnil-publie-un-nouveau-guide-pour-accompagner-les-associations</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/thematiques/la-cnil-publie-un-nouveau-guide-pour-accompagner-les-associations</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb</url>
-      </image>
-      <description><![CDATA[La CNIL a élaboré un guide de sensibilisation au règlement général sur la protection des données (RGPD) pour accompagner les structures associatives dans leur mise en conformité. Ses objectifs :…]]></description>
-      <page>85</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Association</category>
-      <theme>Association</theme>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Revoir l'évènement air2021 : entre partage et protection, quelle éthique pour l’ouverture des données ?</title>
       <link>https://cnil.fr/fr/revoir-levenement-air2021-entre-partage-et-protection-quelle-ethique-pour-louverture-des-donnees</link>
       <guid isPermaLink="true">https://cnil.fr/fr/revoir-levenement-air2021-entre-partage-et-protection-quelle-ethique-pour-louverture-des-donnees</guid>
@@ -9861,16 +9853,30 @@
       <pubDate>Wed, 10 Nov 2021 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>La protection des droits numériques des enfants : une priorité mondiale !</title>
-      <link>https://cnil.fr/fr/la-protection-des-droits-numeriques-des-enfants-une-priorite-mondiale</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-protection-des-droits-numeriques-des-enfants-une-priorite-mondiale</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/enfant_educnum_0.jpeg?itok=UlY3Nsrr" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/enfant_educnum_0.jpeg?itok=UlY3Nsrr" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/enfant_educnum_0.jpeg?itok=UlY3Nsrr"/>
+      <title>La CNIL publie un nouveau guide pour accompagner les associations</title>
+      <link>https://cnil.fr/fr/thematiques/la-cnil-publie-un-nouveau-guide-pour-accompagner-les-associations</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/thematiques/la-cnil-publie-un-nouveau-guide-pour-accompagner-les-associations</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/enfant_educnum_0.jpeg?itok=UlY3Nsrr</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb</url>
       </image>
-      <description><![CDATA[Le 21 octobre 2021, les autorités mondiales de protection des données réunies en conférence annuelle du GPA (43ème Global Privacy Assembly, Mexico) ont adopté à l’unanimité une résolution clé sur les…]]></description>
+      <description><![CDATA[La CNIL a élaboré un guide de sensibilisation au règlement général sur la protection des données (RGPD) pour accompagner les structures associatives dans leur mise en conformité. Ses objectifs :…]]></description>
+      <page>85</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Association</category>
+      <theme>Association</theme>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Les CNIL mondiales prennent position sur les grands débats internationaux en matière de protection des données personnelles</title>
+      <link>https://cnil.fr/fr/les-cnil-mondiales-prennent-position-sur-les-grands-debats-internationaux-en-matiere-de-protection</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/les-cnil-mondiales-prennent-position-sur-les-grands-debats-internationaux-en-matiere-de-protection</guid>
+      <description><![CDATA[L’organisation internationale qui rassemble toutes les autorités  de protection des données a adopté cinq résolutions importantes lors de sa réunion annuelle organisée en octobre 2021, dont une…]]></description>
       <page>85</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -9881,10 +9887,16 @@
       <pubDate>Tue, 02 Nov 2021 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Les CNIL mondiales prennent position sur les grands débats internationaux en matière de protection des données personnelles</title>
-      <link>https://cnil.fr/fr/les-cnil-mondiales-prennent-position-sur-les-grands-debats-internationaux-en-matiere-de-protection</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/les-cnil-mondiales-prennent-position-sur-les-grands-debats-internationaux-en-matiere-de-protection</guid>
-      <description><![CDATA[L’organisation internationale qui rassemble toutes les autorités  de protection des données a adopté cinq résolutions importantes lors de sa réunion annuelle organisée en octobre 2021, dont une…]]></description>
+      <title>La protection des droits numériques des enfants : une priorité mondiale !</title>
+      <link>https://cnil.fr/fr/la-protection-des-droits-numeriques-des-enfants-une-priorite-mondiale</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/la-protection-des-droits-numeriques-des-enfants-une-priorite-mondiale</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/enfant_educnum_0.jpeg?itok=UlY3Nsrr" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/enfant_educnum_0.jpeg?itok=UlY3Nsrr" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/enfant_educnum_0.jpeg?itok=UlY3Nsrr"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/enfant_educnum_0.jpeg?itok=UlY3Nsrr</url>
+      </image>
+      <description><![CDATA[Le 21 octobre 2021, les autorités mondiales de protection des données réunies en conférence annuelle du GPA (43ème Global Privacy Assembly, Mexico) ont adopté à l’unanimité une résolution clé sur les…]]></description>
       <page>85</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -10975,24 +10987,6 @@
       <pubDate>Fri, 29 Nov 2019 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Téléviseurs connectés : les conseils de la CNIL</title>
-      <link>https://cnil.fr/fr/televiseurs-connectes-les-conseils-de-la-cnil</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/televiseurs-connectes-les-conseils-de-la-cnil</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/tv-connectee_975x500.jpg?itok=yVwLEu0t" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/tv-connectee_975x500.jpg?itok=yVwLEu0t" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/tv-connectee_975x500.jpg?itok=yVwLEu0t"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/tv-connectee_975x500.jpg?itok=yVwLEu0t</url>
-      </image>
-      <description><![CDATA[De plus en plus présents dans le commerce et disposant de nombreuses fonctionnalités, les téléviseurs connectés représentaient 67 % des téléviseurs vendus en 2018 mais peuvent avoir un impact sur…]]></description>
-      <page>96</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Objets connectés</category>
-      <theme>Objets connectés</theme>
-      <pubDate>Tue, 26 Nov 2019 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Robots connectés et données personnelles : les conseils de la CNIL</title>
       <link>https://cnil.fr/fr/robots-connectes-et-donnees-personnelles-les-conseils-de-la-cnil</link>
       <guid isPermaLink="true">https://cnil.fr/fr/robots-connectes-et-donnees-personnelles-les-conseils-de-la-cnil</guid>
@@ -11003,6 +10997,24 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/robot-cuisine_975x500.jpg?itok=PUKDYIw2</url>
       </image>
       <description><![CDATA[Les robots de cuisine sont devenus une idée de cadeau incontournable en l’espace de quelques années. Certains modèles les plus récents sont connectés. Suivez les conseils de la CNIL avant et après l…]]></description>
+      <page>96</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Objets connectés</category>
+      <theme>Objets connectés</theme>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Téléviseurs connectés : les conseils de la CNIL</title>
+      <link>https://cnil.fr/fr/televiseurs-connectes-les-conseils-de-la-cnil</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/televiseurs-connectes-les-conseils-de-la-cnil</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/tv-connectee_975x500.jpg?itok=yVwLEu0t" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/tv-connectee_975x500.jpg?itok=yVwLEu0t" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/tv-connectee_975x500.jpg?itok=yVwLEu0t"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/tv-connectee_975x500.jpg?itok=yVwLEu0t</url>
+      </image>
+      <description><![CDATA[De plus en plus présents dans le commerce et disposant de nombreuses fonctionnalités, les téléviseurs connectés représentaient 67 % des téléviseurs vendus en 2018 mais peuvent avoir un impact sur…]]></description>
       <page>96</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
@@ -11857,20 +11869,6 @@
       <pubDate>Thu, 25 Feb 2016 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>La CNIL se mobilise pour le Safer Internet Day !</title>
-      <link>https://cnil.fr/fr/la-cnil-se-mobilise-pour-le-safer-internet-day</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-se-mobilise-pour-le-safer-internet-day</guid>
-      <description><![CDATA[Le 9 février 2016, à l’occasion du Safer Internet Day, la CNIL participe au lancement d’un guide et d’une appli, en partenariat avec Tralalère.]]></description>
-      <page>104</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Éducation numérique</category>
-      <theme>Éducation numérique</theme>
-      <category>Safer Internet Day</category>
-      <theme>Safer Internet Day</theme>
-      <pubDate>Tue, 09 Feb 2016 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Prenez 1 heure pour adopter de meilleurs réflexes pour votre vie privée numérique</title>
       <link>https://cnil.fr/fr/prenez-1-heure-pour-adopter-de-meilleurs-reflexes-pour-votre-vie-privee-numerique</link>
       <guid isPermaLink="true">https://cnil.fr/fr/prenez-1-heure-pour-adopter-de-meilleurs-reflexes-pour-votre-vie-privee-numerique</guid>
@@ -11886,6 +11884,20 @@
       <theme>Particulier</theme>
       <category>Configuration</category>
       <theme>Configuration</theme>
+      <pubDate>Tue, 09 Feb 2016 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>La CNIL se mobilise pour le Safer Internet Day !</title>
+      <link>https://cnil.fr/fr/la-cnil-se-mobilise-pour-le-safer-internet-day</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-se-mobilise-pour-le-safer-internet-day</guid>
+      <description><![CDATA[Le 9 février 2016, à l’occasion du Safer Internet Day, la CNIL participe au lancement d’un guide et d’une appli, en partenariat avec Tralalère.]]></description>
+      <page>104</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Éducation numérique</category>
+      <theme>Éducation numérique</theme>
+      <category>Safer Internet Day</category>
+      <theme>Safer Internet Day</theme>
       <pubDate>Tue, 09 Feb 2016 00:00:00 -0000</pubDate>
     </item>
     <item>
@@ -11963,31 +11975,31 @@
       <pubDate>Thu, 17 Jul 2014 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Soldes sur internet : achetez en toute sécurité</title>
-      <link>https://cnil.fr/fr/soldes-sur-internet-achetez-en-toute-securite</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/soldes-sur-internet-achetez-en-toute-securite</guid>
-      <description><![CDATA[De plus en plus de personnes font leurs achats sur internet. Mais comment être sûr que l’on peut faire confiance aux commerçants virtuels ? Quelques conseils pratiques.]]></description>
-      <page>105</page>
-      <category>Particulier</category>
-      <theme>Particulier</theme>
-      <category>Professionnel</category>
-      <theme>Professionnel</theme>
-      <category>Soldes</category>
-      <theme>Soldes</theme>
-      <pubDate>Wed, 17 Nov 2010 00:00:00 -0000</pubDate>
-    </item>
-    <item>
       <title>Marketing ciblé sur internet : vos données ont de la valeur</title>
       <link>https://cnil.fr/fr/marketing-cible-sur-internet-vos-donnees-ont-de-la-valeur</link>
       <guid isPermaLink="true">https://cnil.fr/fr/marketing-cible-sur-internet-vos-donnees-ont-de-la-valeur</guid>
       <description><![CDATA[Publicité personnalisée, contextuelle ou comportementale, la CNIL fait le point dans un rapport rendu public sur ces différentes techniques de publicité ciblée en ligne, sur leurs risques d'atteintes…]]></description>
-      <page>106</page>
+      <page>105</page>
       <category>Particulier</category>
       <theme>Particulier</theme>
       <category>Marketing</category>
       <theme>Marketing</theme>
       <category>Publicité</category>
       <theme>Publicité</theme>
+      <pubDate>Wed, 17 Nov 2010 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Soldes sur internet : achetez en toute sécurité</title>
+      <link>https://cnil.fr/fr/soldes-sur-internet-achetez-en-toute-securite</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/soldes-sur-internet-achetez-en-toute-securite</guid>
+      <description><![CDATA[De plus en plus de personnes font leurs achats sur internet. Mais comment être sûr que l’on peut faire confiance aux commerçants virtuels ? Quelques conseils pratiques.]]></description>
+      <page>106</page>
+      <category>Particulier</category>
+      <theme>Particulier</theme>
+      <category>Professionnel</category>
+      <theme>Professionnel</theme>
+      <category>Soldes</category>
+      <theme>Soldes</theme>
       <pubDate>Wed, 17 Nov 2010 00:00:00 -0000</pubDate>
     </item>
   </channel>
