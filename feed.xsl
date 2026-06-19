@@ -25,13 +25,20 @@
           .meta span { margin-right: 14px; }
           .theme-list { margin-bottom: 12px; }
           .theme-tag { display: inline-block; background: #e1f0ff; color: #003d7a; border-radius: 12px; padding: 3px 10px; font-size: 12px; margin-right: 6px; margin-bottom: 6px; }
-          .filter-bar { margin-bottom: 20px; }
+          .filter-bar { margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
           .filter-group { display: flex; flex-wrap: wrap; gap: 10px; }
           .filter-button { padding: 8px 14px; background: #ccc; color: #222; border: none; border-radius: 4px; cursor: pointer; }
           .filter-button.active { background: #003d7a; color: #fff; }
-          .pager { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 28px; }
-          .pager button { padding: 8px 14px; background: #003d7a; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
-          .pager button.active { background: #0058b0; }
+          .tag-panel { width: 100%; overflow: hidden; max-height: 0; transition: max-height 0.25s ease; }
+          .tag-panel.expanded { max-height: 480px; }
+          .tag-panel .filter-group { padding: 12px 0 0; }
+          .pager-controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 24px; }
+          .slider-panel { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; width: 100%; }
+          .slider-panel button { padding: 8px 14px; background: #003d7a; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+          .slider-panel button:hover { opacity: 0.92; }
+          .page-info { font-size: 14px; color: #333; margin-left: 8px; }
+          .page-slider { width: 180px; max-width: 100%; }
+          .pager { display: none; }
           .pager button:hover { opacity: 0.9; }
         </style>
       </head>
@@ -42,6 +49,15 @@
             <p class="description"><xsl:value-of select="channel/description"/></p>
           </header>
           <div class="filter-bar">
+            <button id="toggle-tags" class="filter-button">Afficher les tags</button>
+            <div class="page-info" id="slider-current-page">Page 1</div>
+            <div class="slider-panel">
+              <button id="first-page">Première</button>
+              <input id="page-slider" class="page-slider" type="range" min="1" max="1" value="1" />
+              <button id="last-page">Dernière</button>
+            </div>
+          </div>
+          <div class="tag-panel" id="tag-panel">
             <div class="filter-group">
               <button class="filter-button active" data-theme="all">Tous</button>
             </div>
@@ -139,6 +155,7 @@
               currentPage = page;
               updatePageButtons();
               updateVisibility();
+              refreshSlider();
             }
 
             var allPagesButton = document.createElement('button');
@@ -150,43 +167,75 @@
             });
             pager.appendChild(allPagesButton);
 
-            if (categories.length > 0) {
-              var firstPageButton = document.createElement('button');
-              firstPageButton.className = 'filter-button';
-              firstPageButton.textContent = 'Première';
-              firstPageButton.setAttribute('data-page', categories[0]);
-              firstPageButton.addEventListener('click', function() {
-                goToPage(categories[0]);
-              });
-              pager.appendChild(firstPageButton);
-            }
-
             categories.forEach(function(page) {
               var button = document.createElement('button');
               button.className = 'filter-button';
               button.textContent = page;
               button.setAttribute('data-page', page);
               button.addEventListener('click', function() {
-                goToPage(page);
+                setCurrentPage(page);
               });
               pager.appendChild(button);
             });
 
             if (categories.length > 0) {
-              var lastPageButton = document.createElement('button');
-              lastPageButton.className = 'filter-button';
-              lastPageButton.textContent = 'Dernière';
-              lastPageButton.setAttribute('data-page', categories[categories.length - 1]);
-              lastPageButton.addEventListener('click', function() {
-                goToPage(categories[categories.length - 1]);
-              });
-              pager.appendChild(lastPageButton);
-            }
-
-            if (categories.length > 0) {
               currentPage = categories[0];
               updatePageButtons();
               updateVisibility();
+            }
+
+            var slider = document.getElementById('page-slider');
+            var pageInfo = document.getElementById('slider-current-page');
+            var firstPageButton = document.getElementById('first-page');
+            var lastPageButton = document.getElementById('last-page');
+            var toggleTags = document.getElementById('toggle-tags');
+            var tagPanel = document.getElementById('tag-panel');
+
+            function refreshSlider() {
+              if (!slider || categories.length === 0) return;
+              slider.min = 1;
+              slider.max = categories.length;
+              slider.value = currentPage ? parseInt(currentPage, 10) : 1;
+              pageInfo.textContent = 'Page ' + slider.value + ' / ' + categories.length;
+            }
+
+            function updatePageFromSlider() {
+              if (!slider) return;
+              var value = String(slider.value);
+              currentPage = value;
+              updatePageButtons();
+              updateVisibility();
+              pageInfo.textContent = 'Page ' + value + ' / ' + categories.length;
+            }
+
+            if (slider) {
+              slider.addEventListener('input', function() {
+                updatePageFromSlider();
+              });
+            }
+
+            if (firstPageButton) {
+              firstPageButton.addEventListener('click', function() {
+                currentPage = categories[0];
+                updatePageButtons();
+                updateVisibility();
+                refreshSlider();
+              });
+            }
+            if (lastPageButton) {
+              lastPageButton.addEventListener('click', function() {
+                currentPage = categories[categories.length - 1];
+                updatePageButtons();
+                updateVisibility();
+                refreshSlider();
+              });
+            }
+
+            function setCurrentPage(page) {
+              currentPage = page;
+              updatePageButtons();
+              updateVisibility();
+              refreshSlider();
             }
 
             var themes = [];
@@ -228,6 +277,14 @@
               filterGroup.appendChild(button);
             });
             updateThemeButtons();
+
+            if (toggleTags) {
+              toggleTags.addEventListener('click', function() {
+                var expanded = tagPanel.classList.toggle('expanded');
+                toggleTags.textContent = expanded ? 'Masquer les tags' : 'Afficher les tags';
+              });
+            }
+            refreshSlider();
           })();
         </script>
       </body>
