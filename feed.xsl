@@ -30,8 +30,8 @@
           .filter-button { padding: 8px 14px; background: #ccc; color: #222; border: none; border-radius: 4px; cursor: pointer; }
           .filter-button.active { background: #003d7a; color: #fff; }
           .tag-panel { width: 100%; overflow: hidden; max-height: 0; transition: max-height 0.25s ease; }
-          .tag-panel.expanded { max-height: 480px; }
-          .tag-panel .filter-group { padding: 12px 0 0; }
+          .tag-panel.expanded { max-height: 320px; overflow: auto; }
+          .tag-panel .filter-group { padding: 12px 0 0; max-height: 320px; overflow-y: auto; }
           .pager-controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 24px; }
           .slider-panel { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; width: 100%; background: #fff; padding: 12px; border-radius: 10px; border: 1px solid #d9d9d9; box-shadow: 0 1px 8px rgba(0,0,0,0.05); }
           .slider-panel button { padding: 8px 14px; background: #003d7a; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
@@ -52,6 +52,7 @@
             <button id="toggle-tags" class="filter-button">Afficher les tags</button>
             <div class="page-info" id="slider-current-page">Page 1</div>
             <div class="slider-panel">
+              <button id="all-pages" class="filter-button">Toutes les pages</button>
               <button id="first-page">Première</button>
               <input id="page-slider" class="page-slider" type="range" min="1" max="1" value="1" />
               <button id="last-page">Dernière</button>
@@ -228,6 +229,12 @@
                 updatePageButtons();
                 updateVisibility();
                 refreshSlider();
+              });
+            }
+            var allPagesControl = document.getElementById('all-pages');
+            if (allPagesControl) {
+              allPagesControl.addEventListener('click', function() {
+                goToPage(null);
               });
             }
 
