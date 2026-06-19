@@ -85,9 +85,11 @@ def page_number_from_url(url):
     return page_index + 1
 
 
-def collect_paginated_urls(start_url, max_pages=3):
+def collect_paginated_urls(start_url, max_pages=0):
     urls = [start_url]
-    while len(urls) < max_pages:
+    while True:
+        if max_pages and len(urls) >= max_pages:
+            break
         resp = requests.get(urls[-1], headers={"User-Agent": "cnil-rss-generator/1.0"})
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
@@ -218,7 +220,7 @@ def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualit
             safe_description = it['description'].replace(']]>', ']]]]><![CDATA[>')
             out += f"      <description><![CDATA[{safe_description}]]></description>\n"
         if it.get("page") is not None:
-            out += f"      <page>Page {it['page']}</page>\n"
+            out += f"      <page>{int(it['page'])}</page>\n"
         if it.get("themes"):
             for theme in it["themes"]:
                 out += f"      <category>{saxutils.escape(theme)}</category>\n"
@@ -233,8 +235,8 @@ def main():
     parser = argparse.ArgumentParser(description="Generate a simple RSS feed from https://cnil.fr/fr/actualite")
     parser.add_argument("--url", default="https://cnil.fr/fr/actualite")
     parser.add_argument("--output", default="cnil_feed.xml")
-    parser.add_argument("--limit", type=int, default=20, help="Number of articles to include. Use 0 for no limit.")
-    parser.add_argument("--pages", type=int, default=3, help="Number of paginated pages to fetch")
+    parser.add_argument("--limit", type=int, default=0, help="Number of articles to include. Use 0 for no limit.")
+    parser.add_argument("--pages", type=int, default=0, help="Number of paginated pages to fetch. Use 0 for all pages.")
     parser.add_argument("--items-per-page", type=int, default=6, help="Maximum number of articles per RSS page")
     parser.add_argument("--year", type=int, default=None, help="Include only articles from this year")
     args = parser.parse_args()
@@ -246,7 +248,10 @@ def main():
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
         page_number = page_number_from_url(page_url)
-        all_items.extend(parse_articles(soup, page_url, page_number=page_number))
+        page_items = parse_articles(soup, page_url, page_number=page_number)
+        if args.items_per_page > 0:
+            page_items = page_items[: args.items_per_page]
+        all_items.extend(page_items)
 
     if args.year is not None:
         all_items = [item for item in all_items if item["date"].year == args.year]
