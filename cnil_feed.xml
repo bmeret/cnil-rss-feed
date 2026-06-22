@@ -123,6 +123,7 @@
       <month>5</month>
       <category>Santé</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -139,7 +140,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN</url>
       </image>
       <description><![CDATA[Avant de traiter des données personnelles, il est essentiel que les acteurs identifient leurs rôles. La CNIL fournit des orientations pour aider ceux du secteur de l’informatique en nuage (cloud) à…]]></description>
-      <page>2</page>
+      <page>1</page>
       <year>2026</year>
       <month>5</month>
       <category>Autre</category>
@@ -1123,6 +1124,7 @@
       <month>2</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -1286,6 +1288,7 @@
       <month>1</month>
       <category>Cybersécurité</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -1389,6 +1392,7 @@
       <year>2026</year>
       <month>1</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -1492,6 +1496,7 @@
       <month>1</month>
       <category>Cybersécurité</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -1588,6 +1593,7 @@
       <year>2025</year>
       <month>12</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -1664,6 +1670,7 @@
       <month>12</month>
       <category>Cybersécurité</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -1704,6 +1711,7 @@
       <year>2025</year>
       <month>12</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -1825,6 +1833,7 @@
       <month>12</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -1887,6 +1896,7 @@
       <month>11</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -2290,6 +2300,7 @@
       <year>2025</year>
       <month>10</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -2411,6 +2422,7 @@
       <year>2025</year>
       <month>9</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -2451,6 +2463,7 @@
       <year>2025</year>
       <month>9</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -2552,6 +2565,7 @@
       <month>9</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -2573,6 +2587,7 @@
       <month>9</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -3335,6 +3350,7 @@
       <month>5</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -3376,6 +3392,7 @@
       <month>5</month>
       <category>Cybersécurité</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -3397,6 +3414,7 @@
       <month>5</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -3582,6 +3600,7 @@
       <month>4</month>
       <category>Intelligence Artificielle</category>
       <category>Éducation</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Rapport annuel</theme>
@@ -3887,7 +3906,7 @@
       <page>33</page>
       <year>2025</year>
       <month>3</month>
-      <category>Autre</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Applications mobiles</theme>
@@ -4420,6 +4439,7 @@
       <year>2025</year>
       <month>2</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -4441,6 +4461,7 @@
       <month>2</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -4661,7 +4682,7 @@
       <page>39</page>
       <year>2025</year>
       <month>1</month>
-      <category>Autre</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Vie de la CNIL</theme>
@@ -4778,6 +4799,7 @@
       <year>2024</year>
       <month>12</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -4899,6 +4921,7 @@
       <year>2024</year>
       <month>12</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -5155,6 +5178,7 @@
       <year>2024</year>
       <month>11</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -5277,6 +5301,7 @@
       <year>2024</year>
       <month>10</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -5297,6 +5322,7 @@
       <year>2024</year>
       <month>10</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -5439,6 +5465,7 @@
       <month>9</month>
       <category>Santé</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -5536,6 +5563,7 @@
       <month>8</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -5754,6 +5782,7 @@
       <month>7</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -6088,6 +6117,7 @@
       <month>6</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -6465,7 +6495,7 @@
       <page>55</page>
       <year>2024</year>
       <month>4</month>
-      <category>Autre</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>CNIL</theme>
@@ -6790,6 +6820,7 @@
       <month>3</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -6987,6 +7018,7 @@
       <year>2024</year>
       <month>2</month>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -7090,6 +7122,7 @@
       <month>1</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -7223,6 +7256,7 @@
       <category>Santé</category>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -7537,6 +7571,7 @@
       <month>11</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
@@ -8233,6 +8268,7 @@
       <month>6</month>
       <category>Droits &amp; Libertés</category>
       <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
