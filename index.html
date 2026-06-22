@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CNIL — Veille Actualités</title>
+<style>
+  /* ── Palette CNIL ── */
+  :root {
+    --blue-deep:   #003189;
+    --blue-mid:    #0055c8;
+    --blue-light:  #d6e4ff;
+    --blue-pale:   #f0f5ff;
+    --red-cnil:    #e8002d;
+    --grey-1:      #f4f6fb;
+    --grey-2:      #e8ecf4;
+    --grey-3:      #b0bcd4;
+    --text:        #1a1f36;
+    --text-muted:  #5a6480;
+    --white:       #ffffff;
+    --radius:      8px;
+    --shadow:      0 2px 12px rgba(0,49,137,.10);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: var(--grey-1);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--blue-deep);
+    color: var(--white);
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 64px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,.25);
+  }
+  .logo-badge {
+    background: var(--red-cnil);
+    color: var(--white);
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: .04em;
+    padding: 5px 12px;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  header h1 {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .01em;
+  }
+  #result-count {
+    margin-left: auto;
+    font-size: 13px;
+    color: rgba(255,255,255,.65);
+    white-space: nowrap;
+  }
+
+  /* ── Layout ── */
+  .layout {
+    display: flex;
+    gap: 0;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 24px 16px;
+    align-items: flex-start;
+  }
+
+  /* ── Sidebar filters ── */
+  aside {
+    width: 240px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 88px;
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 20px 16px 24px;
+    margin-right: 20px;
+  }
+  .sidebar-section { margin-bottom: 24px; }
+  .sidebar-section:last-child { margin-bottom: 0; }
+  .sidebar-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  /* Category pills */
+  .cat-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    background: none;
+    color: var(--text);
+    text-align: left;
+    transition: background .15s;
+    margin-bottom: 4px;
+  }
+  .cat-btn:hover { background: var(--blue-pale); }
+  .cat-btn.active { background: var(--blue-deep); color: var(--white); }
+  .cat-btn.active .cat-dot { background: var(--white) !important; }
+  .cat-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .cat-count {
+    margin-left: auto;
+    font-size: 11px;
+    background: var(--grey-2);
+    border-radius: 10px;
+    padding: 1px 7px;
+    color: var(--text-muted);
+  }
+  .cat-btn.active .cat-count {
+    background: rgba(255,255,255,.25);
+    color: var(--white);
+  }
+
+  /* Date selects */
+  select {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1.5px solid var(--grey-2);
+    border-radius: 6px;
+    font-size: 13px;
+    color: var(--text);
+    background: var(--white);
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%235a6480' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    margin-bottom: 8px;
+  }
+  select:focus { outline: 2px solid var(--blue-mid); border-color: var(--blue-mid); }
+
+  .reset-btn {
+    width: 100%;
+    padding: 8px;
+    background: none;
+    border: 1.5px solid var(--grey-2);
+    border-radius: 6px;
+    color: var(--text-muted);
+    font-size: 12px;
+    cursor: pointer;
+    transition: border-color .15s, color .15s;
+    margin-top: 4px;
+  }
+  .reset-btn:hover { border-color: var(--blue-mid); color: var(--blue-mid); }
+
+  /* ── Article grid ── */
+  main { flex: 1; min-width: 0; }
+
+  #loading {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--text-muted);
+    font-size: 15px;
+  }
+  .spinner {
+    width: 36px; height: 36px;
+    border: 3px solid var(--grey-2);
+    border-top-color: var(--blue-mid);
+    border-radius: 50%;
+    animation: spin .7s linear infinite;
+    margin: 0 auto 16px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  #no-results {
+    display: none;
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-muted);
+    font-size: 15px;
+  }
+
+  #articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 18px;
+  }
+
+  .article-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform .15s, box-shadow .15s;
+  }
+  .article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0,49,137,.14);
+  }
+  .article-card.hidden { display: none; }
+
+  .card-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    background: var(--blue-light);
+  }
+  .card-img-placeholder {
+    height: 6px;
+    background: var(--blue-deep);
+  }
+  .card-body {
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .card-cats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .cat-tag {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: var(--white);
+  }
+  .card-title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.45;
+    color: var(--text);
+  }
+  .card-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .card-title a:hover { color: var(--blue-mid); }
+  .card-desc {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-meta {
+    font-size: 11px;
+    color: var(--grey-3);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-top: 1px solid var(--grey-2);
+    padding-top: 10px;
+    margin-top: auto;
+  }
+  .card-meta-date::before { content: "📅 "; }
+
+  /* ── Category colours ── */
+  .cc-ia           { background: #7c3aed; }
+  .cc-education    { background: #0891b2; }
+  .cc-sante        { background: #059669; }
+  .cc-droits       { background: #d97706; }
+  .cc-cyber        { background: #dc2626; }
+  .cc-entreprises  { background: #0055c8; }
+  .cc-autre        { background: #6b7280; }
+
+  /* dot colours */
+  .dc-ia           { background: #7c3aed; }
+  .dc-education    { background: #0891b2; }
+  .dc-sante        { background: #059669; }
+  .dc-droits       { background: #d97706; }
+  .dc-cyber        { background: #dc2626; }
+  .dc-entreprises  { background: #0055c8; }
+  .dc-autre        { background: #6b7280; }
+
+  /* ── Responsive ── */
+  @media (max-width: 720px) {
+    .layout { flex-direction: column; padding: 12px; }
+    aside { width: 100%; position: static; margin-right: 0; margin-bottom: 16px; }
+    header { padding: 0 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-badge">CNIL</div>
+  <h1>Veille Actualités</h1>
+  <span id="result-count">Chargement…</span>
+</header>
+
+<div class="layout">
+
+  <aside>
+    <!-- Category filter -->
+    <div class="sidebar-section">
+      <span class="sidebar-label">Catégorie</span>
+      <div id="cat-filters"></div>
+    </div>
+
+    <!-- Date filters -->
+    <div class="sidebar-section">
+      <span class="sidebar-label">Année</span>
+      <select id="year-select">
+        <option value="">Toutes les années</option>
+      </select>
+      <span class="sidebar-label" style="margin-top:12px">Mois</span>
+      <select id="month-select">
+        <option value="">Tous les mois</option>
+      </select>
+      <button class="reset-btn" id="reset-btn">↺ Réinitialiser les filtres</button>
+    </div>
+  </aside>
+
+  <main>
+    <div id="loading">
+      <div class="spinner"></div>
+      Chargement des actualités…
+    </div>
+    <div id="no-results">Aucun article ne correspond à ces filtres.</div>
+    <div id="articles"></div>
+  </main>
+
+</div>
+
+<script>
+const FEED_URL = "cnil_feed.xml";
+
+const CAT_META = {
+  "Intelligence Artificielle": { cls: "cc-ia",          dot: "dc-ia",          id: "ia" },
+  "Éducation":                 { cls: "cc-education",   dot: "dc-education",   id: "education" },
+  "Santé":                     { cls: "cc-sante",       dot: "dc-sante",       id: "sante" },
+  "Droits & Libertés":         { cls: "cc-droits",      dot: "dc-droits",      id: "droits" },
+  "Cybersécurité":             { cls: "cc-cyber",       dot: "dc-cyber",       id: "cyber" },
+  "Entreprises & RGPD":        { cls: "cc-entreprises", dot: "dc-entreprises", id: "entreprises" },
+  "Autre":                     { cls: "cc-autre",       dot: "dc-autre",       id: "autre" },
+};
+
+const MONTH_NAMES = ["","Janvier","Février","Mars","Avril","Mai","Juin",
+                     "Juillet","Août","Septembre","Octobre","Novembre","Décembre"];
+
+let allArticles = [];
+let activeCategory = null; // null = all
+let activeYear = "";
+let activeMonth = "";
+
+// ── Fetch & parse RSS ─────────────────────────────────────────────────────────
+async function loadFeed() {
+  const res = await fetch(FEED_URL);
+  if (!res.ok) throw new Error("Impossible de charger le flux RSS.");
+  const text = await res.text();
+  const parser = new DOMParser();
+  const xml = parser.parseFromString(text, "application/xml");
+  const items = Array.from(xml.querySelectorAll("item"));
+
+  return items.map(item => {
+    const get = tag => {
+      const el = item.querySelector(tag);
+      return el ? el.textContent.trim() : "";
+    };
+    const getNs = localName => {
+      const els = item.getElementsByTagNameNS("https://cnil.fr/rss/ext", localName);
+      return els.length ? els[0].textContent.trim() : "";
+    };
+
+    const cats = Array.from(item.querySelectorAll("category")).map(c => c.textContent.trim()).filter(Boolean);
+    const themes = Array.from(item.querySelectorAll("theme")).map(t => t.textContent.trim()).filter(Boolean);
+    const image = get("image url") || item.querySelector("media\\:content, content")?.getAttribute("url")
+                  || item.querySelector("[url]")?.getAttribute("url") || "";
+
+    const year  = parseInt(getNs("year") || get("year"), 10) || 0;
+    const month = parseInt(getNs("month") || get("month"), 10) || 0;
+
+    return {
+      title: get("title"),
+      link:  get("link"),
+      desc:  get("description"),
+      pubDate: get("pubDate"),
+      image,
+      categories: [...new Set(cats)],
+      themes,
+      year,
+      month,
+    };
+  });
+}
+
+// ── Render articles ───────────────────────────────────────────────────────────
+function renderCard(a) {
+  const div = document.createElement("div");
+  div.className = "article-card";
+
+  // image or colour bar
+  if (a.image) {
+    const img = document.createElement("img");
+    img.className = "card-img";
+    img.src = a.image;
+    img.alt = "";
+    img.loading = "lazy";
+    img.onerror = () => img.replaceWith(colourBar(a.categories[0]));
+    div.appendChild(img);
+  } else {
+    div.appendChild(colourBar(a.categories[0]));
+  }
+
+  const body = document.createElement("div");
+  body.className = "card-body";
+
+  // category tags
+  if (a.categories.length) {
+    const cats = document.createElement("div");
+    cats.className = "card-cats";
+    a.categories.forEach(c => {
+      const tag = document.createElement("span");
+      tag.className = "cat-tag " + (CAT_META[c]?.cls || "cc-autre");
+      tag.textContent = c;
+      cats.appendChild(tag);
+    });
+    body.appendChild(cats);
+  }
+
+  // title
+  const titleEl = document.createElement("div");
+  titleEl.className = "card-title";
+  titleEl.innerHTML = `<a href="${escHtml(a.link)}" target="_blank" rel="noopener">${escHtml(a.title)}</a>`;
+  body.appendChild(titleEl);
+
+  // description
+  if (a.desc) {
+    const desc = document.createElement("div");
+    desc.className = "card-desc";
+    desc.textContent = a.desc;
+    body.appendChild(desc);
+  }
+
+  // meta
+  const meta = document.createElement("div");
+  meta.className = "card-meta";
+  const dateLabel = a.year
+    ? `${a.year}${a.month ? " · " + MONTH_NAMES[a.month] : ""}`
+    : a.pubDate.slice(0, 16);
+  meta.innerHTML = `<span class="card-meta-date">${escHtml(dateLabel)}</span>`;
+  body.appendChild(meta);
+
+  div.appendChild(body);
+  return div;
+}
+
+function colourBar(cat) {
+  const d = document.createElement("div");
+  d.className = "card-img-placeholder " + (CAT_META[cat]?.cls || "cc-autre");
+  return d;
+}
+
+function escHtml(str) {
+  return (str || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+// ── Populate sidebar ──────────────────────────────────────────────────────────
+function buildSidebar() {
+  // years
+  const years = [...new Set(allArticles.map(a => a.year).filter(Boolean))].sort((a,b) => b-a);
+  const ySel = document.getElementById("year-select");
+  years.forEach(y => {
+    const o = document.createElement("option");
+    o.value = y; o.textContent = y;
+    ySel.appendChild(o);
+  });
+
+  // months — populated dynamically after year selection
+  populateMonths();
+
+  // category counts
+  const counts = {};
+  allArticles.forEach(a => a.categories.forEach(c => counts[c] = (counts[c]||0)+1));
+  const catOrder = [
+    "Intelligence Artificielle","Éducation","Santé",
+    "Droits & Libertés","Cybersécurité","Entreprises & RGPD","Autre"
+  ];
+  const container = document.getElementById("cat-filters");
+
+  // "Tous" button
+  const allBtn = makeBtn("Tous", null, counts, true);
+  container.appendChild(allBtn);
+
+  catOrder.forEach(c => {
+    if (counts[c]) container.appendChild(makeBtn(c, c, counts));
+  });
+}
+
+function makeBtn(label, catId, counts, isAll=false) {
+  const btn = document.createElement("button");
+  btn.className = "cat-btn" + (isAll ? " active" : "");
+  btn.dataset.cat = catId || "";
+
+  if (catId) {
+    const dot = document.createElement("span");
+    dot.className = "cat-dot " + (CAT_META[catId]?.dot || "dc-autre");
+    btn.appendChild(dot);
+  }
+  const lbl = document.createElement("span");
+  lbl.textContent = label;
+  btn.appendChild(lbl);
+
+  const total = isAll
+    ? allArticles.length
+    : (counts[catId] || 0);
+  const cnt = document.createElement("span");
+  cnt.className = "cat-count";
+  cnt.textContent = total;
+  btn.appendChild(cnt);
+
+  btn.addEventListener("click", () => {
+    activeCategory = catId || null;
+    document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    applyFilters();
+  });
+  return btn;
+}
+
+function populateMonths() {
+  const mSel = document.getElementById("month-select");
+  const currentMonth = mSel.value;
+  mSel.innerHTML = '<option value="">Tous les mois</option>';
+
+  const articlesForYear = activeYear
+    ? allArticles.filter(a => String(a.year) === String(activeYear))
+    : allArticles;
+
+  const months = [...new Set(articlesForYear.map(a => a.month).filter(Boolean))].sort((a,b)=>a-b);
+  months.forEach(m => {
+    const o = document.createElement("option");
+    o.value = m; o.textContent = MONTH_NAMES[m];
+    mSel.appendChild(o);
+  });
+  if (months.includes(parseInt(currentMonth, 10))) {
+    mSel.value = currentMonth;
+  }
+}
+
+// ── Filter logic ──────────────────────────────────────────────────────────────
+function applyFilters() {
+  const container = document.getElementById("articles");
+  let visible = 0;
+  container.querySelectorAll(".article-card").forEach((card, i) => {
+    const a = allArticles[i];
+    const catMatch  = !activeCategory || a.categories.includes(activeCategory);
+    const yearMatch = !activeYear  || String(a.year)  === String(activeYear);
+    const monthMatch= !activeMonth || String(a.month) === String(activeMonth);
+    const show = catMatch && yearMatch && monthMatch;
+    card.classList.toggle("hidden", !show);
+    if (show) visible++;
+  });
+  document.getElementById("result-count").textContent =
+    visible + " article" + (visible > 1 ? "s" : "");
+  document.getElementById("no-results").style.display = visible === 0 ? "block" : "none";
+
+  // update category counts
+  document.querySelectorAll(".cat-btn").forEach(btn => {
+    const cat = btn.dataset.cat;
+    const cnt = btn.querySelector(".cat-count");
+    if (!cnt) return;
+    if (!cat) {
+      cnt.textContent = visible;
+    } else {
+      const n = allArticles.filter((a,i) => {
+        const card = container.querySelectorAll(".article-card")[i];
+        return !card.classList.contains("hidden") && a.categories.includes(cat);
+      }).length;
+      cnt.textContent = n;
+    }
+  });
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    allArticles = await loadFeed();
+    document.getElementById("loading").style.display = "none";
+
+    const container = document.getElementById("articles");
+    allArticles.forEach(a => container.appendChild(renderCard(a)));
+
+    buildSidebar();
+
+    document.getElementById("year-select").addEventListener("change", e => {
+      activeYear = e.target.value;
+      activeMonth = "";
+      populateMonths();
+      applyFilters();
+    });
+    document.getElementById("month-select").addEventListener("change", e => {
+      activeMonth = e.target.value;
+      applyFilters();
+    });
+    document.getElementById("reset-btn").addEventListener("click", () => {
+      activeCategory = null;
+      activeYear = "";
+      activeMonth = "";
+      document.getElementById("year-select").value = "";
+      document.getElementById("month-select").value = "";
+      document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
+      document.querySelector('.cat-btn[data-cat=""]')?.classList.add("active");
+      populateMonths();
+      applyFilters();
+    });
+
+    applyFilters();
+  } catch (err) {
+    document.getElementById("loading").innerHTML =
+      `<p style="color:#dc2626">Erreur : ${err.message}<br>Vérifiez que <code>cnil_feed.xml</code> est bien dans le même dossier.</p>`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>
