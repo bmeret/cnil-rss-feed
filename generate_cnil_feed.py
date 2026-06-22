@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
 import argparse
+import os
+import time
 from datetime import datetime
 from urllib.parse import urljoin, urlparse, parse_qs
 import email.utils
 import re
+import xml.etree.ElementTree as ET
 import xml.sax.saxutils as saxutils
 
 import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
+
+DEFAULT_TIMEOUT = 20
 
 
 FRENCH_DATE_REGEX = re.compile(
@@ -46,7 +51,7 @@ CATEGORIES = [
         "id": "ia",
         "label": "Intelligence Artificielle",
         "keywords": [
-            "intelligence artificielle", "ia ", " ia,", "algorithme", "machine learning",
+            "intelligence artificielle", "ia", "algorithme", "machine learning",
             "apprentissage automatique", "deep learning", "llm", "chatgpt", "openai",
             "modèle d'ia", "système d'ia", "robot", "automatisation", "chatbot",
             "recommandation algorithmique", "traitement automatisé",
@@ -101,16 +106,24 @@ CATEGORIES = [
         ],
     },
 ]
- 
- 
+
+
+def _compile_keyword_pattern(keyword):
+    # \b on each side avoids matching the keyword as a sub-string of an
+    # unrelated word (e.g. "ia" no longer matches inside "diagnostic").
+    return re.compile(r"\b" + re.escape(keyword.strip()) + r"\b", re.IGNORECASE)
+
+
+for _cat in CATEGORIES:
+    _cat["patterns"] = [_compile_keyword_pattern(kw) for kw in _cat["keywords"]]
+
+
 def classify_article(title, description, themes):
-    text = " ".join([title, description] + themes).lower()
+    text = " ".join([title, description] + themes)
     matched = []
     for cat in CATEGORIES:
-        for kw in cat["keywords"]:
-            if kw in text:
-                matched.append(cat["label"])
-                break
+        if any(pattern.search(text) for pattern in cat["patterns"]):
+            matched.append(cat["label"])
     return matched if matched else ["Autre"]
  
 
@@ -165,19 +178,123 @@ def page_number_from_url(url):
     return page_index + 1
 
 
-def collect_paginated_urls(start_url, max_pages=0):
-    urls = [start_url]
-    while True:
-        if max_pages and len(urls) >= max_pages:
+def crawl(start_url, existing_links=None, max_pages=0, items_per_page=0,
+          delay=0.5, timeout=DEFAULT_TIMEOUT, stop_when_no_new=True):
+    """Fetch CNIL listing pages one by one (single HTTP request per page).
+
+    If stop_when_no_new is True and existing_links is non-empty, the crawl
+    stops as soon as a page contains no article we haven't already seen in
+    a previous run. This avoids re-downloading the entire site (100+ pages)
+    on every scheduled run -- only the newest pages need to be fetched.
+    """
+    existing_links = existing_links or set()
+    session = requests.Session()
+    session.headers.update({"User-Agent": "cnil-rss-generator/1.0"})
+
+    all_items = []
+    url = start_url
+    visited = set()
+    pages_fetched = 0
+
+    while url and url not in visited:
+        visited.add(url)
+        try:
+            resp = session.get(url, timeout=timeout)
+            resp.raise_for_status()
+        except requests.RequestException as exc:
+            print(f"Avertissement: échec de la requête vers {url} ({exc}). "
+                  f"Arrêt du crawl, conservation des {len(all_items)} article(s) déjà récupéré(s).")
             break
-        resp = requests.get(urls[-1], headers={"User-Agent": "cnil-rss-generator/1.0"})
-        resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
-        next_url = find_next_page_url(soup, urls[-1])
-        if not next_url or next_url in urls:
+
+        page_number = page_number_from_url(url)
+        page_items = parse_articles(soup, url, page_number=page_number)
+        if items_per_page > 0:
+            page_items = page_items[:items_per_page]
+        all_items.extend(page_items)
+        pages_fetched += 1
+
+        has_new = any(item["link"] not in existing_links for item in page_items)
+        next_url = find_next_page_url(soup, url)
+
+        if max_pages and pages_fetched >= max_pages:
             break
-        urls.append(next_url)
-    return urls
+        if stop_when_no_new and existing_links and not has_new:
+            break
+        if not next_url or next_url in visited:
+            break
+
+        url = next_url
+        if delay:
+            time.sleep(delay)
+
+    return all_items
+
+
+def load_existing_items(path):
+    """Read a previously generated cnil_feed.xml back into the same item
+    shape produced by parse_articles, so new runs can merge with it instead
+    of re-scraping the whole site every time."""
+    if not path or not os.path.exists(path):
+        return []
+
+    try:
+        root = ET.parse(path).getroot()
+    except ET.ParseError:
+        return []
+
+    ns = {"media": "http://search.yahoo.com/mrss/"}
+    items = []
+    for item_el in root.findall("./channel/item"):
+        def text(tag):
+            el = item_el.find(tag)
+            return el.text.strip() if el is not None and el.text else ""
+
+        link = text("link")
+        if not link:
+            continue
+
+        pub_date_text = text("pubDate")
+        dt = None
+        if pub_date_text:
+            try:
+                dt = email.utils.parsedate_to_datetime(pub_date_text)
+            except (TypeError, ValueError):
+                dt = None
+        if dt is not None and dt.tzinfo is not None:
+            dt = dt.replace(tzinfo=None)
+        if dt is None:
+            dt = datetime.now()
+
+        image = None
+        image_el = item_el.find("./image/url")
+        if image_el is not None and image_el.text:
+            image = image_el.text.strip()
+        if not image:
+            media_el = item_el.find("media:content", ns)
+            if media_el is not None:
+                image = media_el.get("url")
+
+        page_text = text("page")
+        page = int(page_text) if page_text.isdigit() else None
+
+        themes = [
+            (el.text or "").strip()
+            for el in item_el.findall("theme")
+            if el.text and el.text.strip()
+        ]
+
+        items.append({
+            "title": text("title"),
+            "link": link,
+            "pubDate": pub_date_text or email.utils.format_datetime(dt),
+            "description": text("description"),
+            "page": page,
+            "date": dt,
+            "image": image,
+            "themes": themes,
+        })
+    return items
 
 
 def parse_articles(soup, base_url, page_number=None):
@@ -301,9 +418,13 @@ def build_rss(items, title="CNIL Actualités", link="https://cnil.fr/fr/actualit
             out += f"      <description><![CDATA[{safe_description}]]></description>\n"
         if it.get("page") is not None:
             out += f"      <page>{int(it['page'])}</page>\n"
+        out += f"      <year>{it['date'].year}</year>\n"
+        out += f"      <month>{it['date'].month}</month>\n"
+        categories = classify_article(it['title'], it['description'], it.get('themes', []))
+        for category in categories:
+            out += f"      <category>{saxutils.escape(category)}</category>\n"
         if it.get("themes"):
             for theme in it["themes"]:
-                out += f"      <category>{saxutils.escape(theme)}</category>\n"
                 out += f"      <theme>{saxutils.escape(theme)}</theme>\n"
         out += f"      <pubDate>{saxutils.escape(it['pubDate'])}</pubDate>\n"
         out += "    </item>\n"
@@ -316,22 +437,36 @@ def main():
     parser.add_argument("--url", default="https://cnil.fr/fr/actualite")
     parser.add_argument("--output", default="cnil_feed.xml")
     parser.add_argument("--limit", type=int, default=0, help="Number of articles to include. Use 0 for no limit.")
-    parser.add_argument("--pages", type=int, default=0, help="Number of paginated pages to fetch. Use 0 for all pages.")
+    parser.add_argument("--pages", type=int, default=0, help="Max number of listing pages to fetch this run. Use 0 for no limit.")
     parser.add_argument("--items-per-page", type=int, default=6, help="Maximum number of articles per RSS page")
     parser.add_argument("--year", type=int, default=None, help="Include only articles from this year")
+    parser.add_argument("--timeout", type=int, default=DEFAULT_TIMEOUT, help="HTTP request timeout in seconds")
+    parser.add_argument("--delay", type=float, default=0.5, help="Delay in seconds between page requests")
+    parser.add_argument(
+        "--force-full-scan",
+        action="store_true",
+        help="Re-crawl every listing page even if no new articles are found (default: stop early once nothing new shows up).",
+    )
     args = parser.parse_args()
 
-    page_urls = collect_paginated_urls(args.url, max_pages=args.pages)
-    all_items = []
-    for page_url in page_urls:
-        resp = requests.get(page_url, headers={"User-Agent": "cnil-rss-generator/1.0"})
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        page_number = page_number_from_url(page_url)
-        page_items = parse_articles(soup, page_url, page_number=page_number)
-        if args.items_per_page > 0:
-            page_items = page_items[: args.items_per_page]
-        all_items.extend(page_items)
+    existing_items = load_existing_items(args.output)
+    existing_links = {item["link"] for item in existing_items}
+
+    new_items = crawl(
+        args.url,
+        existing_links=existing_links,
+        max_pages=args.pages,
+        items_per_page=args.items_per_page,
+        delay=args.delay,
+        timeout=args.timeout,
+        stop_when_no_new=not args.force_full_scan,
+    )
+
+    # Merge: newly-scraped data wins for articles seen again (content may
+    # have changed), everything else from the previous feed is kept as-is.
+    merged_by_link = {item["link"]: item for item in existing_items}
+    merged_by_link.update({item["link"]: item for item in new_items})
+    all_items = list(merged_by_link.values())
 
     if args.year is not None:
         all_items = [item for item in all_items if item["date"].year == args.year]
@@ -340,7 +475,7 @@ def main():
     rss = build_rss(items)
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(rss)
-    print(f"Wrote {len(items)} items to {args.output}")
+    print(f"Found {len(new_items)} item(s) on this crawl, {len(items)} total written to {args.output}")
 
 
 if __name__ == "__main__":
