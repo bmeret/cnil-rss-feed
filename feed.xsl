@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:media="http://search.yahoo.com/mrss/">
   <xsl:output method="html" encoding="UTF-8" indent="yes"/>
-  <xsl:key name="item-by-category" match="channel/item" use="category"/>
 
   <xsl:template match="/rss">
     <html>
@@ -32,7 +31,6 @@
           .tag-panel { width: 100%; overflow: hidden; max-height: 0; transition: max-height 0.25s ease; }
           .tag-panel.expanded { max-height: 320px; overflow: auto; border: 1px solid #d9d9d9; border-radius: 10px; background: #fff; box-shadow: inset 0 1px 8px rgba(0,0,0,0.04); }
           .tag-panel .filter-group { padding: 12px 14px 14px; gap: 10px; display: flex; flex-wrap: wrap; }
-          .pager-controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 24px; }
           .slider-panel { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; width: 100%; background: #fff; padding: 12px; border-radius: 10px; border: 1px solid #d9d9d9; box-shadow: 0 1px 8px rgba(0,0,0,0.05); }
           .slider-panel button { padding: 8px 14px; background: #003d7a; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
           .slider-panel button:hover { opacity: 0.92; }
@@ -41,8 +39,6 @@
           .slider-panel button:hover { opacity: 0.92; }
           .page-info { font-size: 14px; color: #333; margin-left: 0; min-width: 145px; }
           .page-slider { width: 220px; max-width: 100%; }
-          .pager { display: none; }
-          .pager button:hover { opacity: 0.9; }
         </style>
       </head>
       <body>
@@ -101,13 +97,11 @@
             </div>
           </xsl:for-each>
 
-          <div class="pager" id="pager"></div>
         </div>
         <script type="text/javascript">
           (function() {
             var container = document.querySelector('.container');
             if (!container) return;
-            var pager = document.getElementById('pager');
             var filterGroup = document.querySelector('.filter-group');
             var items = Array.prototype.slice.call(container.querySelectorAll('.item'));
             var categories = [];
@@ -147,47 +141,14 @@
               });
             }
 
-            function updatePageButtons() {
-              var buttons = pager.querySelectorAll('button[data-page]');
-              buttons.forEach(function(btn) {
-                var page = btn.getAttribute('data-page');
-                btn.classList.toggle('active', currentPage === null ? page === 'all' : page === currentPage);
-              });
-              if (allPagesControl) {
-                allPagesControl.classList.toggle('active', currentPage === null);
-              }
-            }
-
             function goToPage(page) {
               currentPage = page;
-              updatePageButtons();
               updateVisibility();
               refreshSlider();
             }
 
-            var allPagesButton = document.createElement('button');
-            allPagesButton.className = 'filter-button';
-            allPagesButton.textContent = 'Toutes';
-            allPagesButton.setAttribute('data-page', 'all');
-            allPagesButton.addEventListener('click', function() {
-              goToPage(null);
-            });
-            pager.appendChild(allPagesButton);
-
-            categories.forEach(function(page) {
-              var button = document.createElement('button');
-              button.className = 'filter-button';
-              button.textContent = page;
-              button.setAttribute('data-page', page);
-              button.addEventListener('click', function() {
-                setCurrentPage(page);
-              });
-              pager.appendChild(button);
-            });
-
             if (categories.length > 0) {
               currentPage = categories[0];
-              updatePageButtons();
               updateVisibility();
             }
 
@@ -205,15 +166,20 @@
               slider.max = categories.length;
               slider.value = currentPage ? parseInt(currentPage, 10) : 1;
               pageInfo.textContent = 'Page ' + slider.value + ' / ' + categories.length;
+              if (allPagesControl) {
+                allPagesControl.classList.toggle('active', currentPage === null);
+              }
             }
 
             function updatePageFromSlider() {
               if (!slider) return;
               var value = String(slider.value);
               currentPage = value;
-              updatePageButtons();
               updateVisibility();
               pageInfo.textContent = 'Page ' + value + ' / ' + categories.length;
+              if (allPagesControl) {
+                allPagesControl.classList.toggle('active', false);
+              }
             }
 
             if (slider) {
@@ -225,7 +191,6 @@
             if (firstPageButton) {
               firstPageButton.addEventListener('click', function() {
                 currentPage = categories[0];
-                updatePageButtons();
                 updateVisibility();
                 refreshSlider();
               });
@@ -233,7 +198,6 @@
             if (lastPageButton) {
               lastPageButton.addEventListener('click', function() {
                 currentPage = categories[categories.length - 1];
-                updatePageButtons();
                 updateVisibility();
                 refreshSlider();
               });
@@ -242,13 +206,6 @@
               allPagesControl.addEventListener('click', function() {
                 goToPage(null);
               });
-            }
-
-            function setCurrentPage(page) {
-              currentPage = page;
-              updatePageButtons();
-              updateVisibility();
-              refreshSlider();
             }
 
             var themes = [];
