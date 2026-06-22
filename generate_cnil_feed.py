@@ -34,6 +34,86 @@ FRENCH_MONTHS = {
     "decembre": 12,
 }
 
+MONTH_NAMES_FR = {
+    1: "Janvier", 2: "Février", 3: "Mars", 4: "Avril",
+    5: "Mai", 6: "Juin", 7: "Juillet", 8: "Août",
+    9: "Septembre", 10: "Octobre", 11: "Novembre", 12: "Décembre",
+}
+ 
+# Keyword-based auto-categorisation
+CATEGORIES = [
+    {
+        "id": "ia",
+        "label": "Intelligence Artificielle",
+        "keywords": [
+            "intelligence artificielle", "ia ", " ia,", "algorithme", "machine learning",
+            "apprentissage automatique", "deep learning", "llm", "chatgpt", "openai",
+            "modèle d'ia", "système d'ia", "robot", "automatisation", "chatbot",
+            "recommandation algorithmique", "traitement automatisé",
+        ],
+    },
+    {
+        "id": "education",
+        "label": "Éducation",
+        "keywords": [
+            "éducation", "école", "lycée", "collège", "enfant", "mineur", "jeune",
+            "sensibilisation", "formation", "pédagogie", "élève", "étudiant",
+            "numérique responsable", "médias", "apprentissage", "parent",
+        ],
+    },
+    {
+        "id": "sante",
+        "label": "Santé",
+        "keywords": [
+            "santé", "médical", "hôpital", "patient", "données de santé", "dossier médical",
+            "pharmacie", "biométrique", "génétique", "ehpad", "médecin",
+            "assurance maladie", "télémédecine", "essai clinique",
+        ],
+    },
+    {
+        "id": "droits",
+        "label": "Droits & Libertés",
+        "keywords": [
+            "droit", "liberté", "plainte", "recours", "rgpd", "règlement",
+            "consentement", "transparence", "vie privée", "protection des données",
+            "droit d'accès", "droit à l'oubli", "droit d'opposition", "cookies",
+            "traçage", "surveillance", "reconnaissance faciale",
+        ],
+    },
+    {
+        "id": "cyber",
+        "label": "Cybersécurité",
+        "keywords": [
+            "cybersécurité", "sécurité informatique", "violation", "fuite de données",
+            "piratage", "ransomware", "malware", "phishing", "hameçonnage",
+            "incident", "brèche", "vulnérabilité", "chiffrement", "mot de passe",
+            "authentification", "attaque informatique",
+        ],
+    },
+    {
+        "id": "entreprises",
+        "label": "Entreprises & RGPD",
+        "keywords": [
+            "entreprise", "société", "délibération", "mise en demeure", "sanction",
+            "amende", "contrôle", "conformité", "dpo", "responsable de traitement",
+            "sous-traitant", "transfert de données", "contrat", "privacy by design",
+            "registre des traitements", "analyse d'impact",
+        ],
+    },
+]
+ 
+ 
+def classify_article(title, description, themes):
+    text = " ".join([title, description] + themes).lower()
+    matched = []
+    for cat in CATEGORIES:
+        for kw in cat["keywords"]:
+            if kw in text:
+                matched.append(cat["label"])
+                break
+    return matched if matched else ["Autre"]
+ 
+
 
 def parse_french_date(text):
     if not text:
