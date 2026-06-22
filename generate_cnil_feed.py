@@ -112,8 +112,8 @@ CATEGORIES = [
             "sanction", "sanctionne", "sanctions", "sanctionnes", "sanctionné",
             "sanctionnée","sanctionnés", "sanctionnées", "amende", "pénalité", "inobservation",
             "manquement"
-        ]
-    }
+        ],
+    },
 ]
 
 
