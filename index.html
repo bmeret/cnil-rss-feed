@@ -141,7 +141,7 @@
   }
 
   /* Date selects */
-  select {
+  select, .search-input {
     width: 100%;
     padding: 8px 10px;
     border: 1.5px solid var(--grey-2);
@@ -156,7 +156,14 @@
     background-position: right 10px center;
     margin-bottom: 8px;
   }
-  select:focus { outline: 2px solid var(--blue-mid); border-color: var(--blue-mid); }
+  select:focus, .search-input:focus { outline: 2px solid var(--blue-mid); border-color: var(--blue-mid); }
+  .search-input {
+    cursor: text;
+    appearance: auto;
+    background-image: none;
+    font-family: inherit;
+  }
+  .search-input::placeholder { color: var(--grey-3); }
 
   .reset-btn {
     width: 100%;
@@ -292,6 +299,7 @@
   .cc-droits       { background: #d97706; }
   .cc-cyber        { background: #dc2626; }
   .cc-entreprises  { background: #0055c8; }
+  .cc-sanctions    { background: #9d174d; }
   .cc-autre        { background: #6b7280; }
 
   /* dot colours */
@@ -301,6 +309,7 @@
   .dc-droits       { background: #d97706; }
   .dc-cyber        { background: #dc2626; }
   .dc-entreprises  { background: #0055c8; }
+  .dc-sanctions    { background: #9d174d; }
   .dc-autre        { background: #6b7280; }
 
   /* ── Responsive ── */
@@ -322,6 +331,12 @@
 <div class="layout">
 
   <aside>
+    <!-- Search -->
+    <div class="sidebar-section">
+      <span class="sidebar-label">Recherche</span>
+      <input type="search" id="search-input" class="search-input" placeholder="Titre, mot-clé…" autocomplete="off"/>
+    </div>
+
     <!-- Category filter -->
     <div class="sidebar-section">
       <span class="sidebar-label">Catégorie</span>
@@ -363,6 +378,7 @@ const CAT_META = {
   "Droits & Libertés":         { cls: "cc-droits",      dot: "dc-droits",      id: "droits" },
   "Cybersécurité":             { cls: "cc-cyber",       dot: "dc-cyber",       id: "cyber" },
   "Entreprises & RGPD":        { cls: "cc-entreprises", dot: "dc-entreprises", id: "entreprises" },
+  "Sanctions":                 { cls: "cc-sanctions",   dot: "dc-sanctions",   id: "sanctions" },
   "Autre":                     { cls: "cc-autre",       dot: "dc-autre",       id: "autre" },
 };
 
@@ -370,9 +386,10 @@ const MONTH_NAMES = ["","Janvier","Février","Mars","Avril","Mai","Juin",
                      "Juillet","Août","Septembre","Octobre","Novembre","Décembre"];
 
 let allArticles = [];
-let activeCategory = null; // null = all
+let activeCategories = new Set(); // empty = all
 let activeYear = "";
 let activeMonth = "";
+let searchQuery = "";
 
 // ── Fetch & parse RSS ─────────────────────────────────────────────────────────
 async function loadFeed() {
@@ -486,6 +503,12 @@ function escHtml(str) {
   return (str || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
 
+function normalize(str) {
+  return (str || "")
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // retire les accents
+    .toLowerCase();
+}
+
 // ── Populate sidebar ──────────────────────────────────────────────────────────
 function buildSidebar() {
   // years
@@ -505,7 +528,7 @@ function buildSidebar() {
   allArticles.forEach(a => a.categories.forEach(c => counts[c] = (counts[c]||0)+1));
   const catOrder = [
     "Intelligence Artificielle","Éducation","Santé",
-    "Droits & Libertés","Cybersécurité","Entreprises & RGPD","Autre"
+    "Droits & Libertés","Cybersécurité","Entreprises & RGPD","Sanctions","Autre"
   ];
   const container = document.getElementById("cat-filters");
 
@@ -541,9 +564,20 @@ function makeBtn(label, catId, counts, isAll=false) {
   btn.appendChild(cnt);
 
   btn.addEventListener("click", () => {
-    activeCategory = catId || null;
-    document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
+    if (isAll) {
+      activeCategories.clear();
+    } else {
+      if (activeCategories.has(catId)) {
+        activeCategories.delete(catId);
+      } else {
+        activeCategories.add(catId);
+      }
+    }
+    document.querySelectorAll(".cat-btn").forEach(b => {
+      b.classList.toggle("active",
+        b.dataset.cat === "" ? activeCategories.size === 0 : activeCategories.has(b.dataset.cat)
+      );
+    });
     applyFilters();
   });
   return btn;
@@ -572,13 +606,15 @@ function populateMonths() {
 // ── Filter logic ──────────────────────────────────────────────────────────────
 function applyFilters() {
   const container = document.getElementById("articles");
+  const q = normalize(searchQuery);
   let visible = 0;
   container.querySelectorAll(".article-card").forEach((card, i) => {
     const a = allArticles[i];
-    const catMatch  = !activeCategory || a.categories.includes(activeCategory);
+    const catMatch  = activeCategories.size === 0 || a.categories.some(c => activeCategories.has(c));
     const yearMatch = !activeYear  || String(a.year)  === String(activeYear);
     const monthMatch= !activeMonth || String(a.month) === String(activeMonth);
-    const show = catMatch && yearMatch && monthMatch;
+    const searchMatch = !q || normalize(a.title).includes(q) || normalize(a.desc).includes(q);
+    const show = catMatch && yearMatch && monthMatch && searchMatch;
     card.classList.toggle("hidden", !show);
     if (show) visible++;
   });
@@ -624,12 +660,18 @@ async function init() {
       activeMonth = e.target.value;
       applyFilters();
     });
+    document.getElementById("search-input").addEventListener("input", e => {
+      searchQuery = e.target.value;
+      applyFilters();
+    });
     document.getElementById("reset-btn").addEventListener("click", () => {
-      activeCategory = null;
+      activeCategories.clear();
       activeYear = "";
       activeMonth = "";
+      searchQuery = "";
       document.getElementById("year-select").value = "";
       document.getElementById("month-select").value = "";
+      document.getElementById("search-input").value = "";
       document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
       document.querySelector('.cat-btn[data-cat=""]')?.classList.add("active");
       populateMonths();
