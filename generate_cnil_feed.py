@@ -105,6 +105,15 @@ CATEGORIES = [
             "registre des traitements", "analyse d'impact",
         ],
     },
+    {
+        "id": "sanctions",
+        "label": "Sanctions",
+        "keywords": [
+            "sanction", "sanctionne", "sanctions", "sanctionnes", "sanctionné",
+            "sanctionnée","sanctionnés", "sanctionnées", "amende", "pénalité", "inobservation",
+            "manquement"
+        ]
+    }
 ]
 
 
