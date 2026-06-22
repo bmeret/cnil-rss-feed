@@ -31,7 +31,7 @@ jobs:
 
       - name: Generate RSS feed
         run: |
-          python generate_cnil_feed.py --output cnil_feed.xml
+          python generate_cnil_feed.py --output cnil_feed.xml --limit 500
 
       - name: Commit and push updated RSS feed
         if: ${{ always() }}
