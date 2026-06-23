@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Élections professionnelles dans la fonction publique et vote électronique : comment transmettre les rapports d’expertise à la CNIL ?</title>
+      <link>https://cnil.fr/fr/elections-professionnelles-fonction-publique-vote-electronique</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/elections-professionnelles-fonction-publique-vote-electronique</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/elections-pro-vote-electronique.png?itok=cFftRnOW" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/elections-pro-vote-electronique.png?itok=cFftRnOW" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/elections-pro-vote-electronique.png?itok=cFftRnOW"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/elections-pro-vote-electronique.png?itok=cFftRnOW</url>
+      </image>
+      <description><![CDATA[Lorsque le recours au vote électronique est prévu pour les élections professionnelles dans la fonction publique, le système de vote doit faire l’objet d’une expertise indépendante. Dans ce cadre, les…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>6</month>
+      <category>Droits &amp; Libertés</category>
+      <theme>Professionnel</theme>
+      <theme>Élections professionnelles</theme>
+      <theme>Vote électronique</theme>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Sécurité des données : les règles essentielles pour protéger les données et votre activité</title>
       <link>https://cnil.fr/fr/securite-des-donnees-les-regles-essentielles</link>
       <guid isPermaLink="true">https://cnil.fr/fr/securite-des-donnees-les-regles-essentielles</guid>
@@ -118,7 +138,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
       </image>
       <description><![CDATA[Le 26 mai 2026, la société IQVIA OPERATIONS FRANCE a été sanctionnée d’une amende de 5 millions d’euros, notamment pour non-respect des garanties visant à limiter les risques pour les personnes…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>5</month>
       <category>Santé</category>
@@ -140,7 +160,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/cloud-acteurs.png?itok=Wcx6FWTN</url>
       </image>
       <description><![CDATA[Avant de traiter des données personnelles, il est essentiel que les acteurs identifient leurs rôles. La CNIL fournit des orientations pour aider ceux du secteur de l’informatique en nuage (cloud) à…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>5</month>
       <category>Autre</category>
@@ -160,7 +180,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/prd_fr.jpg?itok=S6Ozp5ep</url>
       </image>
       <description><![CDATA[La cinquième édition de la Journée de recherche sur la vie privée (Privacy Research Day) se tiendra le 24 juin 2026, dans le cadre du G7 des autorités de protection des données accueilli par la CNIL…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>5</month>
       <category>Droits &amp; Libertés</category>
@@ -9939,20 +9959,6 @@
       <theme>Professionnel</theme>
       <theme>Association</theme>
       <pubDate>Wed, 10 Nov 2021 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Les CNIL mondiales prennent position sur les grands débats internationaux en matière de protection des données personnelles</title>
-      <link>https://cnil.fr/fr/les-cnil-mondiales-prennent-position-sur-les-grands-debats-internationaux-en-matiere-de-protection</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/les-cnil-mondiales-prennent-position-sur-les-grands-debats-internationaux-en-matiere-de-protection</guid>
-      <description><![CDATA[L’organisation internationale qui rassemble toutes les autorités  de protection des données a adopté cinq résolutions importantes lors de sa réunion annuelle organisée en octobre 2021, dont une…]]></description>
-      <page>85</page>
-      <year>2021</year>
-      <month>11</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>GPA</theme>
-      <pubDate>Tue, 02 Nov 2021 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
