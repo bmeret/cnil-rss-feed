@@ -622,21 +622,10 @@ function applyFilters() {
     visible + " article" + (visible > 1 ? "s" : "");
   document.getElementById("no-results").style.display = visible === 0 ? "block" : "none";
 
-  // update category counts
-  document.querySelectorAll(".cat-btn").forEach(btn => {
-    const cat = btn.dataset.cat;
-    const cnt = btn.querySelector(".cat-count");
-    if (!cnt) return;
-    if (!cat) {
-      cnt.textContent = visible;
-    } else {
-      const n = allArticles.filter((a,i) => {
-        const card = container.querySelectorAll(".article-card")[i];
-        return !card.classList.contains("hidden") && a.categories.includes(cat);
-      }).length;
-      cnt.textContent = n;
-    }
-  });
+  // Les compteurs de la sidebar (cat-count) restent fixes : ils affichent
+  // toujours le total global de chaque catégorie, calculé une seule fois
+  // dans buildSidebar(), et ne sont plus recalculés ici en fonction des
+  // filtres actifs.
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
