@@ -7,6 +7,27 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Victimes de violations de données : restez vigilants face aux offres d’accompagnement</title>
+      <link>https://cnil.fr/fr/vigilance-accompagnement-violation-de-donnees</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/vigilance-accompagnement-violation-de-donnees</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/phishing_apf_page.png?itok=l2KJ-1dV" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/phishing_apf_page.png?itok=l2KJ-1dV" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/phishing_apf_page.png?itok=l2KJ-1dV"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/phishing_apf_page.png?itok=l2KJ-1dV</url>
+      </image>
+      <description><![CDATA[Des victimes de violations de données personnelles reçoivent des courriels proposant une aide pour faire supprimer leurs informations en ligne. La CNIL invite à la prudence face à ces démarches dont…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>6</month>
+      <category>Droits &amp; Libertés</category>
+      <category>Cybersécurité</category>
+      <theme>Particulier</theme>
+      <theme>Violation de données</theme>
+      <theme>Arnaque RGPD</theme>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Élections professionnelles dans la fonction publique et vote électronique : comment transmettre les rapports d’expertise à la CNIL ?</title>
       <link>https://cnil.fr/fr/elections-professionnelles-fonction-publique-vote-electronique</link>
       <guid isPermaLink="true">https://cnil.fr/fr/elections-professionnelles-fonction-publique-vote-electronique</guid>
@@ -118,7 +139,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-</url>
       </image>
       <description><![CDATA[Lors de sa dernière session plénière, le CEPD a rencontré Michael McGrath, commissaire européen chargé de la démocratie, de la justice, de l'État de droit et de la protection des consommateurs. Par…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Droits &amp; Libertés</category>
@@ -170,7 +191,7 @@
       <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Privacy Research Day : participez à la journée dédiée à la recherche sur la vie privée</title>
+      <title>Privacy Research Day : suivez la retransmission en direct</title>
       <link>https://cnil.fr/fr/privacy-research-day-2026</link>
       <guid isPermaLink="true">https://cnil.fr/fr/privacy-research-day-2026</guid>
       <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/prd_fr.jpg?itok=S6Ozp5ep" length="0" type="image/jpeg"/>
@@ -9936,28 +9957,6 @@
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Mission éthique</theme>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>La CNIL publie un nouveau guide pour accompagner les associations</title>
-      <link>https://cnil.fr/fr/thematiques/la-cnil-publie-un-nouveau-guide-pour-accompagner-les-associations</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/thematiques/la-cnil-publie-un-nouveau-guide-pour-accompagner-les-associations</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/asso.jpg?itok=MkBMLMOb</url>
-      </image>
-      <description><![CDATA[La CNIL a élaboré un guide de sensibilisation au règlement général sur la protection des données (RGPD) pour accompagner les structures associatives dans leur mise en conformité. Ses objectifs :…]]></description>
-      <page>85</page>
-      <year>2021</year>
-      <month>11</month>
-      <category>Éducation</category>
-      <category>Droits &amp; Libertés</category>
-      <category>Entreprises &amp; RGPD</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Association</theme>
       <pubDate>Wed, 10 Nov 2021 00:00:00 -0000</pubDate>
     </item>
   </channel>
