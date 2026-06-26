@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Technologies émergentes et protection des mineurs : les autorités de protection des données du G7 s’accordent sur des principes clés</title>
+      <link>https://cnil.fr/fr/g7-technologies-protection-mineurs</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/g7-technologies-protection-mineurs</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/dsc06311.jpg?itok=4ScrOZdt" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/dsc06311.jpg?itok=4ScrOZdt" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/dsc06311.jpg?itok=4ScrOZdt"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/dsc06311.jpg?itok=4ScrOZdt</url>
+      </image>
+      <description><![CDATA[Les autorités de protection des données des pays du G7 se sont réunies à Paris les 25 et 26 juin à l’invitation de la CNIL dans le cadre de la présidence française du G7. Elles ont adopté une…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>6</month>
+      <category>Droits &amp; Libertés</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>G7 2026</theme>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Victimes de violations de données : restez vigilants face aux offres d’accompagnement</title>
       <link>https://cnil.fr/fr/vigilance-accompagnement-violation-de-donnees</link>
       <guid isPermaLink="true">https://cnil.fr/fr/vigilance-accompagnement-violation-de-donnees</guid>
@@ -120,7 +140,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/jmfietier.jpg?itok=K8HDaH-V</url>
       </image>
       <description><![CDATA[À compter du 15 juin 2026, Jean-Michel FIETIER est nommé directeur administratif et financier de la CNIL. Il succède à Jean-Marc SALMON, qui occupait ces fonctions depuis 2020.]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Autre</category>
@@ -232,7 +252,7 @@
       <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Privacy Research Day : suivez la retransmission en direct</title>
+      <title>Journée de recherche sur la vie privée 2026 (Privacy Research Day)</title>
       <link>https://cnil.fr/fr/privacy-research-day-2026</link>
       <guid isPermaLink="true">https://cnil.fr/fr/privacy-research-day-2026</guid>
       <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-05/prd_fr.jpg?itok=S6Ozp5ep" length="0" type="image/jpeg"/>
@@ -9946,26 +9966,6 @@
       <theme>Professionnel</theme>
       <theme>Authentification</theme>
       <pubDate>Wed, 01 Dec 2021 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>« Santé connectée, jusqu’où accorder notre confiance ? » : la CNIL participe à l’évènement organisé par le Groupe VYV</title>
-      <link>https://cnil.fr/fr/sante-connectee-jusqu-ou-accorder-notre-confiance-la-cnil-participe-evenement-organise-vyv</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/sante-connectee-jusqu-ou-accorder-notre-confiance-la-cnil-participe-evenement-organise-vyv</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/vyv_-_evenement_30_novembre_copie.jpg?itok=edPxUEkr" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/vyv_-_evenement_30_novembre_copie.jpg?itok=edPxUEkr" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/vyv_-_evenement_30_novembre_copie.jpg?itok=edPxUEkr"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/vyv_-_evenement_30_novembre_copie.jpg?itok=edPxUEkr</url>
-      </image>
-      <description><![CDATA[Le mardi 30 novembre 2021, le Groupe VYV, partenaire du collectif Educnum porté par la CNIL, organise à Toulouse une journée de réflexions et débats sur les enjeux éthiques de la santé connectée en…]]></description>
-      <page>84</page>
-      <year>2021</year>
-      <month>11</month>
-      <category>Santé</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Santé</theme>
-      <pubDate>Wed, 24 Nov 2021 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
