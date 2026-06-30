@@ -7,6 +7,46 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Véhicules connectés : la CNIL publie sa recommandation sur l’utilisation des données de localisation</title>
+      <link>https://cnil.fr/fr/recommandation-vehicules-connectes-localisation</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/recommandation-vehicules-connectes-localisation</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/vehicule_localisation.png?itok=MljmOzFn" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/vehicule_localisation.png?itok=MljmOzFn" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/vehicule_localisation.png?itok=MljmOzFn"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/vehicule_localisation.png?itok=MljmOzFn</url>
+      </image>
+      <description><![CDATA[À l’issue d’une consultation publique, la CNIL publie ses recommandations sur l’utilisation par les professionnels des données de localisation des véhicules connectés (voitures, cycles, scooters, etc…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>6</month>
+      <category>Autre</category>
+      <theme>Professionnel</theme>
+      <theme>Véhicule connecté</theme>
+      <theme>Géolocalisation</theme>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Véhicules connectés : dans quelles conditions vos données de localisation peuvent être utilisées ?</title>
+      <link>https://cnil.fr/fr/vehicules-connectes-utilisation-de-vos-donnees</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/vehicules-connectes-utilisation-de-vos-donnees</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/vehicules_connectes.png?itok=-yud2jJh" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/vehicules_connectes.png?itok=-yud2jJh" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/vehicules_connectes.png?itok=-yud2jJh"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/vehicules_connectes.png?itok=-yud2jJh</url>
+      </image>
+      <description><![CDATA[Les véhicules connectés collectent des données de localisation pour proposer certains services liés au divertissement ou à la sécurité. Ces informations peuvent révéler des éléments très personnels…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>6</month>
+      <category>Autre</category>
+      <theme>Particulier</theme>
+      <theme>Véhicule connecté</theme>
+      <theme>Géolocalisation</theme>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Technologies émergentes et protection des mineurs : les autorités de protection des données du G7 s’accordent sur des principes clés</title>
       <link>https://cnil.fr/fr/g7-technologies-protection-mineurs</link>
       <guid isPermaLink="true">https://cnil.fr/fr/g7-technologies-protection-mineurs</guid>
@@ -99,7 +139,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/elections-pro-vote-electronique.png?itok=cFftRnOW</url>
       </image>
       <description><![CDATA[Lorsque le recours au vote électronique est prévu pour les élections professionnelles dans la fonction publique, le système de vote doit faire l’objet d’une expertise indépendante. Dans ce cadre, les…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Droits &amp; Libertés</category>
@@ -119,7 +159,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/cybersecurite_entreprise.png?itok=uKPpdicv</url>
       </image>
       <description><![CDATA[Le numérique offre des opportunités pour développer votre entreprise, mais il s’accompagne aussi de risques concernant la sécurité des données que vous détenez, qu’elles soient personnelles (fichiers…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Cybersécurité</category>
@@ -9925,47 +9965,6 @@
       <theme>Professionnel</theme>
       <theme>Eurodac</theme>
       <pubDate>Tue, 28 Dec 2021 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>La CNIL publie une nouvelle version de son guide RGPD pour l'équipe de développement</title>
-      <link>https://cnil.fr/fr/la-cnil-publie-une-nouvelle-version-de-son-guide-rgpd-pour-lequipe-de-developpement</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-publie-une-nouvelle-version-de-son-guide-rgpd-pour-lequipe-de-developpement</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/web.jpg?itok=kqUw8ESy" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/web.jpg?itok=kqUw8ESy" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/web.jpg?itok=kqUw8ESy"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/web.jpg?itok=kqUw8ESy</url>
-      </image>
-      <description><![CDATA[Le guide de la CNIL a pour vocation d’accompagner les acteurs du développement web ou applicatif dans la mise en conformité de leurs travaux. Cette nouvelle version, enrichie de contenus inédits,…]]></description>
-      <page>84</page>
-      <year>2021</year>
-      <month>12</month>
-      <category>Droits &amp; Libertés</category>
-      <category>Entreprises &amp; RGPD</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Développeur</theme>
-      <pubDate>Mon, 13 Dec 2021 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Sécurité : utilisez l’authentification multifacteur pour vos comptes en ligne</title>
-      <link>https://cnil.fr/fr/securite-utilisez-lauthentification-multifacteur-pour-vos-comptes-en-ligne</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/securite-utilisez-lauthentification-multifacteur-pour-vos-comptes-en-ligne</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/coffre-fort_-_mots_de_passe.jpg?itok=r054YZ7R" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/coffre-fort_-_mots_de_passe.jpg?itok=r054YZ7R" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/coffre-fort_-_mots_de_passe.jpg?itok=r054YZ7R"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/coffre-fort_-_mots_de_passe.jpg?itok=r054YZ7R</url>
-      </image>
-      <description><![CDATA[Deux protections valent mieux qu’une ! Qu’est-ce que l’authentification multifacteur et pourquoi faut-il la privilégier lorsqu’elle est proposée ?]]></description>
-      <page>84</page>
-      <year>2021</year>
-      <month>12</month>
-      <category>Cybersécurité</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Authentification</theme>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
