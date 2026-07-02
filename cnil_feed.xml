@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Jeux d’argent et de hasard : appliquer le RGPD aux traitements de données des joueurs</title>
+      <link>https://cnil.fr/fr/jeux-argent-hasard-application-rgpd</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/jeux-argent-hasard-application-rgpd</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/jeux-argent.png?itok=ElINFN69" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/jeux-argent.png?itok=ElINFN69" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/jeux-argent.png?itok=ElINFN69"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/jeux-argent.png?itok=ElINFN69</url>
+      </image>
+      <description><![CDATA[Les opérateurs de jeux d’argent et de hasard doivent concilier les exigences du RGPD avec leurs obligations sectorielles. Pour accompagner les acteurs dans cette démarche, l’ANJ a élaboré, en…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>7</month>
+      <category>Droits &amp; Libertés</category>
+      <theme>Professionnel</theme>
+      <theme>RGPD</theme>
+      <theme>Jeux d’argent et de hasard</theme>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Véhicules connectés : la CNIL publie sa recommandation sur l’utilisation des données de localisation</title>
       <link>https://cnil.fr/fr/recommandation-vehicules-connectes-localisation</link>
       <guid isPermaLink="true">https://cnil.fr/fr/recommandation-vehicules-connectes-localisation</guid>
@@ -118,7 +138,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/cnil-ehess.png?itok=an3I5-l6</url>
       </image>
       <description><![CDATA[Lors de la Journée de recherche sur la vie privée, le 24 juin 2026, Gabriel Lima, Gustavo Gil Gasiola, Frederike Zufall et Yixin Zou ont reçu le 2ème prix CNIL/EHESS pour leur article sur la…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Intelligence Artificielle</category>
@@ -9951,20 +9971,6 @@
       <theme>Fuite de données</theme>
       <theme>Cybersécurité</theme>
       <pubDate>Thu, 06 Jan 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Eurodac : publication d’un guide pour informer les personnes lors de la prise de leurs empreintes digitales</title>
-      <link>https://cnil.fr/fr/eurodac-publication-dun-guide-pour-informer-les-personnes-lors-de-la-prise-de-leurs-empreintes</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/eurodac-publication-dun-guide-pour-informer-les-personnes-lors-de-la-prise-de-leurs-empreintes</guid>
-      <description><![CDATA[Les demandeurs d’asile et les migrants arrêtés à la frontière extérieure de l’Union européenne ont l’obligation de donner leurs empreintes digitales. Ces données sont conservées dans le fichier…]]></description>
-      <page>84</page>
-      <year>2021</year>
-      <month>12</month>
-      <category>Autre</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Eurodac</theme>
-      <pubDate>Tue, 28 Dec 2021 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
