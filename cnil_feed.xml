@@ -7,6 +7,28 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Le métier de DPO à l’heure de l’intelligence artificielle : publication des résultats de l’enquête</title>
+      <link>https://cnil.fr/fr/enquete-dpo-ia</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/enquete-dpo-ia</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/enquete-dpo-ia.png?itok=hBaEtk-V" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/enquete-dpo-ia.png?itok=hBaEtk-V" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/enquete-dpo-ia.png?itok=hBaEtk-V"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/enquete-dpo-ia.png?itok=hBaEtk-V</url>
+      </image>
+      <description><![CDATA[L’intégration de l’IA dans les pratiques professionnelles et l’entrée en application du règlement IA créent de nouveaux défis pour les DPO et leurs organisations. Afin de mieux comprendre leurs…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>7</month>
+      <category>Intelligence Artificielle</category>
+      <category>Droits &amp; Libertés</category>
+      <category>Entreprises &amp; RGPD</category>
+      <theme>Professionnel</theme>
+      <theme>Délégué à la protection des données</theme>
+      <theme>Intelligence artificielle (IA)</theme>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Jeux d’argent et de hasard : appliquer le RGPD aux traitements de données des joueurs</title>
       <link>https://cnil.fr/fr/jeux-argent-hasard-application-rgpd</link>
       <guid isPermaLink="true">https://cnil.fr/fr/jeux-argent-hasard-application-rgpd</guid>
@@ -97,7 +119,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/phishing_apf_page.png?itok=l2KJ-1dV</url>
       </image>
       <description><![CDATA[Des victimes de violations de données personnelles reçoivent des courriels proposant une aide pour faire supprimer leurs informations en ligne. La CNIL invite à la prudence face à ces démarches dont…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Droits &amp; Libertés</category>
@@ -118,7 +140,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/cnil-inria-prd.png?itok=KXwdlEFq</url>
       </image>
       <description><![CDATA[Lors de la Journée de recherche sur la vie privée, le 24 juin 2026, la CNIL et l’Inria ont remis le prix 2026 de la protection de la vie privée à une équipe de chercheurs internationaux pour…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Droits &amp; Libertés</category>
@@ -9951,26 +9973,6 @@
       <theme>RGPD</theme>
       <theme>Sous-traitants</theme>
       <pubDate>Tue, 11 Jan 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>La recherche sur Internet de fuites d’informations (RIFI)</title>
-      <link>https://cnil.fr/fr/la-recherche-sur-internet-de-fuites-dinformations-rifi</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-recherche-sur-internet-de-fuites-dinformations-rifi</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/recherche_internet_fuites_informations-rifi.jpeg?itok=PYKS3BLA" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/recherche_internet_fuites_informations-rifi.jpeg?itok=PYKS3BLA" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/recherche_internet_fuites_informations-rifi.jpeg?itok=PYKS3BLA"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/recherche_internet_fuites_informations-rifi.jpeg?itok=PYKS3BLA</url>
-      </image>
-      <description><![CDATA[La recherche sur Internet de fuites d’informations (RIFI) a pour objectif de détecter, au plus tôt, une fuite de données. Les organismes qui souhaitent y recourir, ainsi que les prestataires de RIFI…]]></description>
-      <page>84</page>
-      <year>2022</year>
-      <month>1</month>
-      <category>Cybersécurité</category>
-      <theme>Professionnel</theme>
-      <theme>Fuite de données</theme>
-      <theme>Cybersécurité</theme>
-      <pubDate>Thu, 06 Jan 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
