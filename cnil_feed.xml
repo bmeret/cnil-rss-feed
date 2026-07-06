@@ -7,6 +7,28 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>La CNIL a prononcé 23 nouvelles sanctions depuis janvier au titre de la procédure simplifiée</title>
+      <link>https://cnil.fr/fr/23-nouvelles-sanctions-simplifiees</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/23-nouvelles-sanctions-simplifiees</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
+      </image>
+      <description><![CDATA[Vidéosurveillance excessive, cookies, non-respect des droits des personnes ou encore défaut de coopération avec la CNIL : depuis janvier 2026, 23 nouvelles sanctions ont été prononcées dans le…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>7</month>
+      <category>Droits &amp; Libertés</category>
+      <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Sanction</theme>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Le métier de DPO à l’heure de l’intelligence artificielle : publication des résultats de l’enquête</title>
       <link>https://cnil.fr/fr/enquete-dpo-ia</link>
       <guid isPermaLink="true">https://cnil.fr/fr/enquete-dpo-ia</guid>
@@ -119,7 +141,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-03/phishing_apf_page.png?itok=l2KJ-1dV</url>
       </image>
       <description><![CDATA[Des victimes de violations de données personnelles reçoivent des courriels proposant une aide pour faire supprimer leurs informations en ligne. La CNIL invite à la prudence face à ces démarches dont…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Droits &amp; Libertés</category>
@@ -140,7 +162,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/cnil-inria-prd.png?itok=KXwdlEFq</url>
       </image>
       <description><![CDATA[Lors de la Journée de recherche sur la vie privée, le 24 juin 2026, la CNIL et l’Inria ont remis le prix 2026 de la protection de la vie privée à une équipe de chercheurs internationaux pour…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Droits &amp; Libertés</category>
@@ -160,7 +182,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/cnil-ehess.png?itok=an3I5-l6</url>
       </image>
       <description><![CDATA[Lors de la Journée de recherche sur la vie privée, le 24 juin 2026, Gabriel Lima, Gustavo Gil Gasiola, Frederike Zufall et Yixin Zou ont reçu le 2ème prix CNIL/EHESS pour leur article sur la…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Intelligence Artificielle</category>
@@ -9952,27 +9974,6 @@
       <theme>Professionnel</theme>
       <theme>Bac à sable</theme>
       <pubDate>Tue, 18 Jan 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Sous-traitants : la réutilisation de données confiées par un responsable de traitement</title>
-      <link>https://cnil.fr/fr/sous-traitants-la-reutilisation-de-donnees-confiees-par-un-responsable-de-traitement</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/sous-traitants-la-reutilisation-de-donnees-confiees-par-un-responsable-de-traitement</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/sous-traitant_reutilisation_donnees_responsable_traitement_0.jpeg?itok=EMeuoM-F" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/sous-traitant_reutilisation_donnees_responsable_traitement_0.jpeg?itok=EMeuoM-F" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/sous-traitant_reutilisation_donnees_responsable_traitement_0.jpeg?itok=EMeuoM-F"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/sous-traitant_reutilisation_donnees_responsable_traitement_0.jpeg?itok=EMeuoM-F</url>
-      </image>
-      <description><![CDATA[Un sous-traitant ne peut réutiliser des données personnelles pour son propre compte que si cette réutilisation est compatible avec le traitement initial et que le responsable du traitement lui en a…]]></description>
-      <page>83</page>
-      <year>2022</year>
-      <month>1</month>
-      <category>Droits &amp; Libertés</category>
-      <category>Entreprises &amp; RGPD</category>
-      <theme>Professionnel</theme>
-      <theme>RGPD</theme>
-      <theme>Sous-traitants</theme>
-      <pubDate>Tue, 11 Jan 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
