@@ -7,6 +7,46 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Géolocalisation et applications mobiles : comment protéger vos données ?</title>
+      <link>https://cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/geolocalisation_des_personnes.png?itok=TnvTNLcK" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/geolocalisation_des_personnes.png?itok=TnvTNLcK" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/geolocalisation_des_personnes.png?itok=TnvTNLcK"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/geolocalisation_des_personnes.png?itok=TnvTNLcK</url>
+      </image>
+      <description><![CDATA[Les applications météo, de sport ou de rencontres utilisent souvent votre localisation. Mais savez-vous qui peut accéder à ces données et pourquoi ? La CNIL vous aide à comprendre les enjeux et…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>7</month>
+      <category>Autre</category>
+      <theme>Particulier</theme>
+      <theme>Géolocalisation</theme>
+      <theme>Applications mobiles</theme>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Géolocalisation et applications mobiles : quelles règles pour protéger les données des utilisateurs ?</title>
+      <link>https://cnil.fr/fr/geolocalisation-applications-mobiles-quelles-regles</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/geolocalisation-applications-mobiles-quelles-regles</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/geolocalisation.png?itok=kJAq3TA3" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/geolocalisation.png?itok=kJAq3TA3" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/geolocalisation.png?itok=kJAq3TA3"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/geolocalisation.png?itok=kJAq3TA3</url>
+      </image>
+      <description><![CDATA[La géolocalisation est devenue un outil central des applications mobiles. Mais sa collecte et sa réutilisation soulèvent des enjeux majeurs de protection des données personnelles. La CNIL rappelle…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>7</month>
+      <category>Droits &amp; Libertés</category>
+      <theme>Professionnel</theme>
+      <theme>Géolocalisation</theme>
+      <theme>Applications mobiles</theme>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>La CNIL a prononcé 23 nouvelles sanctions depuis janvier au titre de la procédure simplifiée</title>
       <link>https://cnil.fr/fr/23-nouvelles-sanctions-simplifiees</link>
       <guid isPermaLink="true">https://cnil.fr/fr/23-nouvelles-sanctions-simplifiees</guid>
@@ -81,7 +121,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/vehicule_localisation.png?itok=MljmOzFn</url>
       </image>
       <description><![CDATA[À l’issue d’une consultation publique, la CNIL publie ses recommandations sur l’utilisation par les professionnels des données de localisation des véhicules connectés (voitures, cycles, scooters, etc…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Autre</category>
@@ -121,7 +161,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/dsc06311.jpg?itok=4ScrOZdt</url>
       </image>
       <description><![CDATA[Les autorités de protection des données des pays du G7 se sont réunies à Paris les 25 et 26 juin à l’invitation de la CNIL dans le cadre de la présidence française du G7. Elles ont adopté une…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Droits &amp; Libertés</category>
@@ -9939,41 +9979,6 @@
       <theme>Professionnel</theme>
       <theme>Cookies et traceurs</theme>
       <pubDate>Tue, 01 Feb 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Gestion commerciale et gestion des impayés : la CNIL publie deux nouveaux référentiels</title>
-      <link>https://cnil.fr/fr/gestion-commerciale-et-gestion-des-impayes-la-cnil-publie-deux-nouveaux-referentiels</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/gestion-commerciale-et-gestion-des-impayes-la-cnil-publie-deux-nouveaux-referentiels</guid>
-      <description><![CDATA[La CNIL a adopté, suite à une consultation publique, deux nouveaux référentiels afin de guider les organismes concernés dans la mise en conformité de leurs activités de gestion commerciale et de…]]></description>
-      <page>83</page>
-      <year>2022</year>
-      <month>1</month>
-      <category>Entreprises &amp; RGPD</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Publicité</theme>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>La CNIL propose un nouveau « bac à sable » pour accompagner l’innovation numérique dans le domaine de l’éducation</title>
-      <link>https://cnil.fr/fr/la-cnil-propose-un-nouveau-bac-sable-pour-accompagner-linnovation-numerique-dans-le-domaine-de</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-propose-un-nouveau-bac-sable-pour-accompagner-linnovation-numerique-dans-le-domaine-de</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/appel_a_projets_-_bac_a_sable_2022.jpg?itok=TOYqFCrA" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/appel_a_projets_-_bac_a_sable_2022.jpg?itok=TOYqFCrA" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/appel_a_projets_-_bac_a_sable_2022.jpg?itok=TOYqFCrA"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/appel_a_projets_-_bac_a_sable_2022.jpg?itok=TOYqFCrA</url>
-      </image>
-      <description><![CDATA[Après un premier « bac à sable » consacré aux données de santé, la CNIL propose un nouveau dispositif dédié aux outils numériques dans le domaine de l’éducation. Les 5 projets lauréats…]]></description>
-      <page>83</page>
-      <year>2022</year>
-      <month>1</month>
-      <category>Éducation</category>
-      <category>Santé</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Bac à sable</theme>
-      <pubDate>Tue, 18 Jan 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
