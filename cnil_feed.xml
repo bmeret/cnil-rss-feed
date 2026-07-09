@@ -27,6 +27,27 @@
       <pubDate>Thu, 09 Jul 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
+      <title>Travail, ressources humaines : le contrôle de l’activité des personnes employées</title>
+      <link>https://cnil.fr/fr/controle-de-lactivite-des-personnes-employees</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/controle-de-lactivite-des-personnes-employees</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/surveillance_travail.png?itok=ZeOX7MUv" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/surveillance_travail.png?itok=ZeOX7MUv" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/surveillance_travail.png?itok=ZeOX7MUv"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/surveillance_travail.png?itok=ZeOX7MUv</url>
+      </image>
+      <description><![CDATA[Un employeur a le pouvoir d’encadrer et de contrôler l’activité des membres du personnel ainsi que leur usage des équipements au travail. Il s’agit d’une contrepartie normale et inhérente au contrat…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>7</month>
+      <category>Droits &amp; Libertés</category>
+      <category>Entreprises &amp; RGPD</category>
+      <theme>Professionnel</theme>
+      <theme>Surveillance des salariés</theme>
+      <theme>Contrôles</theme>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Géolocalisation et applications mobiles : comment protéger vos données ?</title>
       <link>https://cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees</link>
       <guid isPermaLink="true">https://cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees</guid>
@@ -121,7 +142,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/jeux-argent.png?itok=ElINFN69</url>
       </image>
       <description><![CDATA[Les opérateurs de jeux d’argent et de hasard doivent concilier les exigences du RGPD avec leurs obligations sectorielles. Pour accompagner les acteurs dans cette démarche, l’ANJ a élaboré, en…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Droits &amp; Libertés</category>
@@ -9959,26 +9980,6 @@
       <theme>Droits des mineurs</theme>
       <theme>Médico-social</theme>
       <pubDate>Wed, 16 Feb 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Euro numérique : quels enjeux pour la vie privée et la protection des données personnelles ?</title>
-      <link>https://cnil.fr/fr/euro-numerique-quels-enjeux-pour-la-vie-privee-et-la-protection-des-donnees-personnelles</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/euro-numerique-quels-enjeux-pour-la-vie-privee-et-la-protection-des-donnees-personnelles</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/euro-numerique.png?itok=hcV7gUcx" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/euro-numerique.png?itok=hcV7gUcx" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/euro-numerique.png?itok=hcV7gUcx"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/euro-numerique.png?itok=hcV7gUcx</url>
-      </image>
-      <description><![CDATA[La Banque centrale européenne (BCE) a annoncé, le 14 juillet 2021, le lancement d’une expérimentation concernant le recours à l’euro uniquement sur des supports numériques en vue d’un déploiement à…]]></description>
-      <page>83</page>
-      <year>2022</year>
-      <month>2</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Euro numérique</theme>
-      <pubDate>Mon, 14 Feb 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
