@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Le CEPD met en lumière l’anonymisation et le moissonnage pour l’IA générative et adopte la version finale des lignes directrices sur la chaîne de blocs</title>
+      <link>https://cnil.fr/fr/cepd-ia-generative-chaines-blocs</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/cepd-ia-generative-chaines-blocs</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-</url>
+      </image>
+      <description><![CDATA[Le 7 juillet 2026, le CEPD a adopté des lignes directrices sur l’anonymisation et des lignes directrices sur le moissonnage dans le contexte de l’IA générative. Il a aussi adopté la version finale de…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>7</month>
+      <category>Intelligence Artificielle</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>CEPD</theme>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Géolocalisation et applications mobiles : comment protéger vos données ?</title>
       <link>https://cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees</link>
       <guid isPermaLink="true">https://cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees</guid>
@@ -121,7 +141,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/vehicule_localisation.png?itok=MljmOzFn</url>
       </image>
       <description><![CDATA[À l’issue d’une consultation publique, la CNIL publie ses recommandations sur l’utilisation par les professionnels des données de localisation des véhicules connectés (voitures, cycles, scooters, etc…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Autre</category>
@@ -141,7 +161,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-06/vehicules_connectes.png?itok=-yud2jJh</url>
       </image>
       <description><![CDATA[Les véhicules connectés collectent des données de localisation pour proposer certains services liés au divertissement ou à la sécurité. Ces informations peuvent révéler des éléments très personnels…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>6</month>
       <category>Autre</category>
@@ -9959,26 +9979,6 @@
       <theme>Professionnel</theme>
       <theme>Euro numérique</theme>
       <pubDate>Mon, 14 Feb 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Nouvelles méthodes de traçage en ligne : quelles solutions pour se protéger ?</title>
-      <link>https://cnil.fr/fr/nouvelles-methodes-de-tracage-en-ligne-quelles-solutions-pour-se-proteger</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/nouvelles-methodes-de-tracage-en-ligne-quelles-solutions-pour-se-proteger</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection_alternatives_cookies.jpeg?itok=9izwayHi" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection_alternatives_cookies.jpeg?itok=9izwayHi" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection_alternatives_cookies.jpeg?itok=9izwayHi"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/protection_alternatives_cookies.jpeg?itok=9izwayHi</url>
-      </image>
-      <description><![CDATA[Les cookies ne sont pas le seul moyen utilisé pour tracer votre activité en ligne : les acteurs du web recourent de plus en plus à des alternatives comme la prise d’empreinte numérique unique ou le…]]></description>
-      <page>83</page>
-      <year>2022</year>
-      <month>2</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Cookies et traceurs</theme>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
