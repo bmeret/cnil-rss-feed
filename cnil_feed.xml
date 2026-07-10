@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Revoir le webinaire : Nouveau téléservice santé et recherche, ce qui change pour vos demandes d’autorisation</title>
+      <link>https://cnil.fr/fr/revoir-le-webinaire-nouveau-teleservice-sante-et-recherche-ce-qui-change-pour-vos-demandes</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/revoir-le-webinaire-nouveau-teleservice-sante-et-recherche-ce-qui-change-pour-vos-demandes</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh</url>
+      </image>
+      <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré au nouveau téléservice…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>7</month>
+      <category>Santé</category>
+      <category>Droits &amp; Libertés</category>
+      <theme>Professionnel</theme>
+      <theme>Webinaire</theme>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Le CEPD met en lumière l’anonymisation et le moissonnage pour l’IA générative et adopte la version finale des lignes directrices sur la chaîne de blocs</title>
       <link>https://cnil.fr/fr/cepd-ia-generative-chaines-blocs</link>
       <guid isPermaLink="true">https://cnil.fr/fr/cepd-ia-generative-chaines-blocs</guid>
@@ -120,7 +140,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/enquete-dpo-ia.png?itok=hBaEtk-V</url>
       </image>
       <description><![CDATA[L’intégration de l’IA dans les pratiques professionnelles et l’entrée en application du règlement IA créent de nouveaux défis pour les DPO et leurs organisations. Afin de mieux comprendre leurs…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Intelligence Artificielle</category>
@@ -9966,20 +9986,6 @@
       <theme>Professionnel</theme>
       <theme>Recherche</theme>
       <pubDate>Fri, 18 Feb 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Protection de l’enfance et des majeurs de moins de 21 ans : la CNIL publie un référentiel</title>
-      <link>https://cnil.fr/fr/protection-de-lenfance-et-des-majeurs-de-moins-de-21-ans-la-cnil-publie-un-referentiel</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/protection-de-lenfance-et-des-majeurs-de-moins-de-21-ans-la-cnil-publie-un-referentiel</guid>
-      <description><![CDATA[Comme tout organisme qui manipule des données personnelles, les organismes publics et privés qui proposent un accompagnement social et médico-social des mineurs et des jeunes majeurs de moins de 21…]]></description>
-      <page>83</page>
-      <year>2022</year>
-      <month>2</month>
-      <category>Autre</category>
-      <theme>Professionnel</theme>
-      <theme>Droits des mineurs</theme>
-      <theme>Médico-social</theme>
-      <pubDate>Wed, 16 Feb 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
