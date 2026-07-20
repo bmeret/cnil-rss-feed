@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>IA agentique et données personnelles : la CNIL et le Conseil de l’IA et du Numérique publient une note exploratoire</title>
+      <link>https://cnil.fr/fr/ia-agentique-cnil-cianum-note</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/ia-agentique-cnil-cianum-note</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/ia-generative.png?itok=i8hg0uzY" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/ia-generative.png?itok=i8hg0uzY" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/ia-generative.png?itok=i8hg0uzY"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/ia-generative.png?itok=i8hg0uzY</url>
+      </image>
+      <description><![CDATA[Les innovations à l’ère de l’IA générative se poursuivent avec la démocratisation de l’IA agentique, désormais capable d’agir sur son environnement à la place de son utilisateur. La délégation des…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>7</month>
+      <category>Intelligence Artificielle</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Intelligence artificielle (IA)</theme>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Revoir le webinaire : Nouveau téléservice santé et recherche, ce qui change pour vos demandes d’autorisation</title>
       <link>https://cnil.fr/fr/revoir-le-webinaire-nouveau-teleservice-sante-et-recherche-ce-qui-change-pour-vos-demandes</link>
       <guid isPermaLink="true">https://cnil.fr/fr/revoir-le-webinaire-nouveau-teleservice-sante-et-recherche-ce-qui-change-pour-vos-demandes</guid>
@@ -119,7 +139,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
       </image>
       <description><![CDATA[Vidéosurveillance excessive, cookies, non-respect des droits des personnes ou encore défaut de coopération avec la CNIL : depuis janvier 2026, 23 nouvelles sanctions ont été prononcées dans le…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Droits &amp; Libertés</category>
@@ -9967,26 +9987,6 @@
       <theme>Professionnel</theme>
       <theme>Droits des femmes</theme>
       <pubDate>Tue, 08 Mar 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Évènement : la CNIL organise la première édition du Privacy Research Day</title>
-      <link>https://cnil.fr/fr/evenement-la-cnil-organise-la-premiere-edition-du-privacy-research-day</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/evenement-la-cnil-organise-la-premiere-edition-du-privacy-research-day</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/privacyresearchday_fr.png?itok=KmaLQUGs" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/privacyresearchday_fr.png?itok=KmaLQUGs" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/privacyresearchday_fr.png?itok=KmaLQUGs"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/privacyresearchday_fr.png?itok=KmaLQUGs</url>
-      </image>
-      <description><![CDATA[Le 28 juin 2022, la CNIL a organisé à Paris la première édition de Privacy Research Day, une conférence internationale dédiée à la recherche dans le domaine de la protection de la vie privée et des…]]></description>
-      <page>82</page>
-      <year>2022</year>
-      <month>2</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Recherche</theme>
-      <pubDate>Fri, 18 Feb 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
