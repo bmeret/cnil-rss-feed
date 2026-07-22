@@ -7,6 +7,46 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Questions-réponses - recommandation relative aux pixels dans les courriers électroniques de la CNIL</title>
+      <link>https://cnil.fr/fr/faq-recommandation-pixels-courriers-electroniques</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/faq-recommandation-pixels-courriers-electroniques</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/faq_pixels.png?itok=gpO_468t" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/faq_pixels.png?itok=gpO_468t" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/faq_pixels.png?itok=gpO_468t"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/faq_pixels.png?itok=gpO_468t</url>
+      </image>
+      <description><![CDATA[La CNIL répond aux principales interrogations des professionnels sur la mise en œuvre de sa recommandation sur les pixels.]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>7</month>
+      <category>Autre</category>
+      <theme>Professionnel</theme>
+      <theme>Pixel de suivi</theme>
+      <theme>Courriels</theme>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Revoir le webinaire - Fournisseurs et prestataires de l’écosystème « pixels » : comment implémenter la recommandation CNIL ?</title>
+      <link>https://cnil.fr/fr/webinaire-pixels-de-suivi-fournisseurs-prestataires</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/webinaire-pixels-de-suivi-fournisseurs-prestataires</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb</url>
+      </image>
+      <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré aux pixels de suivi.]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>7</month>
+      <category>Droits &amp; Libertés</category>
+      <theme>Professionnel</theme>
+      <theme>Webinaire</theme>
+      <theme>Pixel de suivi</theme>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>IA agentique et données personnelles : la CNIL et le Conseil de l’IA et du Numérique publient une note exploratoire</title>
       <link>https://cnil.fr/fr/ia-agentique-cnil-cianum-note</link>
       <guid isPermaLink="true">https://cnil.fr/fr/ia-agentique-cnil-cianum-note</guid>
@@ -118,7 +158,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/surveillance_travail.png?itok=ZeOX7MUv</url>
       </image>
       <description><![CDATA[Un employeur a le pouvoir d’encadrer et de contrôler l’activité des membres du personnel ainsi que leur usage des équipements au travail. Il s’agit d’une contrepartie normale et inhérente au contrat…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Droits &amp; Libertés</category>
@@ -139,7 +179,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/geolocalisation_des_personnes.png?itok=TnvTNLcK</url>
       </image>
       <description><![CDATA[Les applications météo, de sport ou de rencontres utilisent souvent votre localisation. Mais savez-vous qui peut accéder à ces données et pourquoi ? La CNIL vous aide à comprendre les enjeux et…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Autre</category>
@@ -159,7 +199,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/geolocalisation.png?itok=kJAq3TA3</url>
       </image>
       <description><![CDATA[La géolocalisation est devenue un outil central des applications mobiles. Mais sa collecte et sa réutilisation soulèvent des enjeux majeurs de protection des données personnelles. La CNIL rappelle…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Droits &amp; Libertés</category>
@@ -9945,48 +9985,6 @@
       <theme>Professionnel</theme>
       <theme>Bac à sable</theme>
       <pubDate>Mon, 23 May 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Cookie walls : la CNIL publie des premiers critères d’évaluation</title>
-      <link>https://cnil.fr/fr/cookie-walls-la-cnil-publie-des-premiers-criteres-devaluation</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/cookie-walls-la-cnil-publie-des-premiers-criteres-devaluation</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/cookie-wall.png?itok=faKMJG9L" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/cookie-wall.png?itok=faKMJG9L" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/cookie-wall.png?itok=faKMJG9L"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/cookie-wall.png?itok=faKMJG9L</url>
-      </image>
-      <description><![CDATA[Depuis plusieurs mois, certains sites web et applications mobiles utilisent des « murs de traceurs » (« cookie walls » en anglais). Régulièrement interrogée sur le sujet et saisie…]]></description>
-      <page>82</page>
-      <year>2022</year>
-      <month>5</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Cookies et traceurs</theme>
-      <pubDate>Mon, 16 May 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Intelligence artificielle : la CNIL publie un ensemble de ressources pour le grand public et les professionnels</title>
-      <link>https://cnil.fr/fr/intelligence-artificielle/la-cnil-publie-ressources-grand-public-professionnels</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/intelligence-artificielle/la-cnil-publie-ressources-grand-public-professionnels</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/ia_visuel-page_hub.png?itok=IBViJXNs" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/ia_visuel-page_hub.png?itok=IBViJXNs" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/ia_visuel-page_hub.png?itok=IBViJXNs"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/ia_visuel-page_hub.png?itok=IBViJXNs</url>
-      </image>
-      <description><![CDATA[Afin d’apporter un éclairage sur les enjeux de l’intelligence artificielle (IA) liés à la protection de la vie privée et d’accompagner les professionnels dans leur mise en conformité, la CNIL propose…]]></description>
-      <page>82</page>
-      <year>2022</year>
-      <month>3</month>
-      <category>Intelligence Artificielle</category>
-      <category>Droits &amp; Libertés</category>
-      <category>Entreprises &amp; RGPD</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Intelligence artificielle (IA)</theme>
-      <pubDate>Tue, 29 Mar 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
