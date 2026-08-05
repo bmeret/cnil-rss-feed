@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Puis-je demander à supprimer des données me concernant figurant dans un article de presse diffusé en ligne ?</title>
+      <link>https://cnil.fr/fr/supprimer-mes-donnees-presse</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/supprimer-mes-donnees-presse</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/presse_en_ligne_telephone.png?itok=y8DHjq9p" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/presse_en_ligne_telephone.png?itok=y8DHjq9p" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/presse_en_ligne_telephone.png?itok=y8DHjq9p"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/presse_en_ligne_telephone.png?itok=y8DHjq9p</url>
+      </image>
+      <description><![CDATA[Toute personne concernée a le droit de demander à un organisme de presse l'effacement de données personnelles la concernant figurant dans un article de presse diffusé en ligne. Il ne s’agit toutefois…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>8</month>
+      <category>Droits &amp; Libertés</category>
+      <theme>Particulier</theme>
+      <theme>Droit d'opposition</theme>
+      <theme>Le droit d’effacement</theme>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Revoir le webinaire - Mise à jour des MR-001 et MR-003, ce qui change en 2026</title>
       <link>https://cnil.fr/fr/webinaire-mise-a-jour-mr</link>
       <guid isPermaLink="true">https://cnil.fr/fr/webinaire-mise-a-jour-mr</guid>
@@ -137,7 +157,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-09/webinaires_2023_2.png?itok=fbR5ArXh</url>
       </image>
       <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré au nouveau téléservice…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Santé</category>
@@ -9965,26 +9985,6 @@
       <theme>Professionnel</theme>
       <theme>RGPD</theme>
       <pubDate>Wed, 25 May 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Prix CNIL-Inria 2021 : des chercheurs européens récompensés pour leurs travaux sur la protection de la vie privée</title>
-      <link>https://cnil.fr/fr/prix-cnil-inria-2021-des-chercheurs-europeens-recompenses-pour-leurs-travaux-sur-la-protection-de-la</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/prix-cnil-inria-2021-des-chercheurs-europeens-recompenses-pour-leurs-travaux-sur-la-protection-de-la</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/prix_inria_cnil_2022.jpg?itok=1rg-LWm2" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/prix_inria_cnil_2022.jpg?itok=1rg-LWm2" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/prix_inria_cnil_2022.jpg?itok=1rg-LWm2"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/prix_inria_cnil_2022.jpg?itok=1rg-LWm2</url>
-      </image>
-      <description><![CDATA[Lors de la 15e édition de la conférence internationale Computers Privacy and Data Protection (CPDP), le prix de la protection de la vie privée a été remis à Joel Reardon, Álvaro Feal, Primal…]]></description>
-      <page>81</page>
-      <year>2022</year>
-      <month>5</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Prix CNIL-Inria</theme>
-      <pubDate>Tue, 24 May 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
