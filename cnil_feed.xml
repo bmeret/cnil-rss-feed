@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Délégué à la protection des données : identifier et gérer les conflits d’intérêts liés à la fonction de DPO</title>
+      <link>https://cnil.fr/fr/dpo-identifier-gerer-conflits-interets</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/dpo-identifier-gerer-conflits-interets</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/conflit_d_interet.png?itok=CN7H7Tgp" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/conflit_d_interet.png?itok=CN7H7Tgp" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/conflit_d_interet.png?itok=CN7H7Tgp"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/conflit_d_interet.png?itok=CN7H7Tgp</url>
+      </image>
+      <description><![CDATA[Le RGPD autorise les organismes à confier d’autres missions à leur délégué à la protection des données (DPO). Ces missions ne doivent néanmoins pas faire obstacle à ses missions de DPO ou le placer…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>8</month>
+      <category>Droits &amp; Libertés</category>
+      <category>Entreprises &amp; RGPD</category>
+      <theme>Professionnel</theme>
+      <theme>Délégué à la protection des données</theme>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Puis-je demander à supprimer des données me concernant figurant dans un article de presse diffusé en ligne ?</title>
       <link>https://cnil.fr/fr/supprimer-mes-donnees-presse</link>
       <guid isPermaLink="true">https://cnil.fr/fr/supprimer-mes-donnees-presse</guid>
@@ -117,7 +137,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/ia-generative.png?itok=i8hg0uzY</url>
       </image>
       <description><![CDATA[Les innovations à l’ère de l’IA générative se poursuivent avec la démocratisation de l’IA agentique, désormais capable d’agir sur son environnement à la place de son utilisateur. La délégation des…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Intelligence Artificielle</category>
@@ -157,7 +177,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-</url>
       </image>
       <description><![CDATA[Lors d’une réunion à haut niveau qui s’est tenue à Dublin les 16 et 17 juillet 2026, le Comité européen de la protection des données (CEPD) a plaidé en faveur d’une base légale claire pour le partage…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Droits &amp; Libertés</category>
@@ -9977,20 +9997,6 @@
       <theme>Professionnel</theme>
       <theme>Banques</theme>
       <pubDate>Thu, 09 Jun 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Commande publique : quel acteur est responsable au regard du RGPD ?</title>
-      <link>https://cnil.fr/fr/commande-publique-quel-acteur-est-responsable-au-regard-du-rgpd</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/commande-publique-quel-acteur-est-responsable-au-regard-du-rgpd</guid>
-      <description><![CDATA[Afin d’aider les professionnels concernés à identifier leurs responsabilités dans différents contextes de commande publique, la CNIL clarifie les éléments à prendre en compte et les conséquences…]]></description>
-      <page>81</page>
-      <year>2022</year>
-      <month>5</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Professionnel</theme>
-      <theme>Services publics</theme>
-      <theme>RGPD</theme>
-      <pubDate>Tue, 31 May 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
