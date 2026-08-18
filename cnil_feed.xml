@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Piratage du système d’information des impôts : les vérifications sont en cours</title>
+      <link>https://cnil.fr/fr/piratage-du-systeme-dinformation-des-impots-les-verifications-sont-en-cours</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/piratage-du-systeme-dinformation-des-impots-les-verifications-sont-en-cours</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/piratage_vol_de_donnees.jpg?itok=UsISXXIe" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/piratage_vol_de_donnees.jpg?itok=UsISXXIe" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/piratage_vol_de_donnees.jpg?itok=UsISXXIe"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/piratage_vol_de_donnees.jpg?itok=UsISXXIe</url>
+      </image>
+      <description><![CDATA[La CNIL a été notifiée de violations de données affectant le système d’information de la Direction générale des Finances publiques (DGFiP). Elle est donc d’ores et déjà saisie de ces violations et,…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>8</month>
+      <category>Cybersécurité</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Violation de données</theme>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Délégué à la protection des données : identifier et gérer les conflits d’intérêts liés à la fonction de DPO</title>
       <link>https://cnil.fr/fr/dpo-identifier-gerer-conflits-interets</link>
       <guid isPermaLink="true">https://cnil.fr/fr/dpo-identifier-gerer-conflits-interets</guid>
@@ -117,7 +137,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb</url>
       </image>
       <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré aux pixels de suivi.]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Droits &amp; Libertés</category>
@@ -9977,26 +9997,6 @@
       <theme>Professionnel</theme>
       <theme>Association</theme>
       <pubDate>Mon, 20 Jun 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Blanchiment de capitaux et financement du terrorisme : la CNIL et ses homologues s’adressent aux législateurs européens</title>
-      <link>https://cnil.fr/fr/blanchiment-de-capitaux-et-financement-du-terrorisme-la-cnil-et-ses-homologues-sadressent-aux</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/blanchiment-de-capitaux-et-financement-du-terrorisme-la-cnil-et-ses-homologues-sadressent-aux</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/edpb_-_logo.png?itok=WQ6KJgi-</url>
-      </image>
-      <description><![CDATA[Le 20 mai 2022, la CNIL et ses homologues réunis au sein du Comité européen de la protection des données (CEPD), ont publié une lettre adressée au Parlement européen, à la Commission européenne, et…]]></description>
-      <page>81</page>
-      <year>2022</year>
-      <month>6</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Banques</theme>
-      <pubDate>Thu, 09 Jun 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
