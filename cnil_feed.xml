@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Le refus de crédit en questions</title>
+      <link>https://cnil.fr/fr/le-refus-de-credit-en-questions</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/le-refus-de-credit-en-questions</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/refus-de-credit-visuel.png?itok=gYg191tR" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/refus-de-credit-visuel.png?itok=gYg191tR" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/refus-de-credit-visuel.png?itok=gYg191tR"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/refus-de-credit-visuel.png?itok=gYg191tR</url>
+      </image>
+      <description><![CDATA[Vous avez demandé un crédit et on vous l’a refusé ? Vous êtes inscrit dans un fichier géré par la Banque de France ou un fichier tenu par votre banque ? Quelles sont les différentes…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>8</month>
+      <category>Autre</category>
+      <theme>Particulier</theme>
+      <theme>Crédit</theme>
+      <theme>Banques</theme>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Piratage du système d’information des impôts : les vérifications sont en cours</title>
       <link>https://cnil.fr/fr/piratage-du-systeme-dinformation-des-impots-les-verifications-sont-en-cours</link>
       <guid isPermaLink="true">https://cnil.fr/fr/piratage-du-systeme-dinformation-des-impots-les-verifications-sont-en-cours</guid>
@@ -117,7 +137,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-07/faq_pixels.png?itok=gpO_468t</url>
       </image>
       <description><![CDATA[La CNIL répond aux principales interrogations des professionnels sur la mise en œuvre de sa recommandation sur les pixels.]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Autre</category>
@@ -137,7 +157,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb</url>
       </image>
       <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré aux pixels de suivi.]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Droits &amp; Libertés</category>
@@ -9977,26 +9997,6 @@
       <theme>Professionnel</theme>
       <theme>Journée de recherche sur la vie privée - Privacy Research Day</theme>
       <pubDate>Wed, 29 Jun 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>La transmission de fichiers de donateurs ou de contacts entre associations et fondations</title>
-      <link>https://cnil.fr/fr/la-transmission-de-fichiers-de-donateurs-ou-de-contacts-entre-associations-et-fondations</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-transmission-de-fichiers-de-donateurs-ou-de-contacts-entre-associations-et-fondations</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/transmission_de_fichiers_de_donateurs.png?itok=j7Xg5rU4" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/transmission_de_fichiers_de_donateurs.png?itok=j7Xg5rU4" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/transmission_de_fichiers_de_donateurs.png?itok=j7Xg5rU4"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/transmission_de_fichiers_de_donateurs.png?itok=j7Xg5rU4</url>
-      </image>
-      <description><![CDATA[Les associations peuvent se transmettre, entre elles, des fichiers de donateurs ou de contacts. Elles doivent cependant respecter certaines règles posées par le RGPD, notamment en informant les…]]></description>
-      <page>81</page>
-      <year>2022</year>
-      <month>6</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Association</theme>
-      <pubDate>Mon, 20 Jun 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
