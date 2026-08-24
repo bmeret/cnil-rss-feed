@@ -7,6 +7,28 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Décisions automatisées : sanction de près de 825 millions d’euros à l’encontre d’UBER</title>
+      <link>https://cnil.fr/fr/decisions-automatisees-sanction-de-pres-de-825-millions-deuros-lencontre-duber</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/decisions-automatisees-sanction-de-pres-de-825-millions-deuros-lencontre-duber</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/sanction_communique.png?itok=SP36R7Qf" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/sanction_communique.png?itok=SP36R7Qf" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/sanction_communique.png?itok=SP36R7Qf"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/sanction_communique.png?itok=SP36R7Qf</url>
+      </image>
+      <description><![CDATA[En coopération avec la CNIL, l’autorité néerlandaise de protection des données a prononcé à l’encontre des sociétés UBER B.V. et UBER TECHNOLOGIES INC. une amende de 824 990 000 euros pour…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>8</month>
+      <category>Droits &amp; Libertés</category>
+      <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Sanction</theme>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Le refus de crédit en questions</title>
       <link>https://cnil.fr/fr/le-refus-de-credit-en-questions</link>
       <guid isPermaLink="true">https://cnil.fr/fr/le-refus-de-credit-en-questions</guid>
@@ -117,7 +139,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb</url>
       </image>
       <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré aux méthodologies de…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>7</month>
       <category>Droits &amp; Libertés</category>
@@ -9983,20 +10005,6 @@
       <theme>Professionnel</theme>
       <theme>CNIL</theme>
       <pubDate>Fri, 08 Jul 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Privacy Research Day : retrouvez l'évènement en vidéo</title>
-      <link>https://cnil.fr/fr/privacy-research-day-retrouvez-levenement-en-video</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/privacy-research-day-retrouvez-levenement-en-video</guid>
-      <description><![CDATA[La CNIL publie la rediffusion du Privacy Research Day, la première conférence internationale et interdisciplinaire de la commission, qui a eu lieu le 28 juin à Paris et en ligne.]]></description>
-      <page>81</page>
-      <year>2022</year>
-      <month>6</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Journée de recherche sur la vie privée - Privacy Research Day</theme>
-      <pubDate>Wed, 29 Jun 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
