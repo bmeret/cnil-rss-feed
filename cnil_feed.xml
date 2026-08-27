@@ -7,6 +7,27 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Sensibiliser les élèves de CM2 à la protection des données</title>
+      <link>https://cnil.fr/fr/sensibiliser-les-eleves-de-cm2-la-protection-des-donnees</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/sensibiliser-les-eleves-de-cm2-la-protection-des-donnees</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/bilan_actions_oise_et_ressources_pour_cm2.jpg?itok=KrqAhAuv" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/bilan_actions_oise_et_ressources_pour_cm2.jpg?itok=KrqAhAuv" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/bilan_actions_oise_et_ressources_pour_cm2.jpg?itok=KrqAhAuv"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/bilan_actions_oise_et_ressources_pour_cm2.jpg?itok=KrqAhAuv</url>
+      </image>
+      <description><![CDATA[En 2026, la CNIL a sensibilisé 2 500 élèves de CM2 du département de l’Oise aux enjeux du numérique et à la protection des données personnelles. Vous êtes enseignant(e) ? Retrouvez, dans…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>8</month>
+      <category>Éducation</category>
+      <category>Droits &amp; Libertés</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Éducation</theme>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>IA : la CNIL met à jour son outil de traçabilité des modèles publiés en source ouverte</title>
       <link>https://cnil.fr/fr/ia-la-cnil-met-jour-son-outil-de-tracabilite-des-modeles-publies-en-source-ouverte</link>
       <guid isPermaLink="true">https://cnil.fr/fr/ia-la-cnil-met-jour-son-outil-de-tracabilite-des-modeles-publies-en-source-ouverte</guid>
@@ -120,7 +141,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/piratage_vol_de_donnees.jpg?itok=UsISXXIe</url>
       </image>
       <description><![CDATA[La CNIL a été notifiée de violations de données affectant le système d’information de la Direction générale des Finances publiques (DGFiP). Elle est donc d’ores et déjà saisie de ces violations et,…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>8</month>
       <category>Cybersécurité</category>
@@ -9985,26 +10006,6 @@
       <theme>Professionnel</theme>
       <theme>G7</theme>
       <pubDate>Mon, 19 Sep 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Perte ou vol de matériel informatique nomade : les bons réflexes à avoir !</title>
-      <link>https://cnil.fr/fr/perte-ou-vol-de-materiel-informatique-nomade-les-bons-reflexes-avoir</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/perte-ou-vol-de-materiel-informatique-nomade-les-bons-reflexes-avoir</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/vol_materiel_nomade_bandeau.png?itok=-1IqwH6T" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/vol_materiel_nomade_bandeau.png?itok=-1IqwH6T" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/vol_materiel_nomade_bandeau.png?itok=-1IqwH6T"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/vol_materiel_nomade_bandeau.png?itok=-1IqwH6T</url>
-      </image>
-      <description><![CDATA[Régulièrement, la CNIL communique sur des violations de données typiques inspirées d’incidents réels qui lui sont notifiés. La présente publication a pour objectif d’expliquer comment se protéger…]]></description>
-      <page>80</page>
-      <year>2022</year>
-      <month>9</month>
-      <category>Cybersécurité</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Violation de données</theme>
-      <pubDate>Wed, 14 Sep 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
