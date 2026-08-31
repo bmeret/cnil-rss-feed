@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Participez aux Rencontres Informatique &amp; Libertés le 29 septembre 2026</title>
+      <link>https://cnil.fr/fr/ril-2026</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/ril-2026</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt</url>
+      </image>
+      <description><![CDATA[La CNIL organise la 2ème édition de ses Rencontres Informatique & Libertés le mardi 29 septembre 2026. Cette matinée est l'occasion d’échanger sur différents sujets en lien avec la…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>8</month>
+      <category>Autre</category>
+      <theme>Professionnel</theme>
+      <theme>Évènement</theme>
+      <theme>Droits</theme>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Sensibiliser les élèves de CM2 à la protection des données</title>
       <link>https://cnil.fr/fr/sensibiliser-les-eleves-de-cm2-la-protection-des-donnees</link>
       <guid isPermaLink="true">https://cnil.fr/fr/sensibiliser-les-eleves-de-cm2-la-protection-des-donnees</guid>
@@ -16,7 +36,7 @@
       <image>
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/bilan_actions_oise_et_ressources_pour_cm2.jpg?itok=KrqAhAuv</url>
       </image>
-      <description><![CDATA[En 2026, la CNIL a sensibilisé 2 500 élèves de CM2 du département de l’Oise aux enjeux du numérique et à la protection des données personnelles. Vous êtes enseignant(e) ? Retrouvez, dans…]]></description>
+      <description><![CDATA[En 2026, la CNIL a contribué à sensibiliser 2 500 élèves de CM2 du département de l’Oise aux enjeux du numérique et à la protection des données personnelles. Vous êtes enseignant(e) ?…]]></description>
       <page>1</page>
       <year>2026</year>
       <month>8</month>
@@ -51,11 +71,11 @@
       <title>Décisions automatisées : sanction de près de 825 millions d’euros à l’encontre d’UBER</title>
       <link>https://cnil.fr/fr/decisions-automatisees-sanction-de-pres-de-825-millions-deuros-lencontre-duber</link>
       <guid isPermaLink="true">https://cnil.fr/fr/decisions-automatisees-sanction-de-pres-de-825-millions-deuros-lencontre-duber</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/sanction_communique.png?itok=SP36R7Qf" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/sanction_communique.png?itok=SP36R7Qf" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/sanction_communique.png?itok=SP36R7Qf"/>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-09/sanctions.png?itok=xHFNhWjq" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-09/sanctions.png?itok=xHFNhWjq" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-09/sanctions.png?itok=xHFNhWjq"/>
       <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/sanction_communique.png?itok=SP36R7Qf</url>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-09/sanctions.png?itok=xHFNhWjq</url>
       </image>
       <description><![CDATA[En coopération avec la CNIL, l’autorité néerlandaise de protection des données a prononcé à l’encontre des sociétés UBER B.V. et UBER TECHNOLOGIES INC. une amende de 824 990 000 euros pour…]]></description>
       <page>1</page>
@@ -121,7 +141,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/refus-de-credit-visuel.png?itok=gYg191tR</url>
       </image>
       <description><![CDATA[Vous avez demandé un crédit et on vous l’a refusé ? Vous êtes inscrit dans un fichier géré par la Banque de France ou un fichier tenu par votre banque ? Quelles sont les différentes…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>8</month>
       <category>Autre</category>
@@ -9985,26 +10005,6 @@
       <theme>Particulier</theme>
       <theme>Professionnel</theme>
       <theme>Consultation</theme>
-      <pubDate>Mon, 19 Sep 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>G7 des autorités de protection des données : enceinte de la promotion de la vie privée à l’international</title>
-      <link>https://cnil.fr/fr/g7-des-autorites-de-protection-des-donnees-enceinte-de-la-promotion-de-la-vie-privee-linternational</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/g7-des-autorites-de-protection-des-donnees-enceinte-de-la-promotion-de-la-vie-privee-linternational</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/bfdi-g7_2022.jpg?itok=qNTRjI2m</url>
-      </image>
-      <description><![CDATA[Les autorités de protection des données des pays du G7 se sont réunies des 6 au 8 septembre 2022 à Bonn, sous la présidence du Commissaire fédéral pour la protection des données et la liberté d…]]></description>
-      <page>80</page>
-      <year>2022</year>
-      <month>9</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>G7</theme>
       <pubDate>Mon, 19 Sep 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
