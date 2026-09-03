@@ -7,6 +7,29 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Violation de données en matière de santé : sanction de 500 000 euros à l’encontre de l’HÔPITAL PRIVÉ DE LA LOIRE</title>
+      <link>https://cnil.fr/fr/sanction-hopital-prive-loire</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/sanction-hopital-prive-loire</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
+      </image>
+      <description><![CDATA[Le 3 septembre 2026, la CNIL a prononcé une sanction de 500 000 € à l’encontre de l’HÔPITAL PRIVÉ DE LA LOIRE, pour ne pas avoir pris des mesures adaptées pour assurer la sécurité des…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>9</month>
+      <category>Santé</category>
+      <category>Cybersécurité</category>
+      <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Sanction</theme>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Participez aux Rencontres Informatique &amp; Libertés le 29 septembre 2026</title>
       <link>https://cnil.fr/fr/ril-2026</link>
       <guid isPermaLink="true">https://cnil.fr/fr/ril-2026</guid>
@@ -120,7 +143,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/enseignement_premier_secondaire.png?itok=0_UBPJl9</url>
       </image>
       <description><![CDATA[Les établissements du premier et du second degrés souhaitant recourir à des outils collaboratifs en ligne doivent se montrer vigilants concernant la protection des données personnelles. La CNIL…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>8</month>
       <category>Éducation</category>
@@ -9986,26 +10009,6 @@
       <theme>Professionnel</theme>
       <theme>Intelligence artificielle (IA)</theme>
       <pubDate>Wed, 21 Sep 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>[Clôturée] API : la CNIL soumet à consultation publique un projet de recommandation technique</title>
-      <link>https://cnil.fr/fr/cloturee-api-la-cnil-soumet-consultation-publique-un-projet-de-recommandation-technique</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/cloturee-api-la-cnil-soumet-consultation-publique-un-projet-de-recommandation-technique</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/consultation_0.jpg?itok=uZTnCfA7" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/consultation_0.jpg?itok=uZTnCfA7" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/consultation_0.jpg?itok=uZTnCfA7"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/consultation_0.jpg?itok=uZTnCfA7</url>
-      </image>
-      <description><![CDATA[Sous certaines conditions, le recours à des interfaces de programmation applicatives (API) pour partager des données personnelles peut favoriser une meilleure protection des données. La CNIL précise…]]></description>
-      <page>80</page>
-      <year>2022</year>
-      <month>9</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Consultation</theme>
-      <pubDate>Mon, 19 Sep 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
