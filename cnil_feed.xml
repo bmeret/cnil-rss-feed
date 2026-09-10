@@ -27,6 +27,26 @@
       <pubDate>Thu, 10 Sep 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
+      <title>Facturation électronique : quels enjeux pour la protection des données personnelles ?</title>
+      <link>https://cnil.fr/fr/facturation-electronique-quels-enjeux</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/facturation-electronique-quels-enjeux</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/facturation_electronique.png?itok=PHc8BcSX" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/facturation_electronique.png?itok=PHc8BcSX" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/facturation_electronique.png?itok=PHc8BcSX"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/facturation_electronique.png?itok=PHc8BcSX</url>
+      </image>
+      <description><![CDATA[Depuis le 1er septembre 2026, la réforme relative à la facturation électronique entre entreprises est entrée en vigueur. La CNIL aide les entreprises à comprendre les enjeux et à assurer la sécurité…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>9</month>
+      <category>Droits &amp; Libertés</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Commerce</theme>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Non-respect des droits des personnes : sanction de 300 000 euros à l’encontre de la société EXTIA</title>
       <link>https://cnil.fr/fr/sanction-non-respect-droits-personnes-extia</link>
       <guid isPermaLink="true">https://cnil.fr/fr/sanction-non-respect-droits-personnes-extia</guid>
@@ -123,7 +143,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/genealogie-ia-mise-a-jour_1.png?itok=vejCNtmu</url>
       </image>
       <description><![CDATA[La CNIL publie une nouvelle version de son démonstrateur permettant d’explorer la généalogie des modèles d’IA publiés en source ouverte. Cette mise à jour améliore notamment les performances de l…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>8</month>
       <category>Intelligence Artificielle</category>
@@ -9995,27 +10015,6 @@
       <theme>Professionnel</theme>
       <theme>Délégué à la protection des données</theme>
       <pubDate>Thu, 06 Oct 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Entrepôts de données de santé : la CNIL publie une « check-list » de conformité à son référentiel</title>
-      <link>https://cnil.fr/fr/entrepots-de-donnees-de-sante-la-cnil-publie-une-check-list-de-conformite-son-referentiel</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/entrepots-de-donnees-de-sante-la-cnil-publie-une-check-list-de-conformite-son-referentiel</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/donnees_sante.png?itok=ze2OtC9i" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/donnees_sante.png?itok=ze2OtC9i" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/donnees_sante.png?itok=ze2OtC9i"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/donnees_sante.png?itok=ze2OtC9i</url>
-      </image>
-      <description><![CDATA[La création d’un entrepôt de données de santé nécessite le respect de certaines formalités. Afin de simplifier les démarches pour les responsables de ces bases de données sensibles, la CNIL a adopté…]]></description>
-      <page>79</page>
-      <year>2022</year>
-      <month>9</month>
-      <category>Santé</category>
-      <category>Entreprises &amp; RGPD</category>
-      <theme>Professionnel</theme>
-      <theme>Santé</theme>
-      <theme>Référentiel</theme>
-      <pubDate>Wed, 28 Sep 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
