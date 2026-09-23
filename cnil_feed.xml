@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Amendes RGPD et interaction avec le règlement sur les services numériques : retour sur la plénière du CEPD du 17 septembre 2026</title>
+      <link>https://cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/logo_edpb_2026.png?itok=ue_0PX_N" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/logo_edpb_2026.png?itok=ue_0PX_N" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/logo_edpb_2026.png?itok=ue_0PX_N"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/logo_edpb_2026.png?itok=ue_0PX_N</url>
+      </image>
+      <description><![CDATA[Le 17 septembre 2026, le CEPD a adopté des lignes directrices sur le pouvoir des autorités de protection des données d’infliger des amendes administratives et la version finale de ses lignes…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>9</month>
+      <category>Droits &amp; Libertés</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>CEPD</theme>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>La CNIL publie le tome 2 de L’Agence Privacy : une nouvelle enquête pour mieux comprendre la cybercriminalité</title>
       <link>https://cnil.fr/fr/audeladelecran</link>
       <guid isPermaLink="true">https://cnil.fr/fr/audeladelecran</guid>
@@ -122,7 +142,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/bilan_actions_oise_et_ressources_pour_cm2.jpg?itok=KrqAhAuv</url>
       </image>
       <description><![CDATA[En 2026, la CNIL a contribué à sensibiliser 2 500 élèves de CM2 du département de l’Oise aux enjeux du numérique et à la protection des données personnelles. Vous êtes enseignant(e) ?…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>8</month>
       <category>Éducation</category>
@@ -9995,26 +10015,6 @@
       <theme>Professionnel</theme>
       <theme>Mots de Passe</theme>
       <pubDate>Fri, 14 Oct 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Revoir le webinaire : les violations de données personnelles, de quoi s’agit-il et comment réagir ?</title>
-      <link>https://cnil.fr/fr/revoir-le-webinaire-les-violations-de-donnees-personnelles-de-quoi-sagit-il-et-comment-reagir</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/revoir-le-webinaire-les-violations-de-donnees-personnelles-de-quoi-sagit-il-et-comment-reagir</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaire_violation_2022.png?itok=Y5oqxyoK" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaire_violation_2022.png?itok=Y5oqxyoK" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaire_violation_2022.png?itok=Y5oqxyoK"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaire_violation_2022.png?itok=Y5oqxyoK</url>
-      </image>
-      <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez le premier épisode consacré aux violations de données…]]></description>
-      <page>79</page>
-      <year>2022</year>
-      <month>10</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Délégué à la protection des données</theme>
-      <pubDate>Thu, 06 Oct 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
