@@ -7,6 +7,27 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Clôture de l’injonction prononcée à l’encontre de la société SOLOCAL MARKETING SERVICES</title>
+      <link>https://cnil.fr/fr/cloture-injonction-solocal-marketing-services</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/cloture-injonction-solocal-marketing-services</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG</url>
+      </image>
+      <description><![CDATA[Par délibération du 17 septembre 2026, la CNIL a clôturé l’injonction prononcée le 15 mai 2025 à l’encontre de la société SOLOCAL MARKETING SERVICES.]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>9</month>
+      <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Sanction</theme>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Amendes RGPD et interaction avec le règlement sur les services numériques : retour sur la plénière du CEPD du 17 septembre 2026</title>
       <link>https://cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques</link>
       <guid isPermaLink="true">https://cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques</guid>
@@ -9995,26 +10016,6 @@
       <theme>Professionnel</theme>
       <theme>RGPD</theme>
       <pubDate>Fri, 21 Oct 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Mots de passe : recommandations pour maîtriser sa sécurité</title>
-      <link>https://cnil.fr/fr/mots-de-passe-recommandations-pour-maitriser-sa-securite</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/mots-de-passe-recommandations-pour-maitriser-sa-securite</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/reco-mots-de-passe.png?itok=JwtyhVLA" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/reco-mots-de-passe.png?itok=JwtyhVLA" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/reco-mots-de-passe.png?itok=JwtyhVLA"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/reco-mots-de-passe.png?itok=JwtyhVLA</url>
-      </image>
-      <description><![CDATA[Dans un contexte de multiplication des compromissions de bases de mots de passe, la CNIL publie une recommandation pour permettre aux organismes de garantir un niveau de sécurité minimal pour cette…]]></description>
-      <page>79</page>
-      <year>2022</year>
-      <month>10</month>
-      <category>Autre</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Mots de Passe</theme>
-      <pubDate>Fri, 14 Oct 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
