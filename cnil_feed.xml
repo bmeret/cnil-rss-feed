@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Évènement air 2026 : Convaincre ou manipuler ? L'éthique du numérique à l'épreuve des urnes, le 16 novembre à la CNIL</title>
+      <link>https://cnil.fr/fr/air2026</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/air2026</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/air2026-visuel.jpg?itok=TBCGiBnM" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/air2026-visuel.jpg?itok=TBCGiBnM" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/air2026-visuel.jpg?itok=TBCGiBnM"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/air2026-visuel.jpg?itok=TBCGiBnM</url>
+      </image>
+      <description><![CDATA[Protection des droits des électeurs, ingérences étrangères… lundi 16 novembre 2026, à partir de 14 h, la CNIL vous invite à son événement dédié aux enjeux éthiques associés aux…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>9</month>
+      <category>Autre</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>air2026</theme>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Clôture de l’injonction prononcée à l’encontre de la société SOLOCAL MARKETING SERVICES</title>
       <link>https://cnil.fr/fr/cloture-injonction-solocal-marketing-services</link>
       <guid isPermaLink="true">https://cnil.fr/fr/cloture-injonction-solocal-marketing-services</guid>
@@ -120,7 +140,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
       </image>
       <description><![CDATA[Le 3 septembre 2026, la CNIL a prononcé une sanction de 500 000 € à l’encontre de l’HÔPITAL PRIVÉ DE LA LOIRE, pour ne pas avoir pris des mesures adaptées pour assurer la sécurité des…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>9</month>
       <category>Santé</category>
@@ -143,7 +163,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt</url>
       </image>
       <description><![CDATA[La CNIL organise la 2ème édition de ses Rencontres Informatique & Libertés le mardi 29 septembre 2026. Cette matinée est l'occasion d’échanger sur différents sujets en lien avec la…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>8</month>
       <category>Autre</category>
@@ -9996,26 +10016,6 @@
       <theme>Élections</theme>
       <theme>Travail</theme>
       <pubDate>Mon, 24 Oct 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Rencontre des autorités administratives et publiques indépendantes : échanges sur les défis posés par la transition numérique</title>
-      <link>https://cnil.fr/fr/rencontre-des-autorites-administratives-et-publiques-independantes-echanges-sur-les-defis-poses-par</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/rencontre-des-autorites-administratives-et-publiques-independantes-echanges-sur-les-defis-poses-par</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/rencontre_aai_api.png?itok=LO0GmUvN" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/rencontre_aai_api.png?itok=LO0GmUvN" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/rencontre_aai_api.png?itok=LO0GmUvN"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/rencontre_aai_api.png?itok=LO0GmUvN</url>
-      </image>
-      <description><![CDATA[Le 21 octobre 2022, la CNIL accueille les autorités administratives et publiques indépendantes (AAI et API). Cette réunion biannuelle permet de mettre en commun les expériences et a notamment…]]></description>
-      <page>79</page>
-      <year>2022</year>
-      <month>10</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>RGPD</theme>
-      <pubDate>Fri, 21 Oct 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
