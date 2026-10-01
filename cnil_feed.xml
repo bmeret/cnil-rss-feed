@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Cybermois 2026 : la CNIL et Cybermalveillance.gouv.fr publient une nouvelle ressource pour adopter les bons réflexes face à une violation de données</title>
+      <link>https://cnil.fr/fr/cybermois-2026</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/cybermois-2026</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/cybermois_visuel.png?itok=GhovYt9g" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/cybermois_visuel.png?itok=GhovYt9g" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/cybermois_visuel.png?itok=GhovYt9g"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/cybermois_visuel.png?itok=GhovYt9g</url>
+      </image>
+      <description><![CDATA[À l’occasion du Mois européen de la cybersécurité, Cybermois en France, la CNIL et Cybermalveillance.gouv.fr s’associent autour d’un nouveau support pratique pour aider les particuliers à réagir en…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>10</month>
+      <category>Cybersécurité</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Cybermois</theme>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Évènement air 2026 : Convaincre ou manipuler ? L'éthique du numérique à l'épreuve des urnes, le 16 novembre à la CNIL</title>
       <link>https://cnil.fr/fr/air2026</link>
       <guid isPermaLink="true">https://cnil.fr/fr/air2026</guid>
@@ -118,7 +138,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
       </image>
       <description><![CDATA[Le 21 juillet 2026, la CNIL a sanctionné la société EXTIA d’une amende de 300 000 euros pour divers manquements relatifs au respect des droits des personnes, notamment du droit à l’effacement…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>9</month>
       <category>Droits &amp; Libertés</category>
@@ -153,7 +173,7 @@
       <pubDate>Thu, 03 Sep 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
-      <title>Participez aux Rencontres Informatique &amp; Libertés le 29 septembre 2026</title>
+      <title>Rencontres Informatique &amp; Libertés : suivre l'évènement en direct</title>
       <link>https://cnil.fr/fr/ril-2026</link>
       <guid isPermaLink="true">https://cnil.fr/fr/ril-2026</guid>
       <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt" length="0" type="image/jpeg"/>
@@ -9996,26 +10016,6 @@
       <theme>Professionnel</theme>
       <theme>Intelligence artificielle (IA)</theme>
       <pubDate>Fri, 04 Nov 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Élections professionnelles et données personnelles : questions–réponses</title>
-      <link>https://cnil.fr/fr/elections-professionnelles-et-donnees-personnelles-questions-reponses</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/elections-professionnelles-et-donnees-personnelles-questions-reponses</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/elections_professionnelles_0.jpg?itok=1XFHvDen" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/elections_professionnelles_0.jpg?itok=1XFHvDen" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/elections_professionnelles_0.jpg?itok=1XFHvDen"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/elections_professionnelles_0.jpg?itok=1XFHvDen</url>
-      </image>
-      <description><![CDATA[Afin d’organiser les élections professionnelles, les employeurs publics et privés ainsi que les prestataires de solution de vote électronique sont amenés à collecter et utiliser les données…]]></description>
-      <page>78</page>
-      <year>2022</year>
-      <month>10</month>
-      <category>Autre</category>
-      <theme>Professionnel</theme>
-      <theme>Élections</theme>
-      <theme>Travail</theme>
-      <pubDate>Mon, 24 Oct 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
