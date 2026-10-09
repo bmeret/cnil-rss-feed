@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Rencontres Informatique &amp; Libertés 2026 : voir la rediffusion de l'évènement</title>
+      <link>https://cnil.fr/fr/ril-2026</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/ril-2026</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt</url>
+      </image>
+      <description><![CDATA[La CNIL a organisé la 2ème édition de ses Rencontres Informatique & Libertés le mardi 29 septembre 2026. Cette matinée a été l'occasion d’échanger sur différents sujets en lien avec la…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>10</month>
+      <category>Autre</category>
+      <theme>Professionnel</theme>
+      <theme>Évènement</theme>
+      <theme>Droits</theme>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Clôture de l’injonction prononcée à l’encontre de FRANCE TRAVAIL</title>
       <link>https://cnil.fr/fr/cloture-injonction-france-travail</link>
       <guid isPermaLink="true">https://cnil.fr/fr/cloture-injonction-france-travail</guid>
@@ -192,26 +212,6 @@
       <theme>Professionnel</theme>
       <theme>Sanction</theme>
       <pubDate>Thu, 03 Sep 2026 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Rencontres Informatique &amp; Libertés : suivre l'évènement en direct</title>
-      <link>https://cnil.fr/fr/ril-2026</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/ril-2026</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-08/ril_actu.jpg?itok=y4-l8Ljt</url>
-      </image>
-      <description><![CDATA[La CNIL organise la 2ème édition de ses Rencontres Informatique & Libertés le mardi 29 septembre 2026. Cette matinée est l'occasion d’échanger sur différents sujets en lien avec la…]]></description>
-      <page>2</page>
-      <year>2026</year>
-      <month>8</month>
-      <category>Autre</category>
-      <theme>Professionnel</theme>
-      <theme>Évènement</theme>
-      <theme>Droits</theme>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 -0000</pubDate>
     </item>
     <item>
       <title>Sensibiliser les élèves de CM2 à la protection des données</title>
