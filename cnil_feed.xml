@@ -7,6 +7,67 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>De la protection des données à la création de valeur en finance : des autorités européennes publient une étude et des bonnes pratiques</title>
+      <link>https://cnil.fr/fr/protection-donnees-valeur-finance-etude-autorites-europeennes</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/protection-donnees-valeur-finance-etude-autorites-europeennes</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/etude_finance.png?itok=rI1WL8ST" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/etude_finance.png?itok=rI1WL8ST" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/etude_finance.png?itok=rI1WL8ST"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/etude_finance.png?itok=rI1WL8ST</url>
+      </image>
+      <description><![CDATA[La CNIL, l’ICO et la CNPD publient leur étude conjointe « De la protection des données à la création de valeur en finance : évaluation des données, comptabilité, fusions-acquisitions et…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>10</month>
+      <category>Droits &amp; Libertés</category>
+      <category>Entreprises &amp; RGPD</category>
+      <theme>Professionnel</theme>
+      <theme>Economie</theme>
+      <theme>Conformité</theme>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Reconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?</title>
+      <link>https://cnil.fr/fr/reconstitution-adresses-professionnelles-quel-cadre</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/reconstitution-adresses-professionnelles-quel-cadre</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/emails-pro.png?itok=bQLiLsr2" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/emails-pro.png?itok=bQLiLsr2" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/emails-pro.png?itok=bQLiLsr2"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/emails-pro.png?itok=bQLiLsr2</url>
+      </image>
+      <description><![CDATA[La reconstitution d’adresses électroniques professionnelles à partir de données accessibles en ligne est utilisée pour contacter des interlocuteurs, notamment dans le cadre de la prospection. Elle…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>10</month>
+      <category>Autre</category>
+      <theme>Professionnel</theme>
+      <theme>Courriels</theme>
+      <theme>Prospection</theme>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Reconstitution d’adresses électroniques professionnelles : quels sont vos droits ?</title>
+      <link>https://cnil.fr/fr/reconstitution-adresses-professionnelles-vos-droits</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/reconstitution-adresses-professionnelles-vos-droits</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/reconstitution-email-pro.png?itok=4gKNGD1a" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/reconstitution-email-pro.png?itok=4gKNGD1a" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/reconstitution-email-pro.png?itok=4gKNGD1a"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/reconstitution-email-pro.png?itok=4gKNGD1a</url>
+      </image>
+      <description><![CDATA[Lorsque vos données personnelles sont accessibles sur Internet, elles peuvent être récupérées par des organismes pour reconstituer votre adresse électronique professionnelle, notamment pour faire de…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>10</month>
+      <category>Autre</category>
+      <theme>Particulier</theme>
+      <theme>Courriels</theme>
+      <theme>Prospection</theme>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Clôture de l’injonction prononcée à l’encontre de GOOGLE</title>
       <link>https://cnil.fr/fr/cloture-injonction-google</link>
       <guid isPermaLink="true">https://cnil.fr/fr/cloture-injonction-google</guid>
@@ -78,7 +139,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/cloture_inj.png?itok=7NgfjyVG</url>
       </image>
       <description><![CDATA[Par délibération du 23 septembre 2026, la CNIL a clos l’injonction prononcée le 22 janvier 2026 à l’encontre de FRANCE TRAVAIL, sans liquider l’astreinte prévue compte tenu de sa mise en…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>10</month>
       <category>Entreprises &amp; RGPD</category>
@@ -99,7 +160,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/cybermois_visuel.png?itok=GhovYt9g</url>
       </image>
       <description><![CDATA[À l’occasion du Mois européen de la cybersécurité, Cybermois en France, la CNIL et Cybermalveillance.gouv.fr s’associent autour d’un nouveau support pratique pour aider les particuliers à réagir en…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>10</month>
       <category>Cybersécurité</category>
@@ -119,7 +180,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/air2026-visuel.jpg?itok=TBCGiBnM</url>
       </image>
       <description><![CDATA[Protection des droits des électeurs, ingérences étrangères… lundi 16 novembre 2026, à partir de 14 h, la CNIL vous invite à son événement dédié aux enjeux éthiques associés aux…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>9</month>
       <category>Autre</category>
@@ -9956,66 +10017,6 @@
       <theme>Professionnel</theme>
       <theme>Webinaire</theme>
       <pubDate>Thu, 05 Jan 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Meilleurs vœux pour l'année 2023</title>
-      <link>https://cnil.fr/fr/meilleurs-voeux-pour-lannee-2023</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/meilleurs-voeux-pour-lannee-2023</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/visuel_site_voeux_2023.png?itok=shremEVd" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/visuel_site_voeux_2023.png?itok=shremEVd" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/visuel_site_voeux_2023.png?itok=shremEVd"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/visuel_site_voeux_2023.png?itok=shremEVd</url>
-      </image>
-      <description><![CDATA[Marie-Laure Denis, présidente de la CNIL, le Collège, et toute l’équipe vous présentent leurs meilleurs vœux pour 2023.]]></description>
-      <page>77</page>
-      <year>2022</year>
-      <month>12</month>
-      <category>Éducation</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Vie de la CNIL</theme>
-      <pubDate>Mon, 19 Dec 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Vente de fichiers clients : la CNIL rappelle les règles</title>
-      <link>https://cnil.fr/fr/vente-de-fichiers-clients-la-cnil-rappelle-les-regles</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/vente-de-fichiers-clients-la-cnil-rappelle-les-regles</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/base_client.png?itok=zE0xD82N" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/base_client.png?itok=zE0xD82N" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/base_client.png?itok=zE0xD82N"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/base_client.png?itok=zE0xD82N</url>
-      </image>
-      <description><![CDATA[La vente d’un fichier clients n’est pas interdite par le RGPD, mais doit se faire dans le respect de certaines obligations précises. La CNIL rappelle les règles qu’un vendeur et un acquéreur doivent…]]></description>
-      <page>78</page>
-      <year>2022</year>
-      <month>12</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Données personnelles</theme>
-      <pubDate>Mon, 05 Dec 2022 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>La CNIL et Pix s’associent pour développer les compétences numériques des Français</title>
-      <link>https://cnil.fr/fr/la-cnil-et-pix-sassocient-pour-developper-les-competences-numeriques-des-francais</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-et-pix-sassocient-pour-developper-les-competences-numeriques-des-francais</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/pix-signature.jpg?itok=Lcqeg4CO" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/pix-signature.jpg?itok=Lcqeg4CO" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/pix-signature.jpg?itok=Lcqeg4CO"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/pix-signature.jpg?itok=Lcqeg4CO</url>
-      </image>
-      <description><![CDATA[La CNIL et Pix ont signé, le 30 novembre 2022, une convention de partenariat afin de développer les compétences des citoyens, petits et grands, dans la protection de leurs données personnelles dans l…]]></description>
-      <page>78</page>
-      <year>2022</year>
-      <month>11</month>
-      <category>Éducation</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Éducation numérique</theme>
-      <pubDate>Wed, 30 Nov 2022 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
