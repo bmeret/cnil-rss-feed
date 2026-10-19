@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Revoir le webinaire - Nouveau régime de la prospection téléphonique : comment et quand recueillir le consentement de la personne concernée ?</title>
+      <link>https://cnil.fr/fr/webinaire-demarchage-telephonique</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/webinaire-demarchage-telephonique</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb</url>
+      </image>
+      <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré à la prospection…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>10</month>
+      <category>Droits &amp; Libertés</category>
+      <theme>Professionnel</theme>
+      <theme>Webinaire</theme>
+      <theme>Prospection</theme>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>De la protection des données à la création de valeur en finance : des autorités européennes publient une étude et des bonnes pratiques</title>
       <link>https://cnil.fr/fr/protection-donnees-valeur-finance-etude-autorites-europeennes</link>
       <guid isPermaLink="true">https://cnil.fr/fr/protection-donnees-valeur-finance-etude-autorites-europeennes</guid>
@@ -119,7 +139,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/ril-table1.png?itok=__IpgdcM</url>
       </image>
       <description><![CDATA[La CNIL a organisé la 2ème édition de ses Rencontres Informatique & Libertés le mardi 29 septembre 2026. Cette matinée a été l'occasion d’échanger sur différents sujets en lien avec la…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>10</month>
       <category>Autre</category>
@@ -9996,27 +10016,6 @@
       <theme>Webinaire</theme>
       <theme>Mots de Passe</theme>
       <pubDate>Wed, 25 Jan 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Revoir le webinaire : sécurité des systèmes d'IA, enjeux et bonnes pratiques</title>
-      <link>https://cnil.fr/fr/revoir-le-webinaire-securite-des-systemes-dia-enjeux-et-bonnes-pratiques</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/revoir-le-webinaire-securite-des-systemes-dia-enjeux-et-bonnes-pratiques</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaire_ia2_2022.png?itok=uYYxRJWz" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaire_ia2_2022.png?itok=uYYxRJWz" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaire_ia2_2022.png?itok=uYYxRJWz"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaire_ia2_2022.png?itok=uYYxRJWz</url>
-      </image>
-      <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez le troisième épisode consacré à la sécurité des…]]></description>
-      <page>77</page>
-      <year>2023</year>
-      <month>1</month>
-      <category>Intelligence Artificielle</category>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Webinaire</theme>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
