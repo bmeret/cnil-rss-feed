@@ -7,6 +7,27 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Privacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants</title>
+      <link>https://cnil.fr/fr/cepd-privacy-for-kids</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/cepd-privacy-for-kids</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/privacy_for_kids.png?itok=aDHepgjE" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/privacy_for_kids.png?itok=aDHepgjE" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/privacy_for_kids.png?itok=aDHepgjE"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/privacy_for_kids.png?itok=aDHepgjE</url>
+      </image>
+      <description><![CDATA[Le Comité européen de la protection des données (CEPD), en lien avec différentes autorités de protection de données, dont la CNIL, lance sa plateforme Privacy for kids dédiée à l’éducation au…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>11</month>
+      <category>Éducation</category>
+      <category>Droits &amp; Libertés</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>CEPD</theme>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT</title>
       <link>https://cnil.fr/fr/sanction-cookies-app-fnac</link>
       <guid isPermaLink="true">https://cnil.fr/fr/sanction-cookies-app-fnac</guid>
@@ -103,7 +124,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/emails-pro.png?itok=bQLiLsr2</url>
       </image>
       <description><![CDATA[La reconstitution d’adresses électroniques professionnelles à partir de données accessibles en ligne est utilisée pour contacter des interlocuteurs, notamment dans le cadre de la prospection. Elle…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>10</month>
       <category>Autre</category>
@@ -10007,26 +10028,6 @@
       <theme>Violation de données</theme>
       <theme>Cybersécurité</theme>
       <pubDate>Tue, 07 Feb 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Euro numérique : agir pour un modèle respectueux de la vie privée</title>
-      <link>https://cnil.fr/fr/euro-numerique-agir-pour-un-modele-respectueux-de-la-vie-privee</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/euro-numerique-agir-pour-un-modele-respectueux-de-la-vie-privee</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/euro-numerique_0.png?itok=b7xKBSAQ" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/euro-numerique_0.png?itok=b7xKBSAQ" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/euro-numerique_0.png?itok=b7xKBSAQ"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/euro-numerique_0.png?itok=b7xKBSAQ</url>
-      </image>
-      <description><![CDATA[Le Comité européen de la protection des données invite la Banque centrale européenne à concevoir un futur euro numérique apportant des garanties similaires aux espèces, le moyen de paiement le plus…]]></description>
-      <page>77</page>
-      <year>2023</year>
-      <month>2</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Moyens de paiement</theme>
-      <pubDate>Wed, 01 Feb 2023 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
