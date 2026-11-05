@@ -7,6 +7,45 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs</title>
+      <link>https://cnil.fr/fr/rejeu-de-session-recommandation</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/rejeu-de-session-recommandation</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/rejeu-session-pro.png?itok=pTOGljPs" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/rejeu-session-pro.png?itok=pTOGljPs" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/rejeu-session-pro.png?itok=pTOGljPs"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/rejeu-session-pro.png?itok=pTOGljPs</url>
+      </image>
+      <description><![CDATA[La CNIL publie une recommandation relative aux outils de rejeu de session permettant le suivi et l'analyse du comportement en ligne des utilisateurs. L’objectif est d’aider les acteurs qui conçoivent…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>11</month>
+      <category>Autre</category>
+      <theme>Professionnel</theme>
+      <theme>Rejeu de session</theme>
+      <theme>Recommandations</theme>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Rejeu de session : ces outils qui enregistrent votre activité en ligne</title>
+      <link>https://cnil.fr/fr/rejeu-de-session-vos-droits</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/rejeu-de-session-vos-droits</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/rejeu-session-part.png?itok=MXJUi9E1" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/rejeu-session-part.png?itok=MXJUi9E1" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/rejeu-session-part.png?itok=MXJUi9E1"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/rejeu-session-part.png?itok=MXJUi9E1</url>
+      </image>
+      <description><![CDATA[Lorsque vous naviguez sur Internet ou que vous utilisez une application sur votre téléphone, vos actions peuvent être enregistrées par ce que l’on appelle des outils de rejeu de session. À quoi…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>11</month>
+      <category>Autre</category>
+      <theme>Particulier</theme>
+      <theme>Rejeu de session</theme>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Privacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants</title>
       <link>https://cnil.fr/fr/cepd-privacy-for-kids</link>
       <guid isPermaLink="true">https://cnil.fr/fr/cepd-privacy-for-kids</guid>
@@ -103,7 +142,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/etude_finance.png?itok=rI1WL8ST</url>
       </image>
       <description><![CDATA[La CNIL, l’ICO et la CNPD publient leur étude conjointe « De la protection des données à la création de valeur en finance : évaluation des données, comptabilité, fusions-acquisitions et…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>10</month>
       <category>Droits &amp; Libertés</category>
@@ -124,7 +163,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/emails-pro.png?itok=bQLiLsr2</url>
       </image>
       <description><![CDATA[La reconstitution d’adresses électroniques professionnelles à partir de données accessibles en ligne est utilisée pour contacter des interlocuteurs, notamment dans le cadre de la prospection. Elle…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>10</month>
       <category>Autre</category>
@@ -144,7 +183,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-10/reconstitution-email-pro.png?itok=4gKNGD1a</url>
       </image>
       <description><![CDATA[Lorsque vos données personnelles sont accessibles sur Internet, elles peuvent être récupérées par des organismes pour reconstituer votre adresse électronique professionnelle, notamment pour faire de…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>10</month>
       <category>Autre</category>
@@ -9994,40 +10033,6 @@
       <theme>Professionnel</theme>
       <theme>Consultation</theme>
       <pubDate>Thu, 09 Feb 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Les enjeux économiques de la mise en œuvre du règlement sur la gouvernance des données</title>
-      <link>https://cnil.fr/fr/les-enjeux-economiques-de-la-mise-en-oeuvre-du-reglement-sur-la-gouvernance-des-donnees</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/les-enjeux-economiques-de-la-mise-en-oeuvre-du-reglement-sur-la-gouvernance-des-donnees</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/europe_0.png?itok=_WVFAJii" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/europe_0.png?itok=_WVFAJii" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/europe_0.png?itok=_WVFAJii"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/europe_0.png?itok=_WVFAJii</url>
-      </image>
-      <description><![CDATA[Le règlement sur la gouvernance des données (ou « Data Governance Act »), qui entrera en vigueur le 24 septembre 2023, instaure notamment un statut d’intermédiaire de données fondé sur la…]]></description>
-      <page>76</page>
-      <year>2023</year>
-      <month>2</month>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Economie</theme>
-      <pubDate>Thu, 09 Feb 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Cyberattaques : alerte sur la nécessaire mise à jour des hyperviseurs VMWare ESXi</title>
-      <link>https://cnil.fr/fr/cyberattaques-alerte-sur-la-necessaire-mise-jour-des-hyperviseurs-vmware-esxi</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/cyberattaques-alerte-sur-la-necessaire-mise-jour-des-hyperviseurs-vmware-esxi</guid>
-      <description><![CDATA[La CNIL a été informée d’incidents affectant certaines versions d’hyperviseurs VMWare ESXi. Elle alerte sur la nécessité de procéder à la mise à jour de ces outils et rappelle les obligations en…]]></description>
-      <page>77</page>
-      <year>2023</year>
-      <month>2</month>
-      <category>Cybersécurité</category>
-      <theme>Professionnel</theme>
-      <theme>Violation de données</theme>
-      <theme>Cybersécurité</theme>
-      <pubDate>Tue, 07 Feb 2023 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
