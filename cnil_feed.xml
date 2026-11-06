@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Recherches internes : quelles sont les obligations pour les professionnels de santé ?</title>
+      <link>https://cnil.fr/fr/recherches-internes-sante-quelles-obligations</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/recherches-internes-sante-quelles-obligations</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/recherche_sante_interne.png?itok=h1YqGn58" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/recherche_sante_interne.png?itok=h1YqGn58" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/recherche_sante_interne.png?itok=h1YqGn58"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/recherche_sante_interne.png?itok=h1YqGn58</url>
+      </image>
+      <description><![CDATA[Votre établissement emploie des professionnels de santé qui mènent des recherches internes ? La CNIL rappelle les règles.]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>11</month>
+      <category>Santé</category>
+      <theme>Professionnel</theme>
+      <theme>Santé</theme>
+      <theme>Recherche médicale</theme>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs</title>
       <link>https://cnil.fr/fr/rejeu-de-session-recommandation</link>
       <guid isPermaLink="true">https://cnil.fr/fr/rejeu-de-session-recommandation</guid>
@@ -122,7 +142,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/thumbnails/image/webinaires_2023.png?itok=1SbI-0Pb</url>
       </image>
       <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré à la prospection…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>10</month>
       <category>Droits &amp; Libertés</category>
@@ -10012,27 +10032,6 @@
       <theme>Professionnel</theme>
       <theme>Mise en demeure</theme>
       <pubDate>Mon, 13 Feb 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>[Clôturée] Vidéosurveillance dans les chambres d'Ehpad : la CNIL lance une consultation publique</title>
-      <link>https://cnil.fr/fr/cloturee-videosurveillance-dans-les-chambres-dehpad-la-cnil-lance-une-consultation-publique</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/cloturee-videosurveillance-dans-les-chambres-dehpad-la-cnil-lance-une-consultation-publique</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/consultation_0.jpg?itok=hATTjOo_" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/consultation_0.jpg?itok=hATTjOo_" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/consultation_0.jpg?itok=hATTjOo_"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/consultation_0.jpg?itok=hATTjOo_</url>
-      </image>
-      <description><![CDATA[Interrogée sur le recours à des dispositifs de vidéosurveillance par les établissements d’hébergement pour personnes âgées dépendantes, la CNIL lance une consultation publique. Cette démarche doit…]]></description>
-      <page>76</page>
-      <year>2023</year>
-      <month>2</month>
-      <category>Santé</category>
-      <category>Droits &amp; Libertés</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Consultation</theme>
-      <pubDate>Thu, 09 Feb 2023 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
