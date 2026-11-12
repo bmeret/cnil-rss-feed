@@ -7,6 +7,27 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Actualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA</title>
+      <link>https://cnil.fr/fr/actualite-du-cepd-adequation-de-la-coree-du-sud-versions-finales-des-bcr-st-et-action-coordonnee-sur</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/actualite-du-cepd-adequation-de-la-coree-du-sud-versions-finales-des-bcr-st-et-action-coordonnee-sur</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/logo_edpb_2026.png?itok=ue_0PX_N" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/logo_edpb_2026.png?itok=ue_0PX_N" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/logo_edpb_2026.png?itok=ue_0PX_N"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/logo_edpb_2026.png?itok=ue_0PX_N</url>
+      </image>
+      <description><![CDATA[Le 10 novembre 2026, le Comité européen de la protection des données (CEPD) a adopté une déclaration sur l’adéquation de la Corée du Sud en matière de protection des données, ses recommandations…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>11</month>
+      <category>Intelligence Artificielle</category>
+      <category>Droits &amp; Libertés</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>CEPD</theme>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>La CNIL sera présente au Salon des maires et des collectivités locales 2026</title>
       <link>https://cnil.fr/fr/salon-maires-collectivites-2026</link>
       <guid isPermaLink="true">https://cnil.fr/fr/salon-maires-collectivites-2026</guid>
@@ -118,7 +139,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/privacy_for_kids.png?itok=aDHepgjE</url>
       </image>
       <description><![CDATA[Le Comité européen de la protection des données (CEPD), en lien avec différentes autorités de protection de données, dont la CNIL, lance sa plateforme Privacy for kids dédiée à l’éducation au…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>11</month>
       <category>Éducation</category>
@@ -10019,20 +10040,6 @@
       <theme>Webinaire</theme>
       <theme>Prospection</theme>
       <pubDate>Wed, 22 Feb 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Contrôle de l’âge pour l’accès aux sites pornographiques</title>
-      <link>https://cnil.fr/fr/controle-de-lage-pour-lacces-aux-sites-pornographiques</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/controle-de-lage-pour-lacces-aux-sites-pornographiques</guid>
-      <description><![CDATA[Après une analyse des systèmes existants, la CNIL publiait en juillet 2022 sa position sur les dispositifs de contrôle de l’âge sur Internet, et notamment sur les sites à caractère pornographique…]]></description>
-      <page>76</page>
-      <year>2023</year>
-      <month>2</month>
-      <category>Entreprises &amp; RGPD</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Vérification de l'âge</theme>
-      <pubDate>Tue, 21 Feb 2023 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
