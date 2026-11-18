@@ -7,6 +7,27 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros</title>
+      <link>https://cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
+      </image>
+      <description><![CDATA[En novembre 2026, la CNIL a infligé une sanction de 5 millions d’euros à une société en raison de l’insuffisance des mesures prises pour assurer la sécurité des données de ses clients et d’une…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>11</month>
+      <category>Entreprises &amp; RGPD</category>
+      <category>Sanctions</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Sanction</theme>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>La CNIL a prononcé 38 nouvelles sanctions en procédure simplifiée depuis juin 2026</title>
       <link>https://cnil.fr/fr/38-sanctions-simplifiees</link>
       <guid isPermaLink="true">https://cnil.fr/fr/38-sanctions-simplifiees</guid>
@@ -122,7 +143,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/rejeu-session-pro.png?itok=pTOGljPs</url>
       </image>
       <description><![CDATA[La CNIL publie une recommandation relative aux outils de rejeu de session permettant le suivi et l'analyse du comportement en ligne des utilisateurs. L’objectif est d’aider les acteurs qui conçoivent…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>11</month>
       <category>Autre</category>
@@ -142,7 +163,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/rejeu-session-part.png?itok=MXJUi9E1</url>
       </image>
       <description><![CDATA[Lorsque vous naviguez sur Internet ou que vous utilisez une application sur votre téléphone, vos actions peuvent être enregistrées par ce que l’on appelle des outils de rejeu de session. À quoi…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>11</month>
       <category>Autre</category>
@@ -10020,28 +10041,6 @@
       <theme>Données de santé</theme>
       <theme>Questions réponses santé</theme>
       <pubDate>Thu, 02 Mar 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>La CNIL publie un guide RGPD pour les organisations syndicales de salariés</title>
-      <link>https://cnil.fr/fr/la-cnil-publie-un-guide-rgpd-pour-les-organisations-syndicales-de-salaries</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-publie-un-guide-rgpd-pour-les-organisations-syndicales-de-salaries</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/organisations_syndicales.jpg?itok=7OOjzXhQ" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/organisations_syndicales.jpg?itok=7OOjzXhQ" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/organisations_syndicales.jpg?itok=7OOjzXhQ"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/media/images/organisations_syndicales.jpg?itok=7OOjzXhQ</url>
-      </image>
-      <description><![CDATA[Afin d’accompagner les organisations syndicales de salariés dans leur mise en conformité, la CNIL a élaboré un guide de sensibilisation au règlement général sur la protection des données (RGPD). …]]></description>
-      <page>75</page>
-      <year>2023</year>
-      <month>2</month>
-      <category>Éducation</category>
-      <category>Droits &amp; Libertés</category>
-      <category>Entreprises &amp; RGPD</category>
-      <theme>Professionnel</theme>
-      <theme>Organisations syndicales</theme>
-      <theme>Travail</theme>
-      <pubDate>Thu, 23 Feb 2023 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
