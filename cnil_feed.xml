@@ -7,6 +7,68 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>IA et éducation : une résolution mondiale pour la protection des données</title>
+      <link>https://cnil.fr/fr/gpa-ia-education</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/gpa-ia-education</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/ia_dans_l_education.png?itok=-t7omVGI" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/ia_dans_l_education.png?itok=-t7omVGI" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/ia_dans_l_education.png?itok=-t7omVGI"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/ia_dans_l_education.png?itok=-t7omVGI</url>
+      </image>
+      <description><![CDATA[En novembre 2026, l’Assemblée mondiale pour la protection de la vie privée (Global Privacy Assembly) a adopté une résolution sur l’intelligence artificielle dans le secteur de l’éducation. La CNIL…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>11</month>
+      <category>Intelligence Artificielle</category>
+      <category>Éducation</category>
+      <category>Droits &amp; Libertés</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Éducation</theme>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation</title>
+      <link>https://cnil.fr/fr/recommandation-pixels-retour-dexperience</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/recommandation-pixels-retour-dexperience</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/consultation.png?itok=UEIH3IXL" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/consultation.png?itok=UEIH3IXL" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/consultation.png?itok=UEIH3IXL"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/consultation.png?itok=UEIH3IXL</url>
+      </image>
+      <description><![CDATA[Le 14 avril 2026, la CNIL a publié sa recommandation sur les pixels de suivi dans les courriels. Elle invite désormais les acteurs concernés, expéditeurs de messages et fournisseurs de solutions, à…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>11</month>
+      <category>Autre</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Consultation</theme>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>48e Assemblée mondiale pour la protection de la vie privée (GPA)</title>
+      <link>https://cnil.fr/fr/48e-gpa</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/48e-gpa</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/logo_gpa_2026.png?itok=Zzr4ALLt" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/logo_gpa_2026.png?itok=Zzr4ALLt" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/logo_gpa_2026.png?itok=Zzr4ALLt"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/logo_gpa_2026.png?itok=Zzr4ALLt</url>
+      </image>
+      <description><![CDATA[L’Assemblée mondiale pour la protection de la vie privée (ou Global Privacy Assembly), qui rassemble plus de 130 autorités de protection des données de plus de 80 pays, a adopté cinq résolutions dont…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>11</month>
+      <category>Droits &amp; Libertés</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>GPA</theme>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros</title>
       <link>https://cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros</link>
       <guid isPermaLink="true">https://cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros</guid>
@@ -82,7 +144,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-09/logo_edpb_2026.png?itok=ue_0PX_N</url>
       </image>
       <description><![CDATA[Le 10 novembre 2026, le Comité européen de la protection des données (CEPD) a adopté une déclaration sur l’adéquation de la Corée du Sud en matière de protection des données, ses recommandations…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>11</month>
       <category>Intelligence Artificielle</category>
@@ -103,7 +165,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/maires-collectivites.png?itok=zYySLhla</url>
       </image>
       <description><![CDATA[Du 24 au 26 novembre 2026, la CNIL sera présente au Salon des maires et des collectivités locales pour échanger avec les élus et agents territoriaux et répondre à leurs questions.]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>11</month>
       <category>Autre</category>
@@ -123,7 +185,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-09/sanctions.png?itok=xHFNhWjq</url>
       </image>
       <description><![CDATA[En novembre 2026, la CNIL a prononcé dix sanctions simplifiées à l’encontre de collectivités territoriales et d’un établissement public, pour des manquements relatifs à la cybersécurité.]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>11</month>
       <category>Cybersécurité</category>
@@ -9985,62 +10047,6 @@
       <theme>Professionnel</theme>
       <theme>Club conformité</theme>
       <theme>Véhicule connecté</theme>
-      <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Thématiques prioritaires de contrôle 2023 : caméras « augmentées », applications mobiles, fichiers bancaires et dossiers patients</title>
-      <link>https://cnil.fr/fr/thematiques-prioritaires-de-controle-2023-cameras-augmentees-applications-mobiles-fichiers-bancaires</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/thematiques-prioritaires-de-controle-2023-cameras-augmentees-applications-mobiles-fichiers-bancaires</guid>
-      <description><![CDATA[La CNIL effectue des contrôles sur la base de plaintes reçues, de l’actualité, mais également de thématiques prioritaires annuelles. En 2023, elle se concentrera sur l’utilisation de caméras « …]]></description>
-      <page>75</page>
-      <year>2023</year>
-      <month>3</month>
-      <category>Entreprises &amp; RGPD</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Contrôles</theme>
-      <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Revoir le webinaire : techniques d'IA protectrices de la vie privée, tour d'horizon et perspectives</title>
-      <link>https://cnil.fr/fr/revoir-le-webinaire-techniques-dia-protectrices-de-la-vie-privee-tour-dhorizon-et-perspectives</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/revoir-le-webinaire-techniques-dia-protectrices-de-la-vie-privee-tour-dhorizon-et-perspectives</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/Webinaire_IA_perspectives_2022.png?itok=2RA3USJt" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/Webinaire_IA_perspectives_2022.png?itok=2RA3USJt" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/Webinaire_IA_perspectives_2022.png?itok=2RA3USJt"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/Webinaire_IA_perspectives_2022.png?itok=2RA3USJt</url>
-      </image>
-      <description><![CDATA[La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez le septième épisode consacré aux techniques d…]]></description>
-      <page>75</page>
-      <year>2023</year>
-      <month>3</month>
-      <category>Intelligence Artificielle</category>
-      <category>Droits &amp; Libertés</category>
-      <theme>Professionnel</theme>
-      <theme>Webinaire</theme>
-      <theme>Intelligence artificielle (IA)</theme>
-      <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>Données de santé : la CNIL rappelle à deux organismes de recherche médicale leurs obligations légales</title>
-      <link>https://cnil.fr/fr/donnees-de-sante-la-cnil-rappelle-deux-organismes-de-recherche-medicale-leurs-obligations-legales</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/donnees-de-sante-la-cnil-rappelle-deux-organismes-de-recherche-medicale-leurs-obligations-legales</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/Recherche_sant%C3%A9.jpeg?itok=tW1OPUEz" length="0" type="image/jpeg"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/Recherche_sant%C3%A9.jpeg?itok=tW1OPUEz" medium="image" type="image/jpeg"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/Recherche_sant%C3%A9.jpeg?itok=tW1OPUEz"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/Recherche_sant%C3%A9.jpeg?itok=tW1OPUEz</url>
-      </image>
-      <description><![CDATA[La présidente de la CNIL a rappelé à deux organismes procédant à des recherches médicales leurs obligations de réaliser une analyse d’impact sur la protection des données et d’informer correctement…]]></description>
-      <page>75</page>
-      <year>2023</year>
-      <month>3</month>
-      <category>Santé</category>
-      <category>Droits &amp; Libertés</category>
-      <theme>Professionnel</theme>
-      <theme>Santé</theme>
-      <theme>Recherche</theme>
       <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
     </item>
   </channel>
