@@ -7,6 +7,26 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>Trophées des classes 2027 - Ensemble, tous protégés sur Internet !</title>
+      <link>https://cnil.fr/fr/trophees-des-classes-2027</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/trophees-des-classes-2027</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/trophees_des_classes-2026.jpeg?itok=kPxlY2uM" length="0" type="image/jpeg"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/trophees_des_classes-2026.jpeg?itok=kPxlY2uM" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/trophees_des_classes-2026.jpeg?itok=kPxlY2uM"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-01/trophees_des_classes-2026.jpeg?itok=kPxlY2uM</url>
+      </image>
+      <description><![CDATA[Le ministère de l’Éducation nationale et la CNIL organisent le concours Trophées des classes dont la thématique, pour cette édition 2027, est : « Comment je sécurise mes données…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>11</month>
+      <category>Éducation</category>
+      <theme>Particulier</theme>
+      <theme>Professionnel</theme>
+      <theme>Trophées des classes</theme>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>IA et éducation : une résolution mondiale pour la protection des données</title>
       <link>https://cnil.fr/fr/gpa-ia-education</link>
       <guid isPermaLink="true">https://cnil.fr/fr/gpa-ia-education</guid>
@@ -122,7 +142,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2025-09/sanctions.png?itok=xHFNhWjq</url>
       </image>
       <description><![CDATA[Cookies, sécurité des données, prospection commerciale, non-coopération : entre juin et octobre 2026, la CNIL a prononcé 38 nouvelles sanctions dans le cadre de la procédure simplifiée,…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>11</month>
       <category>Droits &amp; Libertés</category>
@@ -10033,20 +10053,6 @@
       <theme>Particulier</theme>
       <theme>Commerce</theme>
       <theme>Prospection</theme>
-      <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>La CNIL lance un « club conformité » dédié aux acteurs du véhicule connecté et de la mobilité</title>
-      <link>https://cnil.fr/fr/la-cnil-lance-un-club-conformite-dedie-aux-acteurs-du-vehicule-connecte-et-de-la-mobilite</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/la-cnil-lance-un-club-conformite-dedie-aux-acteurs-du-vehicule-connecte-et-de-la-mobilite</guid>
-      <description><![CDATA[Dans le cadre de sa démarche d’accompagnement sectoriel, la CNIL crée un « club conformité » dédié aux acteurs du véhicule connecté et de la mobilité. Cet espace de dialogue privilégié doit…]]></description>
-      <page>74</page>
-      <year>2023</year>
-      <month>3</month>
-      <category>Entreprises &amp; RGPD</category>
-      <theme>Professionnel</theme>
-      <theme>Club conformité</theme>
-      <theme>Véhicule connecté</theme>
       <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
     </item>
   </channel>
