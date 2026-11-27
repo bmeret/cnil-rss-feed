@@ -7,6 +7,27 @@
     <description>Flux RSS personnalisé des actualités CNIL</description>
     <language>fr-FR</language>
     <item>
+      <title>IA en contexte de soins : accompagner le bon usage avec le guide CNIL et HAS</title>
+      <link>https://cnil.fr/fr/ia-en-soins-guide-has-cnil</link>
+      <guid isPermaLink="true">https://cnil.fr/fr/ia-en-soins-guide-has-cnil</guid>
+      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/ia_et_soins.png?itok=X-5HvldW" length="0" type="image/png"/>
+      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/ia_et_soins.png?itok=X-5HvldW" medium="image" type="image/png"/>
+      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/ia_et_soins.png?itok=X-5HvldW"/>
+      <image>
+        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/ia_et_soins.png?itok=X-5HvldW</url>
+      </image>
+      <description><![CDATA[Avec la publication du guide « IA en contexte de soins : accompagner le bon usage » qu’elles ont conjointement élaboré, la Haute Autorité de santé (HAS) et la CNIL se mobilisent pour…]]></description>
+      <page>1</page>
+      <year>2026</year>
+      <month>11</month>
+      <category>Intelligence Artificielle</category>
+      <category>Santé</category>
+      <theme>Professionnel</theme>
+      <theme>Santé</theme>
+      <theme>Intelligence artificielle (IA)</theme>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 -0000</pubDate>
+    </item>
+    <item>
       <title>Acteurs du secteur de la livraison : comment définir les responsabilités au regard du RGPD ?</title>
       <link>https://cnil.fr/fr/acteurs-secteur-livraison-responsabilites</link>
       <guid isPermaLink="true">https://cnil.fr/fr/acteurs-secteur-livraison-responsabilites</guid>
@@ -120,7 +141,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2024-09/sanction.png?itok=TFw6G4z9</url>
       </image>
       <description><![CDATA[En novembre 2026, la CNIL a infligé une sanction de 5 millions d’euros à une société en raison de l’insuffisance des mesures prises pour assurer la sécurité des données de ses clients et d’une…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>11</month>
       <category>Entreprises &amp; RGPD</category>
@@ -141,7 +162,7 @@
         <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2026-11/livret_voix_des_jeunesses_aime_carrousel.png?itok=JEHQsIY1</url>
       </image>
       <description><![CDATA[Alors que près d’un jeune sur deux se confie à une IA sur des sujets intimes, avec le livret « La Voix des jeunesses », le Groupe VYV, premier acteur mutualiste de santé et de protection…]]></description>
-      <page>1</page>
+      <page>2</page>
       <year>2026</year>
       <month>11</month>
       <category>Intelligence Artificielle</category>
@@ -10035,26 +10056,6 @@
       <theme>Professionnel</theme>
       <theme>CEPD</theme>
       <pubDate>Wed, 22 Mar 2023 00:00:00 -0000</pubDate>
-    </item>
-    <item>
-      <title>8 femmes qui ont marqué l’histoire du numérique</title>
-      <link>https://cnil.fr/fr/8-femmes-qui-ont-marque-lhistoire-du-numerique</link>
-      <guid isPermaLink="true">https://cnil.fr/fr/8-femmes-qui-ont-marque-lhistoire-du-numerique</guid>
-      <enclosure url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/SITE.png?itok=jpeRnpms" length="0" type="image/png"/>
-      <media:content url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/SITE.png?itok=jpeRnpms" medium="image" type="image/png"/>
-      <media:thumbnail url="https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/SITE.png?itok=jpeRnpms"/>
-      <image>
-        <url>https://cnil.fr/sites/default/files/styles/contenu_generique_liste_visuel/public/2023-03/SITE.png?itok=jpeRnpms</url>
-      </image>
-      <description><![CDATA[Souvent mésestimées ou oubliées, les femmes sont confrontées aux stéréotypes de genre pour s’imposer dans l’informatique et l’innovation. À l’occasion de la Journée internationale des droits des…]]></description>
-      <page>74</page>
-      <year>2023</year>
-      <month>3</month>
-      <category>Autre</category>
-      <theme>Particulier</theme>
-      <theme>Professionnel</theme>
-      <theme>Droits des femmes</theme>
-      <pubDate>Tue, 21 Mar 2023 00:00:00 -0000</pubDate>
     </item>
   </channel>
 </rss>
